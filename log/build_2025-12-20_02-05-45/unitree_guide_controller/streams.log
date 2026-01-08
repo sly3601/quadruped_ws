@@ -1,0 +1,67 @@
+[0.022s] Invoking command in '/home/yzz/ROS2_WS/build/unitree_guide_controller': CMAKE_PREFIX_PATH=/home/yzz/ROS2_WS/install/controller_common:/home/yzz/ROS2_WS/install/control_input_msgs:/home/yzz/ROS2_WS/install/unitree_sdk2:/home/yzz/ROS2_WS/install/unitree_guide_controller:/home/yzz/ROS2_WS/install/leg_pd_controller:/home/yzz/ROS2_WS/install/keyboard_input:/home/yzz/ROS2_WS/install/go1_description:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/ROS2_WS/install/controller_common/lib:/home/yzz/ROS2_WS/install/control_input_msgs/lib:/home/yzz/ROS2_WS/install/unitree_sdk2/lib:/home/yzz/ROS2_WS/install/unitree_guide_controller/lib:/home/yzz/ROS2_WS/install/leg_pd_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yzz/ROS2_WS/build/unitree_guide_controller -- -j2 -l2
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target unitree_guide_controller[0m
+[0.187s] [  5%] [32mBuilding CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o[0m
+[1.758s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:[m[K In constructor ‘[01m[KStateTrotting::StateTrotting(CtrlInterfaces&, CtrlComponent&)[m[K’:
+[1.758s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kkp_w_roll_pitch_[m[K’ was not declared in this scope
+[1.758s]    44 |     [01;31m[Kkp_w_roll_pitch_[m[K = 1800;  // 新增roll/pitch轴专用增益
+[1.758s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.763s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:[m[K In member function ‘[01m[Kvirtual void StateTrotting::enter()[m[K’:
+[1.763s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:76:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kroll_cmd_[m[K’ was not declared in this scope
+[1.763s]    76 |     [01;31m[Kroll_cmd_[m[K = estimator_->getRoll();
+[1.763s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.763s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:76:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Estimator[m[K’ {aka ‘[01m[Kclass Estimator[m[K’} has no member named ‘[01m[KgetRoll[m[K’
+[1.763s]    76 |     roll_cmd_ = estimator_->[01;31m[KgetRoll[m[K();
+[1.763s]       |                             [01;31m[K^~~~~~~[m[K
+[1.766s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:77:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpitch_cmd_[m[K’ was not declared in this scope
+[1.766s]    77 |     [01;31m[Kpitch_cmd_[m[K = estimator_->getPitch();
+[1.766s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.766s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:77:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Estimator[m[K’ {aka ‘[01m[Kclass Estimator[m[K’} has no member named ‘[01m[KgetPitch[m[K’
+[1.766s]    77 |     pitch_cmd_ = estimator_->[01;31m[KgetPitch[m[K();
+[1.767s]       |                              [01;31m[K^~~~~~~~[m[K
+[1.804s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:[m[K In member function ‘[01m[Kvoid StateTrotting::getUserCmd()[m[K’:
+[1.804s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:174:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kv_cmd_body_past_[m[K’ was not declared in this scope; did you mean ‘[01m[Kv_cmd_body_[m[K’?
+[1.804s]   174 |     v_cmd_body_(0) = 0.8 * [01;31m[Kv_cmd_body_past_[m[K(0) + 0.2 * v_cmd_body_(0);
+[1.805s]       |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.805s]       |                            [32m[Kv_cmd_body_[m[K
+[1.810s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:[m[K In member function ‘[01m[Kvoid StateTrotting::calcCmd()[m[K’:
+[1.810s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:205:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kroll_cmd_[m[K’ was not declared in this scope
+[1.810s]   205 |     [01;31m[Kroll_cmd_[m[K = saturation(roll_cmd_, Vec2(estimator_->getRoll() - 0.05, estimator_->getRoll() + 0.05));
+[1.810s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.810s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:205:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Estimator[m[K’ {aka ‘[01m[Kclass Estimator[m[K’} has no member named ‘[01m[KgetRoll[m[K’
+[1.811s]   205 |     roll_cmd_ = saturation(roll_cmd_, Vec2(estimator_->[01;31m[KgetRoll[m[K() - 0.05, estimator_->getRoll() + 0.05));
+[1.811s]       |                                                        [01;31m[K^~~~~~~[m[K
+[1.811s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:205:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Estimator[m[K’ {aka ‘[01m[Kclass Estimator[m[K’} has no member named ‘[01m[KgetRoll[m[K’
+[1.811s]   205 |     roll_cmd_ = saturation(roll_cmd_, Vec2(estimator_->getRoll() - 0.05, estimator_->[01;31m[KgetRoll[m[K() + 0.05));
+[1.811s]       |                                                                                      [01;31m[K^~~~~~~[m[K
+[1.813s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:206:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpitch_cmd_[m[K’ was not declared in this scope
+[1.813s]   206 |     [01;31m[Kpitch_cmd_[m[K = saturation(pitch_cmd_, Vec2(estimator_->getPitch() - 0.05, estimator_->getPitch() + 0.05));
+[1.813s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.814s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:206:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Estimator[m[K’ {aka ‘[01m[Kclass Estimator[m[K’} has no member named ‘[01m[KgetPitch[m[K’
+[1.814s]   206 |     pitch_cmd_ = saturation(pitch_cmd_, Vec2(estimator_->[01;31m[KgetPitch[m[K() - 0.05, estimator_->getPitch() + 0.05));
+[1.814s]       |                                                          [01;31m[K^~~~~~~~[m[K
+[1.814s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:206:89:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Estimator[m[K’ {aka ‘[01m[Kclass Estimator[m[K’} has no member named ‘[01m[KgetPitch[m[K’
+[1.814s]   206 |     pitch_cmd_ = saturation(pitch_cmd_, Vec2(estimator_->getPitch() - 0.05, estimator_->[01;31m[KgetPitch[m[K() + 0.05));
+[1.814s]       |                                                                                         [01;31m[K^~~~~~~~[m[K
+[1.816s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:208:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kroty[m[K’ was not declared in this scope; did you mean ‘[01m[Krotz[m[K’?
+[1.816s]   208 |     Rd = rotz(yaw_cmd_) * [01;31m[Kroty[m[K(pitch_cmd_) * rotx(roll_cmd_);
+[1.816s]       |                           [01;31m[K^~~~[m[K
+[1.816s]       |                           [32m[Krotz[m[K
+[1.817s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:208:46:[m[K [01;31m[Kerror: [m[K‘[01m[Krotx[m[K’ was not declared in this scope; did you mean ‘[01m[Krotz[m[K’?
+[1.817s]   208 |     Rd = rotz(yaw_cmd_) * roty(pitch_cmd_) * [01;31m[Krotx[m[K(roll_cmd_);
+[1.817s]       |                                              [01;31m[K^~~~[m[K
+[1.817s]       |                                              [32m[Krotz[m[K
+[1.851s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:[m[K In member function ‘[01m[Kvoid StateTrotting::calcTau()[m[K’:
+[1.851s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:236:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kkp_w_roll_pitch_[m[K’ was not declared in this scope
+[1.851s]   236 |     rpy_error(0) *= [01;31m[Kkp_w_roll_pitch_[m[K;  // roll轴
+[1.851s]       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.017s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:[m[K In member function ‘[01m[Kvoid StateTrotting::calcQQd()[m[K’:
+[2.017s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:319:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kq_goal_past_[m[K’ was not declared in this scope
+[2.017s]   319 |     q_goal = 0.7 * [01;31m[Kq_goal_past_[m[K + 0.3 * q_goal;
+[2.017s]       |                    [01;31m[K^~~~~~~~~~~~[m[K
+[2.039s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:320:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kqd_goal_past_[m[K’ was not declared in this scope
+[2.039s]   320 |     qd_goal = 0.7 * [01;31m[Kqd_goal_past_[m[K + 0.3 * qd_goal;
+[2.039s]       |                     [01;31m[K^~~~~~~~~~~~~[m[K
+[2.483s] gmake[2]: *** [CMakeFiles/unitree_guide_controller.dir/build.make:146：CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o] 错误 1
+[2.483s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/unitree_guide_controller.dir/all] 错误 2
+[2.483s] gmake: *** [Makefile:146：all] 错误 2
+[2.485s] Invoked command in '/home/yzz/ROS2_WS/build/unitree_guide_controller' returned '2': CMAKE_PREFIX_PATH=/home/yzz/ROS2_WS/install/controller_common:/home/yzz/ROS2_WS/install/control_input_msgs:/home/yzz/ROS2_WS/install/unitree_sdk2:/home/yzz/ROS2_WS/install/unitree_guide_controller:/home/yzz/ROS2_WS/install/leg_pd_controller:/home/yzz/ROS2_WS/install/keyboard_input:/home/yzz/ROS2_WS/install/go1_description:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/ROS2_WS/install/controller_common/lib:/home/yzz/ROS2_WS/install/control_input_msgs/lib:/home/yzz/ROS2_WS/install/unitree_sdk2/lib:/home/yzz/ROS2_WS/install/unitree_guide_controller/lib:/home/yzz/ROS2_WS/install/leg_pd_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yzz/ROS2_WS/build/unitree_guide_controller -- -j2 -l2

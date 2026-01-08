@@ -1,0 +1,55 @@
+[0.066s] Invoking command in '/home/yzz/ROS2_WS/build/unitree_guide_controller': CMAKE_PREFIX_PATH=/home/yzz/ROS2_WS/install/controller_common:/home/yzz/ROS2_WS/install/control_input_msgs:/home/yzz/ROS2_WS/install/unitree_sdk2:/home/yzz/ROS2_WS/install/unitree_guide_controller:/home/yzz/ROS2_WS/install/leg_pd_controller:/home/yzz/ROS2_WS/install/keyboard_input:/home/yzz/ROS2_WS/install/go1_description:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/ROS2_WS/install/controller_common/lib:/home/yzz/ROS2_WS/install/control_input_msgs/lib:/home/yzz/ROS2_WS/install/unitree_sdk2/lib:/home/yzz/ROS2_WS/install/unitree_guide_controller/lib:/home/yzz/ROS2_WS/install/leg_pd_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yzz/ROS2_WS/build/unitree_guide_controller -- -j2 -l2
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target unitree_guide_controller[0m
+[0.273s] [  5%] [32mBuilding CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o[0m
+[4.172s] [ 11%] [32m[1mLinking CXX shared library libunitree_guide_controller.so[0m
+[4.338s] [100%] Built target unitree_guide_controller
+[4.348s] Invoked command in '/home/yzz/ROS2_WS/build/unitree_guide_controller' returned '0': CMAKE_PREFIX_PATH=/home/yzz/ROS2_WS/install/controller_common:/home/yzz/ROS2_WS/install/control_input_msgs:/home/yzz/ROS2_WS/install/unitree_sdk2:/home/yzz/ROS2_WS/install/unitree_guide_controller:/home/yzz/ROS2_WS/install/leg_pd_controller:/home/yzz/ROS2_WS/install/keyboard_input:/home/yzz/ROS2_WS/install/go1_description:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/ROS2_WS/install/controller_common/lib:/home/yzz/ROS2_WS/install/control_input_msgs/lib:/home/yzz/ROS2_WS/install/unitree_sdk2/lib:/home/yzz/ROS2_WS/install/unitree_guide_controller/lib:/home/yzz/ROS2_WS/install/leg_pd_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yzz/ROS2_WS/build/unitree_guide_controller -- -j2 -l2
+[4.350s] Invoking command in '/home/yzz/ROS2_WS/build/unitree_guide_controller': CMAKE_PREFIX_PATH=/home/yzz/ROS2_WS/install/controller_common:/home/yzz/ROS2_WS/install/control_input_msgs:/home/yzz/ROS2_WS/install/unitree_sdk2:/home/yzz/ROS2_WS/install/unitree_guide_controller:/home/yzz/ROS2_WS/install/leg_pd_controller:/home/yzz/ROS2_WS/install/keyboard_input:/home/yzz/ROS2_WS/install/go1_description:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/ROS2_WS/install/controller_common/lib:/home/yzz/ROS2_WS/install/control_input_msgs/lib:/home/yzz/ROS2_WS/install/unitree_sdk2/lib:/home/yzz/ROS2_WS/install/unitree_guide_controller/lib:/home/yzz/ROS2_WS/install/leg_pd_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yzz/ROS2_WS/build/unitree_guide_controller
+[4.356s] -- Install configuration: "Release"
+[4.357s] -- Execute custom install script
+[4.358s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller//unitree_guide_controller.xml
+[4.359s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/FSM/StateBalanceTest.h
+[4.359s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/FSM/StateFixedStand.h
+[4.360s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/FSM/StateFreeStand.h
+[4.361s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/FSM/StateSwingTest.h
+[4.362s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/FSM/StateTrotting.h
+[4.362s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/UnitreeGuideController.h
+[4.364s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/common/mathTools.h
+[4.364s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/common/mathTypes.h
+[4.364s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/control/BalanceCtrl.h
+[4.364s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/control/CtrlComponent.h
+[4.365s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/control/Estimator.h
+[4.365s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/control/LowPassFilter.h
+[4.366s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/gait/FeetEndCalc.h
+[4.366s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/gait/GaitGenerator.h
+[4.366s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/gait/WaveGenerator.h
+[4.367s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/robot/QuadrupedRobot.h
+[4.367s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/include/unitree_guide_controller/unitree_guide_controller/robot/RobotLeg.h
+[4.367s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller//launch/gazebo.launch.py
+[4.368s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller//launch/gazebo_classic.launch.py
+[4.368s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller//launch/mujoco.launch.py
+[4.368s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/environment/library_path.sh
+[4.369s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/environment/library_path.dsv
+[4.369s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/ament_index/resource_index/package_run_dependencies/unitree_guide_controller
+[4.369s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/ament_index/resource_index/parent_prefix_path/unitree_guide_controller
+[4.369s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/environment/ament_prefix_path.sh
+[4.370s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/environment/ament_prefix_path.dsv
+[4.370s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/environment/path.sh
+[4.371s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/environment/path.dsv
+[4.371s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/local_setup.bash
+[4.372s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/local_setup.sh
+[4.372s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/local_setup.zsh
+[4.372s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/local_setup.dsv
+[4.372s] -- Symlinking: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/package.dsv
+[4.380s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/ament_index/resource_index/packages/unitree_guide_controller
+[4.381s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/unitree_guide_controller
+[4.381s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.381s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/cmake/ament_cmake_export_targets-extras.cmake
+[4.381s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/cmake/unitree_guide_controllerConfig.cmake
+[4.382s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/cmake/unitree_guide_controllerConfig-version.cmake
+[4.382s] -- Up-to-date symlink: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/package.xml
+[4.383s] -- Installing: /home/yzz/ROS2_WS/install/unitree_guide_controller/lib/unitree_guide_controller/libunitree_guide_controller.so
+[4.385s] -- Set runtime path of "/home/yzz/ROS2_WS/install/unitree_guide_controller/lib/unitree_guide_controller/libunitree_guide_controller.so" to ""
+[4.386s] -- Up-to-date: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/cmake/export_unitree_guide_controllerExport.cmake
+[4.386s] -- Up-to-date: /home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/cmake/export_unitree_guide_controllerExport-release.cmake
+[4.388s] Invoked command in '/home/yzz/ROS2_WS/build/unitree_guide_controller' returned '0': CMAKE_PREFIX_PATH=/home/yzz/ROS2_WS/install/controller_common:/home/yzz/ROS2_WS/install/control_input_msgs:/home/yzz/ROS2_WS/install/unitree_sdk2:/home/yzz/ROS2_WS/install/unitree_guide_controller:/home/yzz/ROS2_WS/install/leg_pd_controller:/home/yzz/ROS2_WS/install/keyboard_input:/home/yzz/ROS2_WS/install/go1_description:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/ROS2_WS/install/controller_common/lib:/home/yzz/ROS2_WS/install/control_input_msgs/lib:/home/yzz/ROS2_WS/install/unitree_sdk2/lib:/home/yzz/ROS2_WS/install/unitree_guide_controller/lib:/home/yzz/ROS2_WS/install/leg_pd_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yzz/ROS2_WS/build/unitree_guide_controller

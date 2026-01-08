@@ -1,0 +1,21 @@
+[  5%] [32mBuilding CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o[0m
+[01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:[m[K In member function ‘[01m[Kvoid StateTrotting::calcTau()[m[K’:
+[01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:165:25:[m[K [01;31m[Kerror: [m[K‘[01m[Klog_counter[m[K’ was not declared in this scope
+  165 |                     if ([01;31m[Klog_counter[m[K % 10 == 0) {
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:167:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+  167 |                 rclcpp::[01;31m[Kget_logger[m[K("JointTorqueLogger"),  // 日志器名称（方便过滤）
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:169:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kleg_names[m[K’ was not declared in this scope
+  169 |                 [01;31m[Kleg_names[m[K[i].c_str(),
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:170:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names[m[K’ was not declared in this scope
+  170 |                 [01;31m[Kjoint_names[m[K[j].c_str(),
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:166:13:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_IMPORT[m[K’?
+  166 |             [01;31m[KRCLCPP_INFO[m[K(
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[KRCLCPP_IMPORT[m[K
+gmake[2]: *** [CMakeFiles/unitree_guide_controller.dir/build.make:146：CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/unitree_guide_controller.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

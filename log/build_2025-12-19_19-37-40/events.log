@@ -1,0 +1,1837 @@
+[0.000000] (-) TimerEvent: {}
+[0.001451] (-) JobUnselected: {'identifier': 'a1_description'}
+[0.001475] (-) JobUnselected: {'identifier': 'aliengo_description'}
+[0.001486] (-) JobUnselected: {'identifier': 'anymal_c_description'}
+[0.001505] (-) JobUnselected: {'identifier': 'b2_description'}
+[0.001515] (-) JobUnselected: {'identifier': 'control_input_msgs'}
+[0.001526] (-) JobUnselected: {'identifier': 'controller_common'}
+[0.001547] (-) JobUnselected: {'identifier': 'cyberdog_description'}
+[0.001574] (-) JobUnselected: {'identifier': 'go1_description'}
+[0.001596] (-) JobUnselected: {'identifier': 'go2_description'}
+[0.001618] (-) JobUnselected: {'identifier': 'gz_quadruped_hardware'}
+[0.001640] (-) JobUnselected: {'identifier': 'gz_quadruped_playground'}
+[0.001662] (-) JobUnselected: {'identifier': 'hardware_unitree_mujoco'}
+[0.001672] (-) JobUnselected: {'identifier': 'joystick_input'}
+[0.001694] (-) JobUnselected: {'identifier': 'keyboard_input'}
+[0.001716] (-) JobUnselected: {'identifier': 'leg_pd_controller'}
+[0.001738] (-) JobUnselected: {'identifier': 'lite3_description'}
+[0.001759] (-) JobUnselected: {'identifier': 'ocs2_quadruped_controller'}
+[0.001781] (-) JobUnselected: {'identifier': 'qpoases_colcon'}
+[0.001802] (-) JobUnselected: {'identifier': 'rl_quadruped_controller'}
+[0.001825] (-) JobUnselected: {'identifier': 'unitree_guide_controller'}
+[0.001846] (-) JobUnselected: {'identifier': 'unitree_joystick_input'}
+[0.001868] (-) JobUnselected: {'identifier': 'x30_description'}
+[0.001891] (unitree_sdk2) JobQueued: {'identifier': 'unitree_sdk2', 'dependencies': OrderedDict()}
+[0.001915] (unitree_sdk2) JobStarted: {'identifier': 'unitree_sdk2'}
+[0.007956] (unitree_sdk2) JobProgress: {'identifier': 'unitree_sdk2', 'progress': 'cmake'}
+[0.009458] (unitree_sdk2) Command: {'cmd': ['/usr/bin/cmake', '/home/yzz/ROS2_WS/src/unitree_sdk2', '-DCMAKE_INSTALL_PREFIX=/home/yzz/ROS2_WS/install/unitree_sdk2'], 'cwd': '/home/yzz/ROS2_WS/build/unitree_sdk2', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.241.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'yzz'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.241.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yzz'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1234'), ('BUNDLED_DEBUGPY_PATH', '/home/yzz/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b278d91dd9b413cc89f0a453694538ab'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.241.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzz'), ('ALL_PROXY', 'socks://192.168.241.1:7890/'), ('http_proxy', 'http://192.168.241.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yzz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yzz/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/yzz-virtual-machine:@/tmp/.ICE-unix/1234,unix/yzz-virtual-machine:/tmp/.ICE-unix/1234'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.241.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ef53922a_f239_4519_b3dc_3477f44821a6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/yzz/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-620742517d6223a7.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/yzz/.config/Code/User/workspaceStorage/e0a27bb1cd4f253d2a3679b0750cd59c/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X1GSH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f5e4ff7902.sock'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yzz/ROS2_WS/build/unitree_sdk2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://192.168.241.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b278d91dd9b413cc89f0a453694538ab'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.241.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.073509] (unitree_sdk2) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.099367] (-) TimerEvent: {}
+[0.112141] (unitree_sdk2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.119652] (unitree_sdk2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.188125] (unitree_sdk2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.190509] (unitree_sdk2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.190773] (unitree_sdk2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.190849] (unitree_sdk2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.192873] (unitree_sdk2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199426] (-) TimerEvent: {}
+[0.255596] (unitree_sdk2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.258829] (unitree_sdk2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.259068] (unitree_sdk2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.259269] (unitree_sdk2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.259609] (unitree_sdk2) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[0.260918] (unitree_sdk2) StdoutLine: {'line': b'-- Current system architecture: x86_64\n'}
+[0.261992] (unitree_sdk2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.299572] (-) TimerEvent: {}
+[0.316491] (unitree_sdk2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.316605] (unitree_sdk2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.371282] (unitree_sdk2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.371446] (unitree_sdk2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.371489] (unitree_sdk2) StdoutLine: {'line': b'-- Importing: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so\n'}
+[0.371526] (unitree_sdk2) StdoutLine: {'line': b'-- Importing: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so\n'}
+[0.371559] (unitree_sdk2) StdoutLine: {'line': b'-- Unitree SDK library found at: /home/yzz/ROS2_WS/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a\n'}
+[0.371591] (unitree_sdk2) StdoutLine: {'line': b'-- Importing: /home/yzz/ROS2_WS/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a\n'}
+[0.383677] (unitree_sdk2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options \n'}
+[0.386782] (unitree_sdk2) StdoutLine: {'line': b'-- Found yaml-cpp version 0.7.0\n'}
+[0.390050] (unitree_sdk2) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.401862] (-) TimerEvent: {}
+[0.419822] (unitree_sdk2) StdoutLine: {'line': b'-- Generating done\n'}
+[0.425418] (unitree_sdk2) StdoutLine: {'line': b'-- Build files have been written to: /home/yzz/ROS2_WS/build/unitree_sdk2\n'}
+[0.435480] (unitree_sdk2) CommandEnded: {'returncode': 0}
+[0.435762] (unitree_sdk2) JobProgress: {'identifier': 'unitree_sdk2', 'progress': 'build'}
+[0.435778] (unitree_sdk2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yzz/ROS2_WS/build/unitree_sdk2', '--', '-j2', '-l2'], 'cwd': '/home/yzz/ROS2_WS/build/unitree_sdk2', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.241.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'yzz'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.241.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yzz'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1234'), ('BUNDLED_DEBUGPY_PATH', '/home/yzz/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b278d91dd9b413cc89f0a453694538ab'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.241.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzz'), ('ALL_PROXY', 'socks://192.168.241.1:7890/'), ('http_proxy', 'http://192.168.241.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yzz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yzz/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/yzz-virtual-machine:@/tmp/.ICE-unix/1234,unix/yzz-virtual-machine:/tmp/.ICE-unix/1234'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.241.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ef53922a_f239_4519_b3dc_3477f44821a6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/yzz/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-620742517d6223a7.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/yzz/.config/Code/User/workspaceStorage/e0a27bb1cd4f253d2a3679b0750cd59c/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X1GSH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f5e4ff7902.sock'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yzz/ROS2_WS/build/unitree_sdk2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://192.168.241.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b278d91dd9b413cc89f0a453694538ab'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.241.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.473226] (unitree_sdk2) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o\x1b[0m\n'}
+[0.488749] (unitree_sdk2) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o\x1b[0m\n'}
+[0.502943] (-) TimerEvent: {}
+[0.605425] (-) TimerEvent: {}
+[0.705742] (-) TimerEvent: {}
+[0.806208] (-) TimerEvent: {}
+[0.906451] (-) TimerEvent: {}
+[1.006756] (-) TimerEvent: {}
+[1.107015] (-) TimerEvent: {}
+[1.211004] (-) TimerEvent: {}
+[1.311250] (-) TimerEvent: {}
+[1.411552] (-) TimerEvent: {}
+[1.512446] (-) TimerEvent: {}
+[1.612675] (-) TimerEvent: {}
+[1.712957] (-) TimerEvent: {}
+[1.813581] (-) TimerEvent: {}
+[1.916452] (-) TimerEvent: {}
+[2.016700] (-) TimerEvent: {}
+[2.116968] (-) TimerEvent: {}
+[2.217209] (-) TimerEvent: {}
+[2.317538] (-) TimerEvent: {}
+[2.417791] (-) TimerEvent: {}
+[2.518097] (-) TimerEvent: {}
+[2.618739] (-) TimerEvent: {}
+[2.719136] (-) TimerEvent: {}
+[2.819613] (-) TimerEvent: {}
+[2.920377] (-) TimerEvent: {}
+[3.021686] (-) TimerEvent: {}
+[3.062713] (unitree_sdk2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o\x1b[0m\n'}
+[3.121782] (-) TimerEvent: {}
+[3.169040] (unitree_sdk2) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o\x1b[0m\n'}
+[3.221875] (-) TimerEvent: {}
+[3.322128] (-) TimerEvent: {}
+[3.422577] (-) TimerEvent: {}
+[3.474678] (unitree_sdk2) StdoutLine: {'line': b'[  7%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/test_publisher\x1b[0m\n'}
+[3.522669] (-) TimerEvent: {}
+[3.623047] (-) TimerEvent: {}
+[3.630396] (unitree_sdk2) StdoutLine: {'line': b'[  9%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/test_subscriber\x1b[0m\n'}
+[3.723145] (-) TimerEvent: {}
+[3.724377] (unitree_sdk2) StdoutLine: {'line': b'[  9%] Built target test_publisher\n'}
+[3.824385] (-) TimerEvent: {}
+[3.859587] (unitree_sdk2) StdoutLine: {'line': b'[  9%] Built target test_subscriber\n'}
+[3.877455] (unitree_sdk2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object example/wireless_controller/CMakeFiles/advanced_gamepad.dir/main.cpp.o\x1b[0m\n'}
+[3.924447] (-) TimerEvent: {}
+[4.025452] (-) TimerEvent: {}
+[4.125689] (-) TimerEvent: {}
+[4.226589] (-) TimerEvent: {}
+[4.326839] (-) TimerEvent: {}
+[4.427494] (-) TimerEvent: {}
+[4.527840] (-) TimerEvent: {}
+[4.628182] (-) TimerEvent: {}
+[4.728650] (-) TimerEvent: {}
+[4.829134] (-) TimerEvent: {}
+[4.929632] (-) TimerEvent: {}
+[5.030070] (-) TimerEvent: {}
+[5.130373] (-) TimerEvent: {}
+[5.230848] (-) TimerEvent: {}
+[5.331077] (-) TimerEvent: {}
+[5.431398] (-) TimerEvent: {}
+[5.531885] (-) TimerEvent: {}
+[5.632193] (-) TimerEvent: {}
+[5.732700] (-) TimerEvent: {}
+[5.833145] (-) TimerEvent: {}
+[5.933481] (-) TimerEvent: {}
+[6.033939] (-) TimerEvent: {}
+[6.087019] (unitree_sdk2) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/advanced_gamepad\x1b[0m\n'}
+[6.135454] (-) TimerEvent: {}
+[6.235944] (-) TimerEvent: {}
+[6.276223] (unitree_sdk2) StdoutLine: {'line': b'[ 12%] Built target advanced_gamepad\n'}
+[6.294042] (unitree_sdk2) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object example/jsonize/CMakeFiles/test_jsonize.dir/test_jsonize.cpp.o\x1b[0m\n'}
+[6.336059] (-) TimerEvent: {}
+[6.438514] (-) TimerEvent: {}
+[6.538753] (-) TimerEvent: {}
+[6.639170] (-) TimerEvent: {}
+[6.740478] (-) TimerEvent: {}
+[6.840704] (-) TimerEvent: {}
+[6.941112] (-) TimerEvent: {}
+[7.041632] (-) TimerEvent: {}
+[7.077029] (unitree_sdk2) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/test_jsonize\x1b[0m\n'}
+[7.141765] (-) TimerEvent: {}
+[7.149945] (unitree_sdk2) StdoutLine: {'line': b'[ 15%] Built target test_jsonize\n'}
+[7.169755] (unitree_sdk2) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o\x1b[0m\n'}
+[7.242640] (-) TimerEvent: {}
+[7.342873] (-) TimerEvent: {}
+[7.443813] (-) TimerEvent: {}
+[7.544250] (-) TimerEvent: {}
+[7.644774] (-) TimerEvent: {}
+[7.745422] (-) TimerEvent: {}
+[7.845814] (-) TimerEvent: {}
+[7.946520] (-) TimerEvent: {}
+[8.046754] (-) TimerEvent: {}
+[8.147204] (-) TimerEvent: {}
+[8.247663] (-) TimerEvent: {}
+[8.347912] (-) TimerEvent: {}
+[8.448439] (-) TimerEvent: {}
+[8.548834] (-) TimerEvent: {}
+[8.649861] (-) TimerEvent: {}
+[8.750691] (-) TimerEvent: {}
+[8.851002] (-) TimerEvent: {}
+[8.951543] (-) TimerEvent: {}
+[9.052112] (-) TimerEvent: {}
+[9.152466] (-) TimerEvent: {}
+[9.176211] (unitree_sdk2) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object example/go2/CMakeFiles/go2_sport_client.dir/go2_sport_client.cpp.o\x1b[0m\n'}
+[9.252561] (-) TimerEvent: {}
+[9.354294] (-) TimerEvent: {}
+[9.454589] (-) TimerEvent: {}
+[9.555557] (-) TimerEvent: {}
+[9.657447] (-) TimerEvent: {}
+[9.757744] (-) TimerEvent: {}
+[9.857964] (-) TimerEvent: {}
+[9.958446] (-) TimerEvent: {}
+[10.058933] (-) TimerEvent: {}
+[10.161631] (-) TimerEvent: {}
+[10.261883] (-) TimerEvent: {}
+[10.362151] (-) TimerEvent: {}
+[10.462379] (-) TimerEvent: {}
+[10.563661] (-) TimerEvent: {}
+[10.664042] (-) TimerEvent: {}
+[10.765625] (-) TimerEvent: {}
+[10.866003] (-) TimerEvent: {}
+[10.967448] (-) TimerEvent: {}
+[11.067678] (-) TimerEvent: {}
+[11.167906] (-) TimerEvent: {}
+[11.269883] (-) TimerEvent: {}
+[11.370108] (-) TimerEvent: {}
+[11.470602] (-) TimerEvent: {}
+[11.570903] (-) TimerEvent: {}
+[11.672448] (-) TimerEvent: {}
+[11.772864] (-) TimerEvent: {}
+[11.873127] (-) TimerEvent: {}
+[11.974773] (-) TimerEvent: {}
+[12.075198] (-) TimerEvent: {}
+[12.177447] (-) TimerEvent: {}
+[12.277680] (-) TimerEvent: {}
+[12.377929] (-) TimerEvent: {}
+[12.478373] (-) TimerEvent: {}
+[12.580585] (-) TimerEvent: {}
+[12.671681] (unitree_sdk2) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2_sport_client\x1b[0m\n'}
+[12.680667] (-) TimerEvent: {}
+[12.780926] (-) TimerEvent: {}
+[12.881204] (-) TimerEvent: {}
+[12.981936] (-) TimerEvent: {}
+[13.002211] (unitree_sdk2) StdoutLine: {'line': b'[ 19%] Built target go2_sport_client\n'}
+[13.032515] (unitree_sdk2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o\x1b[0m\n'}
+[13.082025] (-) TimerEvent: {}
+[13.152387] (unitree_sdk2) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/state_machine_example\x1b[0m\n'}
+[13.182120] (-) TimerEvent: {}
+[13.283551] (-) TimerEvent: {}
+[13.383788] (-) TimerEvent: {}
+[13.441512] (unitree_sdk2) StdoutLine: {'line': b'[ 22%] Built target state_machine_example\n'}
+[13.457166] (unitree_sdk2) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.o\x1b[0m\n'}
+[13.483882] (-) TimerEvent: {}
+[13.585770] (-) TimerEvent: {}
+[13.686173] (-) TimerEvent: {}
+[13.786682] (-) TimerEvent: {}
+[13.888442] (-) TimerEvent: {}
+[13.989009] (-) TimerEvent: {}
+[14.089401] (-) TimerEvent: {}
+[14.190558] (-) TimerEvent: {}
+[14.291931] (-) TimerEvent: {}
+[14.392236] (-) TimerEvent: {}
+[14.495444] (-) TimerEvent: {}
+[14.595676] (-) TimerEvent: {}
+[14.695993] (-) TimerEvent: {}
+[14.796295] (-) TimerEvent: {}
+[14.897643] (-) TimerEvent: {}
+[14.997958] (-) TimerEvent: {}
+[15.098965] (-) TimerEvent: {}
+[15.200642] (-) TimerEvent: {}
+[15.301116] (-) TimerEvent: {}
+[15.403638] (-) TimerEvent: {}
+[15.503880] (-) TimerEvent: {}
+[15.604110] (-) TimerEvent: {}
+[15.704405] (-) TimerEvent: {}
+[15.804708] (-) TimerEvent: {}
+[15.906553] (-) TimerEvent: {}
+[16.006790] (-) TimerEvent: {}
+[16.109451] (-) TimerEvent: {}
+[16.209705] (-) TimerEvent: {}
+[16.309942] (-) TimerEvent: {}
+[16.410233] (-) TimerEvent: {}
+[16.510559] (-) TimerEvent: {}
+[16.610865] (-) TimerEvent: {}
+[16.711180] (-) TimerEvent: {}
+[16.811449] (-) TimerEvent: {}
+[16.911761] (-) TimerEvent: {}
+[17.012074] (-) TimerEvent: {}
+[17.113643] (-) TimerEvent: {}
+[17.213957] (-) TimerEvent: {}
+[17.314264] (-) TimerEvent: {}
+[17.414590] (-) TimerEvent: {}
+[17.514899] (-) TimerEvent: {}
+[17.615202] (-) TimerEvent: {}
+[17.716599] (-) TimerEvent: {}
+[17.816901] (-) TimerEvent: {}
+[17.917204] (-) TimerEvent: {}
+[18.017556] (-) TimerEvent: {}
+[18.117867] (-) TimerEvent: {}
+[18.218166] (-) TimerEvent: {}
+[18.286328] (unitree_sdk2) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2_low_level\x1b[0m\n'}
+[18.318265] (-) TimerEvent: {}
+[18.418550] (-) TimerEvent: {}
+[18.518854] (-) TimerEvent: {}
+[18.568481] (unitree_sdk2) StdoutLine: {'line': b'[ 25%] Built target go2_low_level\n'}
+[18.619036] (-) TimerEvent: {}
+[18.719799] (-) TimerEvent: {}
+[18.820255] (-) TimerEvent: {}
+[18.920562] (-) TimerEvent: {}
+[18.954058] (unitree_sdk2) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2_stand_example\x1b[0m\n'}
+[19.020653] (-) TimerEvent: {}
+[19.121552] (-) TimerEvent: {}
+[19.206779] (unitree_sdk2) StdoutLine: {'line': b'[ 27%] Built target go2_stand_example\n'}
+[19.221651] (-) TimerEvent: {}
+[19.222426] (unitree_sdk2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o\x1b[0m\n'}
+[19.321761] (-) TimerEvent: {}
+[19.422036] (-) TimerEvent: {}
+[19.522447] (-) TimerEvent: {}
+[19.623029] (-) TimerEvent: {}
+[19.723576] (-) TimerEvent: {}
+[19.824090] (-) TimerEvent: {}
+[19.925464] (-) TimerEvent: {}
+[19.981565] (unitree_sdk2) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2_robot_state_client\x1b[0m\n'}
+[20.025806] (-) TimerEvent: {}
+[20.126401] (-) TimerEvent: {}
+[20.213370] (unitree_sdk2) StdoutLine: {'line': b'[ 30%] Built target go2_robot_state_client\n'}
+[20.226473] (-) TimerEvent: {}
+[20.228466] (unitree_sdk2) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object example/go2/CMakeFiles/go2_video_client.dir/go2_video_client.cpp.o\x1b[0m\n'}
+[20.327160] (-) TimerEvent: {}
+[20.428037] (-) TimerEvent: {}
+[20.529314] (-) TimerEvent: {}
+[20.629973] (-) TimerEvent: {}
+[20.730359] (-) TimerEvent: {}
+[20.830677] (-) TimerEvent: {}
+[20.930941] (-) TimerEvent: {}
+[21.005958] (unitree_sdk2) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2_video_client\x1b[0m\n'}
+[21.031050] (-) TimerEvent: {}
+[21.131387] (-) TimerEvent: {}
+[21.232540] (-) TimerEvent: {}
+[21.232914] (unitree_sdk2) StdoutLine: {'line': b'[ 33%] Built target go2_video_client\n'}
+[21.248820] (unitree_sdk2) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object example/go2/CMakeFiles/go2_vui_client.dir/go2_vui_client.cpp.o\x1b[0m\n'}
+[21.332639] (-) TimerEvent: {}
+[21.433057] (-) TimerEvent: {}
+[21.533506] (-) TimerEvent: {}
+[21.633795] (-) TimerEvent: {}
+[21.734213] (-) TimerEvent: {}
+[21.835582] (-) TimerEvent: {}
+[21.935845] (-) TimerEvent: {}
+[22.027075] (unitree_sdk2) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2_vui_client\x1b[0m\n'}
+[22.035947] (-) TimerEvent: {}
+[22.136179] (-) TimerEvent: {}
+[22.236671] (-) TimerEvent: {}
+[22.255645] (unitree_sdk2) StdoutLine: {'line': b'[ 36%] Built target go2_vui_client\n'}
+[22.271865] (unitree_sdk2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object example/b2/CMakeFiles/b2_sport_client.dir/b2_sport_client.cpp.o\x1b[0m\n'}
+[22.338263] (-) TimerEvent: {}
+[22.438652] (-) TimerEvent: {}
+[22.539503] (-) TimerEvent: {}
+[22.639863] (-) TimerEvent: {}
+[22.740155] (-) TimerEvent: {}
+[22.840664] (-) TimerEvent: {}
+[22.941329] (-) TimerEvent: {}
+[22.978772] (unitree_sdk2) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/b2_sport_client\x1b[0m\n'}
+[23.041494] (-) TimerEvent: {}
+[23.141943] (-) TimerEvent: {}
+[23.200846] (unitree_sdk2) StdoutLine: {'line': b'[ 39%] Built target b2_sport_client\n'}
+[23.244019] (unitree_sdk2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o\x1b[0m\n'}
+[23.244151] (-) TimerEvent: {}
+[23.344332] (-) TimerEvent: {}
+[23.444807] (-) TimerEvent: {}
+[23.545266] (-) TimerEvent: {}
+[23.647590] (-) TimerEvent: {}
+[23.747846] (-) TimerEvent: {}
+[23.848250] (-) TimerEvent: {}
+[23.948683] (-) TimerEvent: {}
+[24.049788] (-) TimerEvent: {}
+[24.150066] (-) TimerEvent: {}
+[24.250452] (-) TimerEvent: {}
+[24.351032] (-) TimerEvent: {}
+[24.451376] (-) TimerEvent: {}
+[24.551842] (-) TimerEvent: {}
+[24.652452] (-) TimerEvent: {}
+[24.752912] (-) TimerEvent: {}
+[24.853150] (-) TimerEvent: {}
+[24.953743] (-) TimerEvent: {}
+[25.054051] (-) TimerEvent: {}
+[25.154621] (-) TimerEvent: {}
+[25.255145] (-) TimerEvent: {}
+[25.355406] (-) TimerEvent: {}
+[25.455880] (-) TimerEvent: {}
+[25.556385] (-) TimerEvent: {}
+[25.657114] (-) TimerEvent: {}
+[25.757604] (-) TimerEvent: {}
+[25.858122] (-) TimerEvent: {}
+[25.958382] (-) TimerEvent: {}
+[26.058895] (-) TimerEvent: {}
+[26.159204] (-) TimerEvent: {}
+[26.260834] (-) TimerEvent: {}
+[26.361095] (-) TimerEvent: {}
+[26.461643] (-) TimerEvent: {}
+[26.562438] (-) TimerEvent: {}
+[26.662688] (-) TimerEvent: {}
+[26.763216] (-) TimerEvent: {}
+[26.863773] (-) TimerEvent: {}
+[26.964252] (-) TimerEvent: {}
+[27.064836] (-) TimerEvent: {}
+[27.165077] (-) TimerEvent: {}
+[27.265996] (-) TimerEvent: {}
+[27.366258] (-) TimerEvent: {}
+[27.466572] (-) TimerEvent: {}
+[27.567074] (-) TimerEvent: {}
+[27.667323] (-) TimerEvent: {}
+[27.753559] (unitree_sdk2) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/b2_stand_example\x1b[0m\n'}
+[27.767423] (-) TimerEvent: {}
+[27.867909] (-) TimerEvent: {}
+[27.968507] (-) TimerEvent: {}
+[28.061706] (unitree_sdk2) StdoutLine: {'line': b'[ 42%] Built target b2_stand_example\n'}
+[28.068591] (-) TimerEvent: {}
+[28.083871] (unitree_sdk2) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object example/h1/CMakeFiles/h1_loco_client.dir/high_level/h1_loco_client_example.cpp.o\x1b[0m\n'}
+[28.169464] (-) TimerEvent: {}
+[28.269779] (-) TimerEvent: {}
+[28.370891] (-) TimerEvent: {}
+[28.471127] (-) TimerEvent: {}
+[28.572471] (-) TimerEvent: {}
+[28.672869] (-) TimerEvent: {}
+[28.773219] (-) TimerEvent: {}
+[28.873596] (-) TimerEvent: {}
+[28.974013] (-) TimerEvent: {}
+[29.074304] (-) TimerEvent: {}
+[29.174593] (-) TimerEvent: {}
+[29.274842] (-) TimerEvent: {}
+[29.375098] (-) TimerEvent: {}
+[29.475581] (-) TimerEvent: {}
+[29.567945] (unitree_sdk2) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h1_loco_client\x1b[0m\n'}
+[29.575685] (-) TimerEvent: {}
+[29.676298] (-) TimerEvent: {}
+[29.776638] (-) TimerEvent: {}
+[29.812421] (unitree_sdk2) StdoutLine: {'line': b'[ 45%] Built target h1_loco_client\n'}
+[29.827787] (unitree_sdk2) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object example/h1/CMakeFiles/h1_low_level_example.dir/low_level/humanoid.cpp.o\x1b[0m\n'}
+[29.876733] (-) TimerEvent: {}
+[29.976967] (-) TimerEvent: {}
+[30.078904] (-) TimerEvent: {}
+[30.179158] (-) TimerEvent: {}
+[30.279434] (-) TimerEvent: {}
+[30.380462] (-) TimerEvent: {}
+[30.480737] (-) TimerEvent: {}
+[30.581022] (-) TimerEvent: {}
+[30.681316] (-) TimerEvent: {}
+[30.781822] (-) TimerEvent: {}
+[30.884613] (-) TimerEvent: {}
+[30.984872] (-) TimerEvent: {}
+[31.085121] (-) TimerEvent: {}
+[31.185405] (-) TimerEvent: {}
+[31.285676] (-) TimerEvent: {}
+[31.385936] (-) TimerEvent: {}
+[31.486194] (-) TimerEvent: {}
+[31.586460] (-) TimerEvent: {}
+[31.686733] (-) TimerEvent: {}
+[31.786976] (-) TimerEvent: {}
+[31.841461] (unitree_sdk2) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object example/h1/CMakeFiles/h1_27dof_example.dir/low_level/h1_27dof_example.cpp.o\x1b[0m\n'}
+[31.887077] (-) TimerEvent: {}
+[31.987554] (-) TimerEvent: {}
+[32.087788] (-) TimerEvent: {}
+[32.188694] (-) TimerEvent: {}
+[32.290530] (-) TimerEvent: {}
+[32.390854] (-) TimerEvent: {}
+[32.491337] (-) TimerEvent: {}
+[32.593568] (-) TimerEvent: {}
+[32.693840] (-) TimerEvent: {}
+[32.794107] (-) TimerEvent: {}
+[32.894827] (-) TimerEvent: {}
+[32.996988] (-) TimerEvent: {}
+[33.097372] (-) TimerEvent: {}
+[33.197813] (-) TimerEvent: {}
+[33.298466] (-) TimerEvent: {}
+[33.398753] (-) TimerEvent: {}
+[33.499186] (-) TimerEvent: {}
+[33.601463] (-) TimerEvent: {}
+[33.701710] (-) TimerEvent: {}
+[33.802459] (-) TimerEvent: {}
+[33.902713] (-) TimerEvent: {}
+[34.003202] (-) TimerEvent: {}
+[34.103662] (-) TimerEvent: {}
+[34.204627] (-) TimerEvent: {}
+[34.304855] (-) TimerEvent: {}
+[34.405080] (-) TimerEvent: {}
+[34.505302] (-) TimerEvent: {}
+[34.605609] (-) TimerEvent: {}
+[34.706688] (-) TimerEvent: {}
+[34.806919] (-) TimerEvent: {}
+[34.907335] (-) TimerEvent: {}
+[35.008552] (-) TimerEvent: {}
+[35.111448] (-) TimerEvent: {}
+[35.180489] (unitree_sdk2) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h1_low_level_example\x1b[0m\n'}
+[35.211549] (-) TimerEvent: {}
+[35.311787] (-) TimerEvent: {}
+[35.412054] (-) TimerEvent: {}
+[35.512326] (-) TimerEvent: {}
+[35.512665] (unitree_sdk2) StdoutLine: {'line': b'[ 50%] Built target h1_low_level_example\n'}
+[35.544491] (unitree_sdk2) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object example/h1/CMakeFiles/h1_2_ankle_track.dir/low_level/h1_2_ankle_track.cpp.o\x1b[0m\n'}
+[35.614449] (-) TimerEvent: {}
+[35.714714] (-) TimerEvent: {}
+[35.814988] (-) TimerEvent: {}
+[35.915390] (-) TimerEvent: {}
+[36.017593] (-) TimerEvent: {}
+[36.117855] (-) TimerEvent: {}
+[36.218090] (-) TimerEvent: {}
+[36.318330] (-) TimerEvent: {}
+[36.418584] (-) TimerEvent: {}
+[36.518832] (-) TimerEvent: {}
+[36.619067] (-) TimerEvent: {}
+[36.720587] (-) TimerEvent: {}
+[36.820996] (-) TimerEvent: {}
+[36.923453] (-) TimerEvent: {}
+[37.022609] (unitree_sdk2) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h1_27dof_example\x1b[0m\n'}
+[37.023533] (-) TimerEvent: {}
+[37.123910] (-) TimerEvent: {}
+[37.224187] (-) TimerEvent: {}
+[37.296012] (unitree_sdk2) StdoutLine: {'line': b'[ 53%] Built target h1_27dof_example\n'}
+[37.324283] (-) TimerEvent: {}
+[37.424780] (-) TimerEvent: {}
+[37.525566] (-) TimerEvent: {}
+[37.626475] (-) TimerEvent: {}
+[37.726781] (-) TimerEvent: {}
+[37.827003] (-) TimerEvent: {}
+[37.927439] (-) TimerEvent: {}
+[38.027966] (-) TimerEvent: {}
+[38.128238] (-) TimerEvent: {}
+[38.228508] (-) TimerEvent: {}
+[38.328970] (-) TimerEvent: {}
+[38.429220] (-) TimerEvent: {}
+[38.529706] (-) TimerEvent: {}
+[38.630179] (-) TimerEvent: {}
+[38.730432] (-) TimerEvent: {}
+[38.830711] (-) TimerEvent: {}
+[38.931255] (-) TimerEvent: {}
+[39.031787] (-) TimerEvent: {}
+[39.133034] (-) TimerEvent: {}
+[39.233554] (-) TimerEvent: {}
+[39.333791] (-) TimerEvent: {}
+[39.434274] (-) TimerEvent: {}
+[39.534713] (-) TimerEvent: {}
+[39.636067] (-) TimerEvent: {}
+[39.637468] (unitree_sdk2) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h1_2_ankle_track\x1b[0m\n'}
+[39.736163] (-) TimerEvent: {}
+[39.836680] (-) TimerEvent: {}
+[39.862442] (unitree_sdk2) StdoutLine: {'line': b'[ 54%] Built target h1_2_ankle_track\n'}
+[39.879538] (unitree_sdk2) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object example/h1/CMakeFiles/h1_arm_sdk_dds_example.dir/high_level/h1_arm_sdk_dds_example.cpp.o\x1b[0m\n'}
+[39.938447] (-) TimerEvent: {}
+[40.038683] (-) TimerEvent: {}
+[40.138992] (-) TimerEvent: {}
+[40.239299] (-) TimerEvent: {}
+[40.339628] (-) TimerEvent: {}
+[40.440729] (-) TimerEvent: {}
+[40.541010] (-) TimerEvent: {}
+[40.641417] (-) TimerEvent: {}
+[40.741837] (-) TimerEvent: {}
+[40.842242] (-) TimerEvent: {}
+[40.942662] (-) TimerEvent: {}
+[41.042899] (-) TimerEvent: {}
+[41.143287] (-) TimerEvent: {}
+[41.243701] (-) TimerEvent: {}
+[41.344127] (-) TimerEvent: {}
+[41.444545] (-) TimerEvent: {}
+[41.545479] (-) TimerEvent: {}
+[41.645932] (-) TimerEvent: {}
+[41.746322] (-) TimerEvent: {}
+[41.846873] (-) TimerEvent: {}
+[41.947371] (-) TimerEvent: {}
+[42.047904] (-) TimerEvent: {}
+[42.148421] (-) TimerEvent: {}
+[42.248944] (-) TimerEvent: {}
+[42.349468] (-) TimerEvent: {}
+[42.451194] (-) TimerEvent: {}
+[42.555448] (-) TimerEvent: {}
+[42.660210] (-) TimerEvent: {}
+[42.761665] (-) TimerEvent: {}
+[42.862485] (-) TimerEvent: {}
+[42.962942] (-) TimerEvent: {}
+[43.063431] (-) TimerEvent: {}
+[43.163902] (-) TimerEvent: {}
+[43.264348] (-) TimerEvent: {}
+[43.365009] (-) TimerEvent: {}
+[43.465460] (-) TimerEvent: {}
+[43.565931] (-) TimerEvent: {}
+[43.666445] (-) TimerEvent: {}
+[43.768595] (-) TimerEvent: {}
+[43.870455] (-) TimerEvent: {}
+[43.958955] (unitree_sdk2) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h1_arm_sdk_dds_example\x1b[0m\n'}
+[43.970564] (-) TimerEvent: {}
+[44.071058] (-) TimerEvent: {}
+[44.148966] (unitree_sdk2) StdoutLine: {'line': b'[ 57%] Built target h1_arm_sdk_dds_example\n'}
+[44.165000] (unitree_sdk2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object example/h1/CMakeFiles/h1_2_arm_sdk_dds_example.dir/high_level/h1_2_arm_sdk_dds_example.cpp.o\x1b[0m\n'}
+[44.171155] (-) TimerEvent: {}
+[44.272465] (-) TimerEvent: {}
+[44.372706] (-) TimerEvent: {}
+[44.473254] (-) TimerEvent: {}
+[44.573601] (-) TimerEvent: {}
+[44.673887] (-) TimerEvent: {}
+[44.774359] (-) TimerEvent: {}
+[44.874815] (-) TimerEvent: {}
+[44.975269] (-) TimerEvent: {}
+[45.075724] (-) TimerEvent: {}
+[45.176160] (-) TimerEvent: {}
+[45.276603] (-) TimerEvent: {}
+[45.377462] (-) TimerEvent: {}
+[45.477792] (-) TimerEvent: {}
+[45.578113] (-) TimerEvent: {}
+[45.678593] (-) TimerEvent: {}
+[45.779273] (-) TimerEvent: {}
+[45.879758] (-) TimerEvent: {}
+[45.980097] (-) TimerEvent: {}
+[46.080669] (-) TimerEvent: {}
+[46.181429] (-) TimerEvent: {}
+[46.281747] (-) TimerEvent: {}
+[46.382271] (-) TimerEvent: {}
+[46.482794] (-) TimerEvent: {}
+[46.583678] (-) TimerEvent: {}
+[46.684095] (-) TimerEvent: {}
+[46.784569] (-) TimerEvent: {}
+[46.884841] (-) TimerEvent: {}
+[46.985095] (-) TimerEvent: {}
+[47.085643] (-) TimerEvent: {}
+[47.175870] (unitree_sdk2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_loco_client.dir/high_level/g1_loco_client_example.cpp.o\x1b[0m\n'}
+[47.186444] (-) TimerEvent: {}
+[47.286663] (-) TimerEvent: {}
+[47.387049] (-) TimerEvent: {}
+[47.487302] (-) TimerEvent: {}
+[47.587993] (-) TimerEvent: {}
+[47.689506] (-) TimerEvent: {}
+[47.789782] (-) TimerEvent: {}
+[47.879323] (unitree_sdk2) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/h1_2_arm_sdk_dds_example\x1b[0m\n'}
+[47.891465] (-) TimerEvent: {}
+[47.991684] (-) TimerEvent: {}
+[48.091905] (-) TimerEvent: {}
+[48.122501] (unitree_sdk2) StdoutLine: {'line': b'[ 62%] Built target h1_2_arm_sdk_dds_example\n'}
+[48.144595] (unitree_sdk2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/high_level/g1_arm5_sdk_dds_example.cpp.o\x1b[0m\n'}
+[48.192139] (-) TimerEvent: {}
+[48.292617] (-) TimerEvent: {}
+[48.393703] (-) TimerEvent: {}
+[48.494182] (-) TimerEvent: {}
+[48.596592] (-) TimerEvent: {}
+[48.697150] (-) TimerEvent: {}
+[48.797882] (-) TimerEvent: {}
+[48.898824] (-) TimerEvent: {}
+[48.963626] (unitree_sdk2) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_loco_client\x1b[0m\n'}
+[49.000115] (-) TimerEvent: {}
+[49.100382] (-) TimerEvent: {}
+[49.200906] (-) TimerEvent: {}
+[49.251710] (unitree_sdk2) StdoutLine: {'line': b'[ 65%] Built target g1_loco_client\n'}
+[49.266956] (unitree_sdk2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/high_level/g1_arm7_sdk_dds_example.cpp.o\x1b[0m\n'}
+[49.301700] (-) TimerEvent: {}
+[49.402188] (-) TimerEvent: {}
+[49.504567] (-) TimerEvent: {}
+[49.604791] (-) TimerEvent: {}
+[49.707452] (-) TimerEvent: {}
+[49.807701] (-) TimerEvent: {}
+[49.908237] (-) TimerEvent: {}
+[50.008735] (-) TimerEvent: {}
+[50.109230] (-) TimerEvent: {}
+[50.209739] (-) TimerEvent: {}
+[50.311454] (-) TimerEvent: {}
+[50.411675] (-) TimerEvent: {}
+[50.511898] (-) TimerEvent: {}
+[50.612185] (-) TimerEvent: {}
+[50.712427] (-) TimerEvent: {}
+[50.812683] (-) TimerEvent: {}
+[50.912914] (-) TimerEvent: {}
+[51.014449] (-) TimerEvent: {}
+[51.114690] (-) TimerEvent: {}
+[51.214933] (-) TimerEvent: {}
+[51.315186] (-) TimerEvent: {}
+[51.415435] (-) TimerEvent: {}
+[51.515882] (-) TimerEvent: {}
+[51.618572] (-) TimerEvent: {}
+[51.718842] (-) TimerEvent: {}
+[51.819251] (-) TimerEvent: {}
+[51.919674] (-) TimerEvent: {}
+[52.020452] (-) TimerEvent: {}
+[52.120915] (-) TimerEvent: {}
+[52.222557] (-) TimerEvent: {}
+[52.323020] (-) TimerEvent: {}
+[52.423293] (-) TimerEvent: {}
+[52.524460] (-) TimerEvent: {}
+[52.624785] (-) TimerEvent: {}
+[52.726450] (-) TimerEvent: {}
+[52.826886] (-) TimerEvent: {}
+[52.895752] (unitree_sdk2) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_arm5_sdk_dds_example\x1b[0m\n'}
+[52.928455] (-) TimerEvent: {}
+[53.028717] (-) TimerEvent: {}
+[53.128986] (-) TimerEvent: {}
+[53.129635] (unitree_sdk2) StdoutLine: {'line': b'[ 68%] Built target g1_arm5_sdk_dds_example\n'}
+[53.158672] (unitree_sdk2) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_arm_action_example.dir/high_level/g1_arm_action_example.cpp.o\x1b[0m\n'}
+[53.229082] (-) TimerEvent: {}
+[53.329339] (-) TimerEvent: {}
+[53.429614] (-) TimerEvent: {}
+[53.531558] (-) TimerEvent: {}
+[53.631799] (-) TimerEvent: {}
+[53.732227] (-) TimerEvent: {}
+[53.832450] (-) TimerEvent: {}
+[53.923789] (unitree_sdk2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_arm7_sdk_dds_example\x1b[0m\n'}
+[53.932637] (-) TimerEvent: {}
+[54.032978] (-) TimerEvent: {}
+[54.133442] (-) TimerEvent: {}
+[54.164367] (unitree_sdk2) StdoutLine: {'line': b'[ 71%] Built target g1_arm7_sdk_dds_example\n'}
+[54.181343] (unitree_sdk2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_ankle_swing_example.dir/low_level/g1_ankle_swing_example.cpp.o\x1b[0m\n'}
+[54.233543] (-) TimerEvent: {}
+[54.335409] (-) TimerEvent: {}
+[54.435829] (-) TimerEvent: {}
+[54.508783] (unitree_sdk2) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_arm_action_example\x1b[0m\n'}
+[54.535924] (-) TimerEvent: {}
+[54.636176] (-) TimerEvent: {}
+[54.736854] (-) TimerEvent: {}
+[54.837426] (-) TimerEvent: {}
+[54.913345] (unitree_sdk2) StdoutLine: {'line': b'[ 74%] Built target g1_arm_action_example\n'}
+[54.929480] (unitree_sdk2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_audio_client_example.dir/audio/g1_audio_client_example.cpp.o\x1b[0m\n'}
+[54.937542] (-) TimerEvent: {}
+[55.037941] (-) TimerEvent: {}
+[55.138423] (-) TimerEvent: {}
+[55.238994] (-) TimerEvent: {}
+[55.340303] (-) TimerEvent: {}
+[55.440601] (-) TimerEvent: {}
+[55.542554] (-) TimerEvent: {}
+[55.644444] (-) TimerEvent: {}
+[55.744681] (-) TimerEvent: {}
+[55.844938] (-) TimerEvent: {}
+[55.945182] (-) TimerEvent: {}
+[56.045433] (-) TimerEvent: {}
+[56.147620] (-) TimerEvent: {}
+[56.247868] (-) TimerEvent: {}
+[56.348116] (-) TimerEvent: {}
+[56.448363] (-) TimerEvent: {}
+[56.549447] (-) TimerEvent: {}
+[56.649678] (-) TimerEvent: {}
+[56.749902] (-) TimerEvent: {}
+[56.850133] (-) TimerEvent: {}
+[56.952564] (-) TimerEvent: {}
+[57.052788] (-) TimerEvent: {}
+[57.153067] (-) TimerEvent: {}
+[57.253764] (-) TimerEvent: {}
+[57.354439] (-) TimerEvent: {}
+[57.454716] (-) TimerEvent: {}
+[57.555183] (-) TimerEvent: {}
+[57.657581] (-) TimerEvent: {}
+[57.757824] (-) TimerEvent: {}
+[57.858101] (-) TimerEvent: {}
+[57.958386] (-) TimerEvent: {}
+[58.060594] (-) TimerEvent: {}
+[58.116061] (unitree_sdk2) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_audio_client_example\x1b[0m\n'}
+[58.160689] (-) TimerEvent: {}
+[58.261963] (-) TimerEvent: {}
+[58.362232] (-) TimerEvent: {}
+[58.431963] (unitree_sdk2) StdoutLine: {'line': b'[ 77%] Built target g1_audio_client_example\n'}
+[58.462493] (-) TimerEvent: {}
+[58.563295] (-) TimerEvent: {}
+[58.663698] (-) TimerEvent: {}
+[58.764081] (-) TimerEvent: {}
+[58.864356] (-) TimerEvent: {}
+[58.964657] (-) TimerEvent: {}
+[59.064917] (-) TimerEvent: {}
+[59.165195] (-) TimerEvent: {}
+[59.265683] (-) TimerEvent: {}
+[59.366453] (-) TimerEvent: {}
+[59.466991] (-) TimerEvent: {}
+[59.567474] (-) TimerEvent: {}
+[59.668019] (-) TimerEvent: {}
+[59.768629] (-) TimerEvent: {}
+[59.868898] (-) TimerEvent: {}
+[59.969442] (-) TimerEvent: {}
+[60.071463] (-) TimerEvent: {}
+[60.171716] (-) TimerEvent: {}
+[60.272020] (-) TimerEvent: {}
+[60.285357] (unitree_sdk2) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_ankle_swing_example\x1b[0m\n'}
+[60.372132] (-) TimerEvent: {}
+[60.473454] (-) TimerEvent: {}
+[60.538006] (unitree_sdk2) StdoutLine: {'line': b'[ 78%] Built target g1_ankle_swing_example\n'}
+[60.552864] (unitree_sdk2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_dex3_example.dir/dex3/g1_dex3_example.cpp.o\x1b[0m\n'}
+[60.573781] (-) TimerEvent: {}
+[60.674357] (-) TimerEvent: {}
+[60.776283] (-) TimerEvent: {}
+[60.876811] (-) TimerEvent: {}
+[60.977240] (-) TimerEvent: {}
+[61.077601] (-) TimerEvent: {}
+[61.178047] (-) TimerEvent: {}
+[61.278559] (-) TimerEvent: {}
+[61.379104] (-) TimerEvent: {}
+[61.479583] (-) TimerEvent: {}
+[61.580243] (-) TimerEvent: {}
+[61.680994] (-) TimerEvent: {}
+[61.781311] (-) TimerEvent: {}
+[61.881761] (-) TimerEvent: {}
+[61.982811] (-) TimerEvent: {}
+[62.083332] (-) TimerEvent: {}
+[62.183587] (-) TimerEvent: {}
+[62.283841] (-) TimerEvent: {}
+[62.384343] (-) TimerEvent: {}
+[62.484968] (-) TimerEvent: {}
+[62.585848] (-) TimerEvent: {}
+[62.686308] (-) TimerEvent: {}
+[62.786776] (-) TimerEvent: {}
+[62.887237] (-) TimerEvent: {}
+[62.987571] (-) TimerEvent: {}
+[63.087887] (-) TimerEvent: {}
+[63.188435] (-) TimerEvent: {}
+[63.288958] (-) TimerEvent: {}
+[63.389431] (-) TimerEvent: {}
+[63.489691] (-) TimerEvent: {}
+[63.590495] (-) TimerEvent: {}
+[63.690774] (-) TimerEvent: {}
+[63.791194] (-) TimerEvent: {}
+[63.891696] (-) TimerEvent: {}
+[63.992207] (-) TimerEvent: {}
+[64.092731] (-) TimerEvent: {}
+[64.192994] (-) TimerEvent: {}
+[64.293455] (-) TimerEvent: {}
+[64.394153] (-) TimerEvent: {}
+[64.495326] (-) TimerEvent: {}
+[64.596791] (-) TimerEvent: {}
+[64.697115] (-) TimerEvent: {}
+[64.797700] (-) TimerEvent: {}
+[64.898256] (-) TimerEvent: {}
+[64.941190] (unitree_sdk2) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_dex3_example\x1b[0m\n'}
+[64.998363] (-) TimerEvent: {}
+[65.100437] (-) TimerEvent: {}
+[65.154080] (unitree_sdk2) StdoutLine: {'line': b'[ 81%] Built target g1_dex3_example\n'}
+[65.170184] (unitree_sdk2) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o\x1b[0m\n'}
+[65.200548] (-) TimerEvent: {}
+[65.301021] (-) TimerEvent: {}
+[65.402591] (-) TimerEvent: {}
+[65.502911] (-) TimerEvent: {}
+[65.603358] (-) TimerEvent: {}
+[65.705457] (-) TimerEvent: {}
+[65.805707] (-) TimerEvent: {}
+[65.905979] (-) TimerEvent: {}
+[66.006231] (-) TimerEvent: {}
+[66.106746] (-) TimerEvent: {}
+[66.207060] (-) TimerEvent: {}
+[66.307508] (-) TimerEvent: {}
+[66.407896] (-) TimerEvent: {}
+[66.508371] (-) TimerEvent: {}
+[66.608818] (-) TimerEvent: {}
+[66.709971] (-) TimerEvent: {}
+[66.810576] (-) TimerEvent: {}
+[66.910876] (-) TimerEvent: {}
+[67.011500] (-) TimerEvent: {}
+[67.112065] (-) TimerEvent: {}
+[67.181117] (unitree_sdk2) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object example/g1/CMakeFiles/g1_dual_arm_example.dir/low_level/g1_dual_arm_example.cpp.o\x1b[0m\n'}
+[67.212456] (-) TimerEvent: {}
+[67.314452] (-) TimerEvent: {}
+[67.414730] (-) TimerEvent: {}
+[67.515055] (-) TimerEvent: {}
+[67.615727] (-) TimerEvent: {}
+[67.715972] (-) TimerEvent: {}
+[67.817457] (-) TimerEvent: {}
+[67.917695] (-) TimerEvent: {}
+[68.018327] (-) TimerEvent: {}
+[68.118807] (-) TimerEvent: {}
+[68.219619] (-) TimerEvent: {}
+[68.320623] (-) TimerEvent: {}
+[68.423455] (-) TimerEvent: {}
+[68.523694] (-) TimerEvent: {}
+[68.623941] (-) TimerEvent: {}
+[68.724178] (-) TimerEvent: {}
+[68.824664] (-) TimerEvent: {}
+[68.925663] (-) TimerEvent: {}
+[69.027449] (-) TimerEvent: {}
+[69.127684] (-) TimerEvent: {}
+[69.227952] (-) TimerEvent: {}
+[69.328232] (-) TimerEvent: {}
+[69.429623] (-) TimerEvent: {}
+[69.529858] (-) TimerEvent: {}
+[69.630264] (-) TimerEvent: {}
+[69.716489] (unitree_sdk2) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_termination\x1b[0m\n'}
+[69.730361] (-) TimerEvent: {}
+[69.832564] (-) TimerEvent: {}
+[69.932798] (-) TimerEvent: {}
+[69.978632] (unitree_sdk2) StdoutLine: {'line': b'[ 86%] Built target g1_termination\n'}
+[69.995629] (unitree_sdk2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object example/go2w/CMakeFiles/go2w_sport_client.dir/go2w_sport_client.cpp.o\x1b[0m\n'}
+[70.033433] (-) TimerEvent: {}
+[70.133855] (-) TimerEvent: {}
+[70.240650] (-) TimerEvent: {}
+[70.340915] (-) TimerEvent: {}
+[70.441391] (-) TimerEvent: {}
+[70.541895] (-) TimerEvent: {}
+[70.642394] (-) TimerEvent: {}
+[70.742719] (-) TimerEvent: {}
+[70.843055] (-) TimerEvent: {}
+[70.943963] (-) TimerEvent: {}
+[71.046480] (-) TimerEvent: {}
+[71.146717] (-) TimerEvent: {}
+[71.247195] (-) TimerEvent: {}
+[71.347965] (-) TimerEvent: {}
+[71.449662] (-) TimerEvent: {}
+[71.550034] (-) TimerEvent: {}
+[71.650549] (-) TimerEvent: {}
+[71.751609] (-) TimerEvent: {}
+[71.852074] (-) TimerEvent: {}
+[71.953560] (-) TimerEvent: {}
+[72.053975] (-) TimerEvent: {}
+[72.155639] (-) TimerEvent: {}
+[72.255894] (-) TimerEvent: {}
+[72.356380] (-) TimerEvent: {}
+[72.456884] (-) TimerEvent: {}
+[72.558641] (-) TimerEvent: {}
+[72.659024] (-) TimerEvent: {}
+[72.759454] (-) TimerEvent: {}
+[72.860404] (-) TimerEvent: {}
+[72.960948] (-) TimerEvent: {}
+[73.025546] (unitree_sdk2) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/g1_dual_arm_example\x1b[0m\n'}
+[73.061046] (-) TimerEvent: {}
+[73.162632] (-) TimerEvent: {}
+[73.263485] (-) TimerEvent: {}
+[73.325200] (unitree_sdk2) StdoutLine: {'line': b'[ 89%] Built target g1_dual_arm_example\n'}
+[73.363583] (-) TimerEvent: {}
+[73.464069] (-) TimerEvent: {}
+[73.566712] (-) TimerEvent: {}
+[73.639262] (unitree_sdk2) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2w_sport_client\x1b[0m\n'}
+[73.666945] (-) TimerEvent: {}
+[73.767526] (-) TimerEvent: {}
+[73.867952] (-) TimerEvent: {}
+[73.903810] (unitree_sdk2) StdoutLine: {'line': b'[ 90%] Built target go2w_sport_client\n'}
+[73.920492] (unitree_sdk2) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object example/go2w/CMakeFiles/go2w_stand_example.dir/go2w_stand_example.cpp.o\x1b[0m\n'}
+[73.969450] (-) TimerEvent: {}
+[74.069708] (-) TimerEvent: {}
+[74.169979] (-) TimerEvent: {}
+[74.270368] (-) TimerEvent: {}
+[74.370671] (-) TimerEvent: {}
+[74.471576] (-) TimerEvent: {}
+[74.571851] (-) TimerEvent: {}
+[74.672127] (-) TimerEvent: {}
+[74.773605] (-) TimerEvent: {}
+[74.874075] (-) TimerEvent: {}
+[74.974599] (-) TimerEvent: {}
+[75.075109] (-) TimerEvent: {}
+[75.175525] (-) TimerEvent: {}
+[75.275757] (-) TimerEvent: {}
+[75.376162] (-) TimerEvent: {}
+[75.476683] (-) TimerEvent: {}
+[75.577200] (-) TimerEvent: {}
+[75.677689] (-) TimerEvent: {}
+[75.778131] (-) TimerEvent: {}
+[75.878371] (-) TimerEvent: {}
+[75.978823] (-) TimerEvent: {}
+[76.079598] (-) TimerEvent: {}
+[76.180073] (-) TimerEvent: {}
+[76.280582] (-) TimerEvent: {}
+[76.381034] (-) TimerEvent: {}
+[76.481583] (-) TimerEvent: {}
+[76.581867] (-) TimerEvent: {}
+[76.682300] (-) TimerEvent: {}
+[76.782783] (-) TimerEvent: {}
+[76.883021] (-) TimerEvent: {}
+[76.983590] (-) TimerEvent: {}
+[77.084100] (-) TimerEvent: {}
+[77.188457] (-) TimerEvent: {}
+[77.288722] (-) TimerEvent: {}
+[77.389106] (-) TimerEvent: {}
+[77.489450] (-) TimerEvent: {}
+[77.589802] (-) TimerEvent: {}
+[77.690377] (-) TimerEvent: {}
+[77.790955] (-) TimerEvent: {}
+[77.891517] (-) TimerEvent: {}
+[77.991918] (-) TimerEvent: {}
+[78.092453] (-) TimerEvent: {}
+[78.192797] (-) TimerEvent: {}
+[78.293057] (-) TimerEvent: {}
+[78.393598] (-) TimerEvent: {}
+[78.470792] (unitree_sdk2) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/go2w_stand_example\x1b[0m\n'}
+[78.493696] (-) TimerEvent: {}
+[78.594050] (-) TimerEvent: {}
+[78.694543] (-) TimerEvent: {}
+[78.743215] (unitree_sdk2) StdoutLine: {'line': b'[ 93%] Built target go2w_stand_example\n'}
+[78.759807] (unitree_sdk2) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object example/b2w/CMakeFiles/b2w_sport_client.dir/b2w_sport_client.cpp.o\x1b[0m\n'}
+[78.794651] (-) TimerEvent: {}
+[78.895450] (-) TimerEvent: {}
+[78.995688] (-) TimerEvent: {}
+[79.097724] (-) TimerEvent: {}
+[79.197970] (-) TimerEvent: {}
+[79.298212] (-) TimerEvent: {}
+[79.398538] (-) TimerEvent: {}
+[79.498951] (-) TimerEvent: {}
+[79.599696] (-) TimerEvent: {}
+[79.636457] (unitree_sdk2) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/b2w_sport_client\x1b[0m\n'}
+[79.699790] (-) TimerEvent: {}
+[79.800070] (-) TimerEvent: {}
+[79.876015] (unitree_sdk2) StdoutLine: {'line': b'[ 96%] Built target b2w_sport_client\n'}
+[79.891027] (unitree_sdk2) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object example/b2w/CMakeFiles/b2w_stand_example.dir/b2w_stand_example.cpp.o\x1b[0m\n'}
+[79.900172] (-) TimerEvent: {}
+[80.000477] (-) TimerEvent: {}
+[80.101241] (-) TimerEvent: {}
+[80.202212] (-) TimerEvent: {}
+[80.302747] (-) TimerEvent: {}
+[80.403051] (-) TimerEvent: {}
+[80.503392] (-) TimerEvent: {}
+[80.603850] (-) TimerEvent: {}
+[80.704349] (-) TimerEvent: {}
+[80.804664] (-) TimerEvent: {}
+[80.905241] (-) TimerEvent: {}
+[81.005851] (-) TimerEvent: {}
+[81.106165] (-) TimerEvent: {}
+[81.206484] (-) TimerEvent: {}
+[81.306822] (-) TimerEvent: {}
+[81.407298] (-) TimerEvent: {}
+[81.507821] (-) TimerEvent: {}
+[81.608327] (-) TimerEvent: {}
+[81.708893] (-) TimerEvent: {}
+[81.809193] (-) TimerEvent: {}
+[81.909663] (-) TimerEvent: {}
+[82.009896] (-) TimerEvent: {}
+[82.110386] (-) TimerEvent: {}
+[82.210935] (-) TimerEvent: {}
+[82.311388] (-) TimerEvent: {}
+[82.411669] (-) TimerEvent: {}
+[82.512104] (-) TimerEvent: {}
+[82.612564] (-) TimerEvent: {}
+[82.713035] (-) TimerEvent: {}
+[82.813510] (-) TimerEvent: {}
+[82.913774] (-) TimerEvent: {}
+[83.014436] (-) TimerEvent: {}
+[83.114934] (-) TimerEvent: {}
+[83.215396] (-) TimerEvent: {}
+[83.315789] (-) TimerEvent: {}
+[83.416294] (-) TimerEvent: {}
+[83.516765] (-) TimerEvent: {}
+[83.617175] (-) TimerEvent: {}
+[83.717424] (-) TimerEvent: {}
+[83.817805] (-) TimerEvent: {}
+[83.918064] (-) TimerEvent: {}
+[84.018632] (-) TimerEvent: {}
+[84.119144] (-) TimerEvent: {}
+[84.219398] (-) TimerEvent: {}
+[84.319916] (-) TimerEvent: {}
+[84.366494] (unitree_sdk2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/b2w_stand_example\x1b[0m\n'}
+[84.420050] (-) TimerEvent: {}
+[84.520450] (-) TimerEvent: {}
+[84.621358] (-) TimerEvent: {}
+[84.650247] (unitree_sdk2) StdoutLine: {'line': b'[100%] Built target b2w_stand_example\n'}
+[84.660470] (unitree_sdk2) CommandEnded: {'returncode': 0}
+[84.660728] (unitree_sdk2) JobProgress: {'identifier': 'unitree_sdk2', 'progress': 'install'}
+[84.667566] (unitree_sdk2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yzz/ROS2_WS/build/unitree_sdk2'], 'cwd': '/home/yzz/ROS2_WS/build/unitree_sdk2', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.241.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'yzz'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.241.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yzz'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1234'), ('BUNDLED_DEBUGPY_PATH', '/home/yzz/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b278d91dd9b413cc89f0a453694538ab'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.241.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzz'), ('ALL_PROXY', 'socks://192.168.241.1:7890/'), ('http_proxy', 'http://192.168.241.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yzz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yzz/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/yzz-virtual-machine:@/tmp/.ICE-unix/1234,unix/yzz-virtual-machine:/tmp/.ICE-unix/1234'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.241.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ef53922a_f239_4519_b3dc_3477f44821a6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/yzz/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-620742517d6223a7.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/yzz/.config/Code/User/workspaceStorage/e0a27bb1cd4f253d2a3679b0750cd59c/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X1GSH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f5e4ff7902.sock'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yzz/ROS2_WS/build/unitree_sdk2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://192.168.241.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b278d91dd9b413cc89f0a453694538ab'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.241.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[84.672440] (unitree_sdk2) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[84.672556] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include\n'}
+[84.672615] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree\n'}
+[84.672659] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot\n'}
+[84.673205] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2\n'}
+[84.673254] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher\n'}
+[84.673288] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_api.hpp\n'}
+[84.673320] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_error.hpp\n'}
+[84.673371] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_client.hpp\n'}
+[84.673426] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/sport\n'}
+[84.673460] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_api.hpp\n'}
+[84.673549] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_client.hpp\n'}
+[84.673605] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_error.hpp\n'}
+[84.673754] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/config\n'}
+[84.673803] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/config/config_error.hpp\n'}
+[84.673944] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/config/config_client.hpp\n'}
+[84.674074] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/config/config_api.hpp\n'}
+[84.675392] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/back_video\n'}
+[84.675506] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_client.hpp\n'}
+[84.675546] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_api.hpp\n'}
+[84.675578] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_error.hpp\n'}
+[84.675609] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/front_video\n'}
+[84.675647] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_client.hpp\n'}
+[84.675682] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_api.hpp\n'}
+[84.676668] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_error.hpp\n'}
+[84.676724] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/robot_state\n'}
+[84.676762] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_error.hpp\n'}
+[84.676798] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_api.hpp\n'}
+[84.676835] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_client.hpp\n'}
+[84.676910] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal\n'}
+[84.676945] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal/internal_request_response.hpp\n'}
+[84.677324] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal/internal_error.hpp\n'}
+[84.677553] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal/internal.hpp\n'}
+[84.677616] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal/internal_api.hpp\n'}
+[84.677721] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl\n'}
+[84.677788] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseHeader_.hpp\n'}
+[84.677869] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Response_.hpp\n'}
+[84.677946] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Request_.hpp\n'}
+[84.678070] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp\n'}
+[84.678143] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp\n'}
+[84.678245] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestPolicy_.hpp\n'}
+[84.678430] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseStatus_.hpp\n'}
+[84.679349] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestLease_.hpp\n'}
+[84.679381] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1\n'}
+[84.679417] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/loco\n'}
+[84.679448] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_api.hpp\n'}
+[84.679477] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_error.hpp\n'}
+[84.679507] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_client.hpp\n'}
+[84.679536] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/audio\n'}
+[84.679585] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_client.hpp\n'}
+[84.679618] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_error.hpp\n'}
+[84.679790] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_api.hpp\n'}
+[84.679875] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/arm\n'}
+[84.679946] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_client.hpp\n'}
+[84.680017] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_api.hpp\n'}
+[84.680080] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_error.hpp\n'}
+[84.680141] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/common\n'}
+[84.680285] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/g1/common/terminations.hpp\n'}
+[84.680354] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2\n'}
+[84.680418] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid\n'}
+[84.680479] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_api.hpp\n'}
+[84.680675] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_client.hpp\n'}
+[84.680841] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/public\n'}
+[84.680899] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/public/jsonize_type.hpp\n'}
+[84.681002] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/vui\n'}
+[84.681615] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_api.hpp\n'}
+[84.681687] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_error.hpp\n'}
+[84.681723] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_client.hpp\n'}
+[84.681754] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/sport\n'}
+[84.681785] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_api.hpp\n'}
+[84.682097] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_client.hpp\n'}
+[84.682163] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_error.hpp\n'}
+[84.682905] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/config\n'}
+[84.682944] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/config/config_error.hpp\n'}
+[84.683160] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/config/config_client.hpp\n'}
+[84.683318] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/config/config_api.hpp\n'}
+[84.684000] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/utrack\n'}
+[84.684072] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_client.hpp\n'}
+[84.684632] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_api.hpp\n'}
+[84.684915] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/video\n'}
+[84.685002] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/video/video_api.hpp\n'}
+[84.685317] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/video/video_error.hpp\n'}
+[84.686217] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/video/video_client.hpp\n'}
+[84.686296] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/robot_state\n'}
+[84.686330] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_error.hpp\n'}
+[84.686581] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_api.hpp\n'}
+[84.686702] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_client.hpp\n'}
+[84.686823] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/future\n'}
+[84.686920] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/future/request_future.hpp\n'}
+[84.687025] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/client\n'}
+[84.687113] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/client/client_base.hpp\n'}
+[84.687214] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/client/client_stub.hpp\n'}
+[84.687393] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/client/client.hpp\n'}
+[84.687456] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/client/lease_client.hpp\n'}
+[84.687626] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/channel\n'}
+[84.687733] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/channel/channel_namer.hpp\n'}
+[84.687784] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp\n'}
+[84.687934] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp\n'}
+[84.687984] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/channel/channel_labor.hpp\n'}
+[84.688083] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/channel/channel_publisher.hpp\n'}
+[84.688228] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/server\n'}
+[84.688277] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/server/server_stub.hpp\n'}
+[84.688697] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/server/server_base.hpp\n'}
+[84.688848] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/server/lease_server.hpp\n'}
+[84.689269] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/server/server.hpp\n'}
+[84.689433] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/serialize\n'}
+[84.689513] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/serialize/serialize.hpp\n'}
+[84.689873] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/h1\n'}
+[84.690064] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/h1/loco\n'}
+[84.690138] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_api.hpp\n'}
+[84.690260] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_error.hpp\n'}
+[84.690516] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_client.hpp\n'}
+[84.690670] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common\n'}
+[84.690792] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/os.hpp\n'}
+[84.690898] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/filesystem\n'}
+[84.690993] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/filesystem/directory.hpp\n'}
+[84.691232] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/filesystem/filesystem.hpp\n'}
+[84.691387] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/filesystem/file.hpp\n'}
+[84.691532] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/lock\n'}
+[84.691713] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/lock/lock.hpp\n'}
+[84.691786] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/assert.hpp\n'}
+[84.692029] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/decl.hpp\n'}
+[84.692169] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/thread\n'}
+[84.692287] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/thread/thread_decl.hpp\n'}
+[84.692403] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/thread/future.hpp\n'}
+[84.692512] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/thread/recurrent_thread.hpp\n'}
+[84.692616] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/thread/thread.hpp\n'}
+[84.692722] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/thread/thread_pool.hpp\n'}
+[84.692956] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/thread/thread_task.hpp\n'}
+[84.693207] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/error.hpp\n'}
+[84.693408] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/time\n'}
+[84.693547] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/time/time_tool.hpp\n'}
+[84.693883] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/time/sleep.hpp\n'}
+[84.693946] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/service\n'}
+[84.693978] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/service/dds_service.hpp\n'}
+[84.694208] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/service/base\n'}
+[84.694256] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/service/base/service_config.hpp\n'}
+[84.694471] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/service/base/service_decl.hpp\n'}
+[84.694586] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/service/base/service_base.hpp\n'}
+[84.694814] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/service/base/service_application.hpp\n'}
+[84.695151] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/exception.hpp\n'}
+[84.695516] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/string_tool.hpp\n'}
+[84.695665] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds\n'}
+[84.695875] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_parameter.hpp\n'}
+[84.695951] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_qos_realize.hpp\n'}
+[84.696276] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp\n'}
+[84.696467] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_qos_parameter.hpp\n'}
+[84.696529] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp\n'}
+[84.696636] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_native.hpp\n'}
+[84.696798] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy.hpp\n'}
+[84.697082] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_error.hpp\n'}
+[84.697160] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_exception.hpp\n'}
+[84.697271] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_callback.hpp\n'}
+[84.697480] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp\n'}
+[84.697556] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy_parameter.hpp\n'}
+[84.697675] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_traits.hpp\n'}
+[84.697780] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_easy_model.hpp\n'}
+[84.698082] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/dds/dds_qos.hpp\n'}
+[84.698305] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/log\n'}
+[84.698412] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/log/log.hpp\n'}
+[84.698537] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/log/log_decl.hpp\n'}
+[84.698653] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/log/log_initor.hpp\n'}
+[84.698765] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/log/log_writer.hpp\n'}
+[84.699711] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/log/log_store.hpp\n'}
+[84.699834] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/log/log_keeper.hpp\n'}
+[84.700337] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/log/log_logger.hpp\n'}
+[84.701058] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/log/log_policy.hpp\n'}
+[84.701146] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/log/log_buffer.hpp\n'}
+[84.701203] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/json\n'}
+[84.701235] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/json/json_config.hpp\n'}
+[84.701992] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/json/json.hpp\n'}
+[84.702062] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/json/jsonize.hpp\n'}
+[84.702101] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/any.hpp\n'}
+[84.702139] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/common/block_queue.hpp\n'}
+[84.702175] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl\n'}
+[84.702205] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2\n'}
+[84.702237] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/InterfaceConfig_.hpp\n'}
+[84.702273] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/WirelessController_.hpp\n'}
+[84.703734] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/BmsState_.hpp\n'}
+[84.703823] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/LowState_.hpp\n'}
+[84.703861] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/MotorState_.hpp\n'}
+[84.703892] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/UwbState_.hpp\n'}
+[84.704484] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/Req_.hpp\n'}
+[84.705305] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/AudioData_.hpp\n'}
+[84.705702] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/UwbSwitch_.hpp\n'}
+[84.705758] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/MotorStates_.hpp\n'}
+[84.706001] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/PathPoint_.hpp\n'}
+[84.706034] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/TimeSpec_.hpp\n'}
+[84.706064] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/Res_.hpp\n'}
+[84.706123] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/BmsCmd_.hpp\n'}
+[84.706337] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/MotorCmds_.hpp\n'}
+[84.707637] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/HeightMap_.hpp\n'}
+[84.707992] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/IMUState_.hpp\n'}
+[84.708044] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/Go2FrontVideoData_.hpp\n'}
+[84.708433] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/LidarState_.hpp\n'}
+[84.708505] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/SportModeState_.hpp\n'}
+[84.708554] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/SportModeCmd_.hpp\n'}
+[84.709854] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/MotorCmd_.hpp\n'}
+[84.710065] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/ConfigChangeStatus_.hpp\n'}
+[84.710154] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/Error_.hpp\n'}
+[84.710417] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/VoxelMapCompressed_.hpp\n'}
+[84.710475] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/go2/LowCmd_.hpp\n'}
+[84.710558] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2\n'}
+[84.710696] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/PointStamped_.hpp\n'}
+[84.710954] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/Twist_.hpp\n'}
+[84.711096] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/Odometry_.hpp\n'}
+[84.711325] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/PoseStamped_.hpp\n'}
+[84.711551] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovarianceStamped_.hpp\n'}
+[84.711850] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/Point32_.hpp\n'}
+[84.711898] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/MapMetaData_.hpp\n'}
+[84.712211] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovariance_.hpp\n'}
+[84.712379] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/Imu_.hpp\n'}
+[84.712562] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovarianceStamped_.hpp\n'}
+[84.712796] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/Header_.hpp\n'}
+[84.712969] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/PointCloud2_.hpp\n'}
+[84.713160] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/Pose_.hpp\n'}
+[84.713331] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/PointField_.hpp\n'}
+[84.713507] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/Time_.hpp\n'}
+[84.713708] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/QuaternionStamped_.hpp\n'}
+[84.714037] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/Vector3_.hpp\n'}
+[84.714269] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovariance_.hpp\n'}
+[84.714495] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/TwistStamped_.hpp\n'}
+[84.714744] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/Quaternion_.hpp\n'}
+[84.714938] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/Pose2D_.hpp\n'}
+[84.715016] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/String_.hpp\n'}
+[84.715085] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/OccupancyGrid_.hpp\n'}
+[84.715438] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/ros2/Point_.hpp\n'}
+[84.715496] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg_doubleimu\n'}
+[84.715527] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg_doubleimu/doubleIMUState_.hpp\n'}
+[84.715720] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg\n'}
+[84.716509] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg/BmsState_.hpp\n'}
+[84.716574] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg/HandCmd_.hpp\n'}
+[84.716607] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg/LowState_.hpp\n'}
+[84.716638] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg/MotorState_.hpp\n'}
+[84.716668] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg/HandState_.hpp\n'}
+[84.717278] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg/PressSensorState_.hpp\n'}
+[84.717426] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg/BmsCmd_.hpp\n'}
+[84.717821] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg/IMUState_.hpp\n'}
+[84.717886] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg/MainBoardState_.hpp\n'}
+[84.718193] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg/MotorCmd_.hpp\n'}
+[84.718262] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/unitree/idl/hg/LowCmd_.hpp\n'}
+[84.718343] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/lib/libunitree_sdk2.a\n'}
+[84.721446] (-) TimerEvent: {}
+[84.771061] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Targets.cmake\n'}
+[84.771199] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Config.cmake\n'}
+[84.771236] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2ConfigVersion.cmake\n'}
+[84.771293] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/lib/libddsc.so\n'}
+[84.784603] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/lib/libddsc.so.0\n'}
+[84.784720] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/lib/libddscxx.so\n'}
+[84.787740] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/lib/libddscxx.so.0\n'}
+[84.787856] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/yzz/ROS2_WS/install/unitree_sdk2/include\n'}
+[84.787894] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx\n'}
+[84.787933] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds\n'}
+[84.787982] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub\n'}
+[84.788014] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/find.hpp\n'}
+[84.788060] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/LoanedSamples.hpp\n'}
+[84.788105] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/DataReader.hpp\n'}
+[84.788140] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/TGenerationCount.hpp\n'}
+[84.788180] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/TAnyDataReader.hpp\n'}
+[84.789521] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/CoherentAccess.hpp\n'}
+[84.789674] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/cond\n'}
+[84.789713] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail\n'}
+[84.789745] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TReadConditionImpl.hpp\n'}
+[84.789775] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/ReadCondition.hpp\n'}
+[84.789804] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/QueryCondition.hpp\n'}
+[84.789834] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TQueryConditionImpl.hpp\n'}
+[84.789863] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/cond/ReadCondition.hpp\n'}
+[84.789893] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/cond/QueryCondition.hpp\n'}
+[84.789922] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TQueryCondition.hpp\n'}
+[84.789951] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TReadCondition.hpp\n'}
+[84.789980] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/TCoherentAccess.hpp\n'}
+[84.790014] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/discovery.hpp\n'}
+[84.790044] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/ddssub.hpp\n'}
+[84.790072] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReader.hpp\n'}
+[84.790101] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/GenerationCount.hpp\n'}
+[84.790130] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/TRank.hpp\n'}
+[84.790159] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/TSubscriber.hpp\n'}
+[84.790188] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail\n'}
+[84.790217] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/find.hpp\n'}
+[84.790246] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamples.hpp\n'}
+[84.790275] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamplesImpl.hpp\n'}
+[84.790303] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/DataReader.hpp\n'}
+[84.790333] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/CoherentAccess.hpp\n'}
+[84.790361] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/discovery.hpp\n'}
+[84.790390] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/ddssub.hpp\n'}
+[84.790441] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSubscriberImpl.hpp\n'}
+[84.790470] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/AnyDataReader.hpp\n'}
+[84.790501] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Manipulators.hpp\n'}
+[84.790561] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TAnyDataReaderImpl.hpp\n'}
+[84.790608] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamplesImpl.hpp\n'}
+[84.790641] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TRankImpl.hpp\n'}
+[84.790687] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/GenerationCount.hpp\n'}
+[84.790716] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleImpl.hpp\n'}
+[84.790762] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleRef.hpp\n'}
+[84.790807] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleRefImpl.hpp\n'}
+[84.791427] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamples.hpp\n'}
+[84.791461] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SamplesHolder.hpp\n'}
+[84.791492] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Subscriber.hpp\n'}
+[84.791522] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Query.hpp\n'}
+[84.791551] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TCoherentAccessImpl.hpp\n'}
+[84.791581] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Sample.hpp\n'}
+[84.791609] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleInfo.hpp\n'}
+[84.791638] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleInfoImpl.hpp\n'}
+[84.791667] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TGenerationCountImpl.hpp\n'}
+[84.791695] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TQueryImpl.hpp\n'}
+[84.791724] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Rank.hpp\n'}
+[84.791752] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TDataReaderImpl.hpp\n'}
+[84.791780] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/DataReaderListener.hpp\n'}
+[84.791809] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/SubscriberListener.hpp\n'}
+[84.791836] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/status\n'}
+[84.791902] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail\n'}
+[84.791942] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail/DataStateImpl.hpp\n'}
+[84.791992] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/status/DataState.hpp\n'}
+[84.792073] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/qos\n'}
+[84.794470] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/qos/SubscriberQos.hpp\n'}
+[84.794523] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail\n'}
+[84.794555] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/SubscriberQos.hpp\n'}
+[84.794586] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/DataReaderQos.hpp\n'}
+[84.794615] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/qos/DataReaderQos.hpp\n'}
+[84.794645] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/TDataReader.hpp\n'}
+[84.794674] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/SampleRef.hpp\n'}
+[84.794702] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/SharedSamples.hpp\n'}
+[84.794730] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleInfo.hpp\n'}
+[84.794760] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/Subscriber.hpp\n'}
+[84.794853] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/Query.hpp\n'}
+[84.794896] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/TSample.hpp\n'}
+[84.794927] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/Sample.hpp\n'}
+[84.794958] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleRef.hpp\n'}
+[84.794987] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReaderListener.hpp\n'}
+[84.795017] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/SampleInfo.hpp\n'}
+[84.795046] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/TQuery.hpp\n'}
+[84.795075] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/sub/Rank.hpp\n'}
+[84.795104] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/dds.hpp\n'}
+[84.795133] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain\n'}
+[84.795162] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/find.hpp\n'}
+[84.795191] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/TDomainParticipant.hpp\n'}
+[84.795708] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipant.hpp\n'}
+[84.795807] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/discovery.hpp\n'}
+[84.795853] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/detail\n'}
+[84.795901] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/detail/TDomainParticipantImpl.hpp\n'}
+[84.796191] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/detail/DomainParticipant.hpp\n'}
+[84.796273] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/detail/ddsdomain.hpp\n'}
+[84.796322] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/qos\n'}
+[84.796353] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail\n'}
+[84.796384] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail/DomainParticipantQos.hpp\n'}
+[84.796441] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/qos/DomainParticipantQos.hpp\n'}
+[84.796479] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipantListener.hpp\n'}
+[84.796522] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/domain/ddsdomain.hpp\n'}
+[84.796552] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core\n'}
+[84.796582] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/InstanceHandle.hpp\n'}
+[84.796612] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/macros.hpp\n'}
+[84.796641] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/refmacros.hpp\n'}
+[84.796673] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/QosProvider.hpp\n'}
+[84.796718] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/Exception.hpp\n'}
+[84.796748] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond\n'}
+[84.796777] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/Condition.hpp\n'}
+[84.796806] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/StatusCondition.hpp\n'}
+[84.796897] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/TCondition.hpp\n'}
+[84.797031] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/TWaitSet.hpp\n'}
+[84.797074] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/TStatusCondition.hpp\n'}
+[84.797117] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail\n'}
+[84.797148] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/Condition.hpp\n'}
+[84.797219] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/StatusCondition.hpp\n'}
+[84.797253] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TWaitSetImpl.hpp\n'}
+[84.797544] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TStatusConditionImpl.hpp\n'}
+[84.797576] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/GuardCondition.hpp\n'}
+[84.797606] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TConditionImpl.hpp\n'}
+[84.797652] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/WaitSet.hpp\n'}
+[84.797682] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TGuardConditionImpl.hpp\n'}
+[84.797712] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/GuardCondition.hpp\n'}
+[84.797741] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/TGuardCondition.hpp\n'}
+[84.799424] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/cond/WaitSet.hpp\n'}
+[84.799460] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/External.hpp\n'}
+[84.799490] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/Time.hpp\n'}
+[84.799520] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/LengthUnlimited.hpp\n'}
+[84.799549] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/Value.hpp\n'}
+[84.799578] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail\n'}
+[84.799607] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/InstanceHandle.hpp\n'}
+[84.799636] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/macros.hpp\n'}
+[84.799670] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/QosProvider.hpp\n'}
+[84.799699] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityImpl.hpp\n'}
+[84.799728] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/module_docs.hpp\n'}
+[84.799756] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/Value.hpp\n'}
+[84.799784] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/BuiltinTopicTypes.hpp\n'}
+[84.799813] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/TQosProviderImpl.hpp\n'}
+[84.799841] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/array.hpp\n'}
+[84.799870] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/ref_traits.hpp\n'}
+[84.799898] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/ddscore.hpp\n'}
+[84.799926] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/WeakReferenceImpl.hpp\n'}
+[84.799954] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/Entity.hpp\n'}
+[84.799982] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/export.hpp\n'}
+[84.800009] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/ReferenceImpl.hpp\n'}
+[84.800038] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/old_win_stdint.h\n'}
+[84.800065] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/TInstanceHandleImpl.hpp\n'}
+[84.800094] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/inttypes.hpp\n'}
+[84.800122] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/conformance.hpp\n'}
+[84.800149] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityQosImpl.hpp\n'}
+[84.800177] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/BuiltinTopicTypes.hpp\n'}
+[84.800205] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes\n'}
+[84.800233] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/PrimitiveTypes.hpp\n'}
+[84.800262] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TAnnotation.hpp\n'}
+[84.800301] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/Annotations.hpp\n'}
+[84.800335] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/StructType.hpp\n'}
+[84.800365] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicType.hpp\n'}
+[84.800828] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail\n'}
+[84.800939] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/PrimitiveTypes.hpp\n'}
+[84.800991] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/StructType.hpp\n'}
+[84.801022] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/Annotation.hpp\n'}
+[84.801079] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicType.hpp\n'}
+[84.801110] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionType.hpp\n'}
+[84.801153] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/MemberType.hpp\n'}
+[84.801203] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionCase.hpp\n'}
+[84.801269] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicData.hpp\n'}
+[84.801404] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/CollectionTypes.hpp\n'}
+[84.801462] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/TypeProvider.hpp\n'}
+[84.801509] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicType.hpp\n'}
+[84.801540] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionType.hpp\n'}
+[84.801569] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/MemberType.hpp\n'}
+[84.802013] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionCase.hpp\n'}
+[84.804108] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicData.hpp\n'}
+[84.804143] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TStructType.hpp\n'}
+[84.804174] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeKind.hpp\n'}
+[84.804203] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TMemberType.hpp\n'}
+[84.804233] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicData.hpp\n'}
+[84.804261] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/CollectionTypes.hpp\n'}
+[84.804303] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeProvider.hpp\n'}
+[84.804337] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TCollectionTypes.hpp\n'}
+[84.804368] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TTypeProvider.hpp\n'}
+[84.804403] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/array.hpp\n'}
+[84.804435] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/SafeEnumeration.hpp\n'}
+[84.804463] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/status\n'}
+[84.804494] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/status/TStatus.hpp\n'}
+[84.804525] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/status/detail\n'}
+[84.804555] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/TStatusImpl.hpp\n'}
+[84.804583] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/Status.hpp\n'}
+[84.804612] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/status/State.hpp\n'}
+[84.804641] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/status/Status.hpp\n'}
+[84.804670] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/ref_traits.hpp\n'}
+[84.804698] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/ddscore.hpp\n'}
+[84.804727] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/policy\n'}
+[84.804755] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/policy/PolicyKind.hpp\n'}
+[84.804783] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/policy/CorePolicy.hpp\n'}
+[84.804812] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/policy/QosPolicyCount.hpp\n'}
+[84.804840] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail\n'}
+[84.804869] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/CorePolicy.hpp\n'}
+[84.804897] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/QosPolicyCount.hpp\n'}
+[84.804926] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TQosPolicyCountImpl.hpp\n'}
+[84.805386] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TCorePolicyImpl.hpp\n'}
+[84.805503] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/policy/TQosPolicyCount.hpp\n'}
+[84.805628] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/policy/TCorePolicy.hpp\n'}
+[84.805678] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/TQosProvider.hpp\n'}
+[84.805718] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/Entity.hpp\n'}
+[84.805762] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/Duration.hpp\n'}
+[84.805806] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/Optional.hpp\n'}
+[84.805850] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/WeakReference.hpp\n'}
+[84.805884] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/TEntityQos.hpp\n'}
+[84.805923] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/TEntity.hpp\n'}
+[84.805953] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/TBuiltinTopicTypes.hpp\n'}
+[84.805982] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/TInstanceHandle.hpp\n'}
+[84.806015] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/Reference.hpp\n'}
+[84.806044] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/conformance.hpp\n'}
+[84.806094] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/core/types.hpp\n'}
+[84.806123] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub\n'}
+[84.806162] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/find.hpp\n'}
+[84.806199] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriter.hpp\n'}
+[84.806232] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriterListener.hpp\n'}
+[84.806276] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/Publisher.hpp\n'}
+[84.806506] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/discovery.hpp\n'}
+[84.806642] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/PublisherListener.hpp\n'}
+[84.806749] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/TCoherentSet.hpp\n'}
+[84.806780] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/TSuspendedPublication.hpp\n'}
+[84.806811] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/CoherentSet.hpp\n'}
+[84.806840] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/SuspendedPublication.hpp\n'}
+[84.806870] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail\n'}
+[84.806899] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail/find.hpp\n'}
+[84.809037] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TCoherentSetImpl.hpp\n'}
+[84.809074] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriter.hpp\n'}
+[84.809105] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail/Publisher.hpp\n'}
+[84.809134] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail/discovery.hpp\n'}
+[84.809164] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail/CoherentSet.hpp\n'}
+[84.809193] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail/SuspendedPublication.hpp\n'}
+[84.809222] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TAnyDataWriterImpl.hpp\n'}
+[84.809251] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TPublisherImpl.hpp\n'}
+[84.809280] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail/AnyDataWriter.hpp\n'}
+[84.809308] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriterImpl.hpp\n'}
+[84.809337] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TSuspendedPublicationImpl.hpp\n'}
+[84.809367] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/detail/ddspub.hpp\n'}
+[84.809401] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/TAnyDataWriter.hpp\n'}
+[84.809434] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/qos\n'}
+[84.809462] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/qos/DataWriterQos.hpp\n'}
+[84.809491] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail\n'}
+[84.809519] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/DataWriterQos.hpp\n'}
+[84.809548] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/PublisherQos.hpp\n'}
+[84.809576] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/qos/PublisherQos.hpp\n'}
+[84.809605] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriter.hpp\n'}
+[84.809634] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/TPublisher.hpp\n'}
+[84.809663] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriterListener.hpp\n'}
+[84.809691] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/pub/ddspub.hpp\n'}
+[84.809719] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic\n'}
+[84.809747] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/find.hpp\n'}
+[84.809775] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/TopicInstance.hpp\n'}
+[84.810111] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/ddstopic.hpp\n'}
+[84.810168] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/TContentFilteredTopic.hpp\n'}
+[84.810206] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/Filter.hpp\n'}
+[84.810236] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/TopicDescription.hpp\n'}
+[84.810266] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/discovery.hpp\n'}
+[84.810295] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/MultiTopic.hpp\n'}
+[84.810325] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/TTopic.hpp\n'}
+[84.810354] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopicKey.hpp\n'}
+[84.810382] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/Topic.hpp\n'}
+[84.810525] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail\n'}
+[84.810562] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/find.hpp\n'}
+[84.810592] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ddstopic.hpp\n'}
+[84.810625] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicImpl.hpp\n'}
+[84.810661] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Filter.hpp\n'}
+[84.810706] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicDescription.hpp\n'}
+[84.810751] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/discovery.hpp\n'}
+[84.810805] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/MultiTopic.hpp\n'}
+[84.810859] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicImpl.hpp\n'}
+[84.810904] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicInstanceImpl.hpp\n'}
+[84.810950] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Topic.hpp\n'}
+[84.810994] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicDescriptionImpl.hpp\n'}
+[84.811024] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicKeyImpl.hpp\n'}
+[84.811053] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TFilterImpl.hpp\n'}
+[84.811082] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp\n'}
+[84.811110] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TAnyTopicImpl.hpp\n'}
+[84.811156] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/AnyTopic.hpp\n'}
+[84.811201] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TContentFilteredTopicImpl.hpp\n'}
+[84.811235] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp\n'}
+[84.813451] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopicKey.hpp\n'}
+[84.813483] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopicListener.hpp\n'}
+[84.813512] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/TopicTraits.hpp\n'}
+[84.813541] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/TAnyTopic.hpp\n'}
+[84.813570] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/qos\n'}
+[84.813682] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/qos/TopicQos.hpp\n'}
+[84.813723] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail\n'}
+[84.813755] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail/TopicQos.hpp\n'}
+[84.813785] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopic.hpp\n'}
+[84.813815] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/TFilter.hpp\n'}
+[84.813844] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopic.hpp\n'}
+[84.813877] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/TopicListener.hpp\n'}
+[84.813906] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopic.hpp\n'}
+[84.813936] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/TTopicDescription.hpp\n'}
+[84.813965] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/ContentFilteredTopic.hpp\n'}
+[84.813994] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopicKey.hpp\n'}
+[84.814025] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/topic/TMultiTopic.hpp\n'}
+[84.814054] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/LICENSE\n'}
+[84.814083] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/dds/features.hpp\n'}
+[84.814111] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org\n'}
+[84.814139] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse\n'}
+[84.814167] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds\n'}
+[84.814195] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub\n'}
+[84.814224] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond\n'}
+[84.814252] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/ReadConditionDelegate.hpp\n'}
+[84.814282] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/QueryConditionDelegate.hpp\n'}
+[84.814310] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/RankImpl.hpp\n'}
+[84.814339] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/BuiltinSubscriberDelegate.hpp\n'}
+[84.814368] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/QueryDelegate.hpp\n'}
+[84.814413] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SampleInfoImpl.hpp\n'}
+[84.814534] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/CoherentAccessDelegate.hpp\n'}
+[84.814572] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos\n'}
+[84.814602] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/SubscriberQosDelegate.hpp\n'}
+[84.814639] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/DataReaderQosDelegate.hpp\n'}
+[84.814668] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/GenerationCountImpl.hpp\n'}
+[84.814696] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp\n'}
+[84.814725] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SubscriberDelegate.hpp\n'}
+[84.814760] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain\n'}
+[84.814833] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainWrap.hpp\n'}
+[84.814886] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantRegistry.hpp\n'}
+[84.814918] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos\n'}
+[84.814948] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos/DomainParticipantQosDelegate.hpp\n'}
+[84.814978] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantListener.hpp\n'}
+[84.815007] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantDelegate.hpp\n'}
+[84.815047] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/Domain.hpp\n'}
+[84.815077] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/ForwardDeclarations.hpp\n'}
+[84.815107] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core\n'}
+[84.815135] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/type_helpers.hpp\n'}
+[84.815164] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectDelegate.hpp\n'}
+[84.815193] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/TimeHelper.hpp\n'}
+[84.815331] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/config.hpp\n'}
+[84.815387] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond\n'}
+[84.815428] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ConditionDelegate.hpp\n'}
+[84.815470] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/FunctorHolder.hpp\n'}
+[84.815513] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/WaitSetDelegate.hpp\n'}
+[84.815544] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/GuardConditionDelegate.hpp\n'}
+[84.815575] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ShadowParticipant.hpp\n'}
+[84.815609] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/StatusConditionDelegate.hpp\n'}
+[84.815651] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/WeakReferenceSet.hpp\n'}
+[84.815680] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectSet.hpp\n'}
+[84.815709] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Missing.hpp\n'}
+[84.815739] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntitySet.hpp\n'}
+[84.815784] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr\n'}
+[84.815814] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp\n'}
+[84.815843] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp\n'}
+[84.815872] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp\n'}
+[84.816516] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_enums.hpp\n'}
+[84.816548] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/entity_properties.hpp\n'}
+[84.816579] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/fragchain.hpp\n'}
+[84.816607] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp\n'}
+[84.816638] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/DDScObjectDelegate.hpp\n'}
+[84.816685] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status\n'}
+[84.816716] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status/StatusDelegate.hpp\n'}
+[84.816746] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityDelegate.hpp\n'}
+[84.816775] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy\n'}
+[84.816820] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/Policy.hpp\n'}
+[84.816850] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/PolicyDelegate.hpp\n'}
+[84.816894] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/QosPolicyCountDelegate.hpp\n'}
+[84.816924] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/ProprietaryPolicyKind.hpp\n'}
+[84.816953] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/TPolicy.hpp\n'}
+[84.816982] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/InstanceHandleDelegate.hpp\n'}
+[84.817011] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ReportUtils.hpp\n'}
+[84.817040] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityRegistry.hpp\n'}
+[84.817069] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/QosProviderDelegate.hpp\n'}
+[84.817099] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Mutex.hpp\n'}
+[84.817127] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/MiscUtils.hpp\n'}
+[84.818259] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ListenerDispatcher.hpp\n'}
+[84.819468] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ScopedLock.hpp\n'}
+[84.819530] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub\n'}
+[84.819561] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/CoherentSetDelegate.hpp\n'}
+[84.819596] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos\n'}
+[84.819636] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/DataWriterQosDelegate.hpp\n'}
+[84.819665] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/PublisherQosDelegate.hpp\n'}
+[84.819694] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/PublisherDelegate.hpp\n'}
+[84.819726] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/SuspendedPublicationDelegate.hpp\n'}
+[84.819769] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/AnyDataWriterDelegate.hpp\n'}
+[84.819798] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic\n'}
+[84.819827] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/find.hpp\n'}
+[84.819870] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/hash.hpp\n'}
+[84.819900] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/discovery.hpp\n'}
+[84.819929] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicListener.hpp\n'}
+[84.819958] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp\n'}
+[84.819989] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp\n'}
+[84.820028] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos\n'}
+[84.820056] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos/TopicQosDelegate.hpp\n'}
+[84.820085] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/FilterDelegate.hpp\n'}
+[84.820113] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicDelegate.hpp\n'}
+[84.820146] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TBuiltinTopic.hpp\n'}
+[84.820187] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicDescriptionDelegate.hpp\n'}
+[84.820218] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicKeyDelegate.hpp\n'}
+[84.820247] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopic.hpp\n'}
+[84.820290] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicListener.hpp\n'}
+[84.820319] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicDelegate.hpp\n'}
+[84.820347] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicTraits.hpp\n'}
+[84.820376] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/CDRBlob.hpp\n'}
+[84.820428] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicCopy.hpp\n'}
+[84.820458] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds\n'}
+[84.820487] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi\n'}
+[84.820517] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_radmin.h\n'}
+[84.820774] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_sertopic.h\n'}
+[84.822412] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_pmd.h\n'}
+[84.822502] (-) TimerEvent: {}
+[84.822609] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_statistics.h\n'}
+[84.822680] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_endpoint.h\n'}
+[84.822743] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_security_exchange.h\n'}
+[84.822790] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_typelookup.h\n'}
+[84.822826] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_debmon.h\n'}
+[84.822870] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_pserop.h\n'}
+[84.822963] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_list_tmpl.h\n'}
+[84.823011] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_default.h\n'}
+[84.823060] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgelems.h\n'}
+[84.823090] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_lease.h\n'}
+[84.823120] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_participant.h\n'}
+[84.823150] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_tran.h\n'}
+[84.823197] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_protocol.h\n'}
+[84.823229] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_keyhash.h\n'}
+[84.823258] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_init.h\n'}
+[84.823291] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_shm_transport.h\n'}
+[84.823319] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.h\n'}
+[84.823387] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.idl\n'}
+[84.823424] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_locator.h\n'}
+[84.823458] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_pcap.h\n'}
+[84.823504] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_gc.h\n'}
+[84.823534] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_xmsg.h\n'}
+[84.823563] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_qosmatch.h\n'}
+[84.823592] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_domaingv.h\n'}
+[84.823620] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_deliver_locally.h\n'}
+[84.823779] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_bswap.h\n'}
+[84.823843] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_mcgroup.h\n'}
+[84.823893] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_config_impl.h\n'}
+[84.823924] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_lat_estim.h\n'}
+[84.823959] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_endpoint.h\n'}
+[84.824002] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_acknack.h\n'}
+[84.824031] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_ipaddr.h\n'}
+[84.824060] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_hbcontrol.h\n'}
+[84.824094] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_misc.h\n'}
+[84.824132] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_list_genptr.h\n'}
+[84.824161] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_guid.h\n'}
+[84.824189] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_topic.h\n'}
+[84.824222] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_bitset.h\n'}
+[84.824261] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_tkmap.h\n'}
+[84.824289] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_ddsi_discovery.h\n'}
+[84.824317] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_addrset.h\n'}
+[84.826408] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.h\n'}
+[84.826459] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_ssl.h\n'}
+[84.826491] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_ownip.h\n'}
+[84.826524] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_thread.h\n'}
+[84.826556] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_log.h\n'}
+[84.826585] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_typewrap.h\n'}
+[84.826615] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_whc.h\n'}
+[84.826643] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_udp.h\n'}
+[84.826671] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_participant.h\n'}
+[84.826699] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_unused.h\n'}
+[84.826728] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_index.h\n'}
+[84.826760] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_vendor.h\n'}
+[84.826789] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_tcp.h\n'}
+[84.826817] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_cdrstream.h\n'}
+[84.826845] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_impl.h\n'}
+[84.826873] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_receive.h\n'}
+[84.826901] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_security_msg.h\n'}
+[84.826971] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_plist.h\n'}
+[84.827004] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_config.h\n'}
+[84.827034] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_time.h\n'}
+[84.827063] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_inverse_uint32_set.h\n'}
+[84.827100] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_iid.h\n'}
+[84.827129] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_lifespan.h\n'}
+[84.827157] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_freelist.h\n'}
+[84.827185] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_sockwaitset.h\n'}
+[84.827229] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.h\n'}
+[84.827259] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_security_util.h\n'}
+[84.827287] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_entity.h\n'}
+[84.827340] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_deadline.h\n'}
+[84.827397] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_typelib.h\n'}
+[84.827431] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_raweth.h\n'}
+[84.827461] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_rtps.h\n'}
+[84.827506] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_match.h\n'}
+[84.827537] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_plist.h\n'}
+[84.827566] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_xqos.h\n'}
+[84.827595] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_feature_check.h\n'}
+[84.827639] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_security_omg.h\n'}
+[84.827669] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_threadmon.h\n'}
+[84.827697] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_handshake.h\n'}
+[84.827726] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgunits.h\n'}
+[84.827769] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_vnet.h\n'}
+[84.827799] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_typebuilder.h\n'}
+[84.827828] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_wraddrset.h\n'}
+[84.827876] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_sertype.h\n'}
+[84.827938] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_xevent.h\n'}
+[84.828066] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.idl\n'}
+[84.828200] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/q_transmit.h\n'}
+[84.828401] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_plist_generic.h\n'}
+[84.828568] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/sysdeps.h\n'}
+[84.828707] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_builtin_topic_if.h\n'}
+[84.828839] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata.h\n'}
+[84.829285] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_rhc.h\n'}
+[84.829349] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_portmapping.h\n'}
+[84.829386] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.idl\n'}
+[84.829488] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/dds.h\n'}
+[84.829651] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/export.h\n'}
+[84.829699] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/features.h\n'}
+[84.829745] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/version.h\n'}
+[84.829888] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/config.h\n'}
+[84.829940] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt\n'}
+[84.829997] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/strtod.h\n'}
+[84.830223] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/sync.h\n'}
+[84.830444] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/filesystem\n'}
+[84.830522] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/filesystem/posix.h\n'}
+[84.830660] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/filesystem/windows.h\n'}
+[84.830800] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/circlist.h\n'}
+[84.830924] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/static_assert.h\n'}
+[84.830979] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/expand_vars.h\n'}
+[84.831100] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/random.h\n'}
+[84.831150] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/sync\n'}
+[84.831197] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/sync/freertos.h\n'}
+[84.831743] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/sync/posix.h\n'}
+[84.831801] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/sync/windows.h\n'}
+[84.831833] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/types\n'}
+[84.831863] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/types/vxworks.h\n'}
+[84.832425] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/types/posix.h\n'}
+[84.832468] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/types/windows.h\n'}
+[84.832502] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/threads\n'}
+[84.832534] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/threads/freertos.h\n'}
+[84.832563] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/threads/posix.h\n'}
+[84.832592] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/threads/windows.h\n'}
+[84.832734] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/atomics\n'}
+[84.832774] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/atomics/sun.h\n'}
+[84.832804] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/atomics/arm.h\n'}
+[84.833018] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/atomics/gcc.h\n'}
+[84.833887] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/atomics/msvc.h\n'}
+[84.834147] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/retcode.h\n'}
+[84.834186] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/sockets.h\n'}
+[84.834230] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/rusage.h\n'}
+[84.834268] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/log.h\n'}
+[84.834309] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/hopscotch.h\n'}
+[84.834625] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/io.h\n'}
+[84.836471] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/iovec.h\n'}
+[84.838429] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/time.h\n'}
+[84.838470] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/strtol.h\n'}
+[84.838503] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/md5.h\n'}
+[84.838533] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/misc.h\n'}
+[84.838563] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/sockets\n'}
+[84.838683] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/sockets/posix.h\n'}
+[84.838728] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/sockets/windows.h\n'}
+[84.838760] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/threads.h\n'}
+[84.838790] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/heap.h\n'}
+[84.838819] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/atomics.h\n'}
+[84.838848] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/time\n'}
+[84.838877] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/time/freertos.h\n'}
+[84.838907] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/string.h\n'}
+[84.838936] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/fibheap.h\n'}
+[84.838964] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/countargs.h\n'}
+[84.838998] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/align.h\n'}
+[84.840509] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/endian.h\n'}
+[84.840558] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/cdtors.h\n'}
+[84.840629] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/netstat.h\n'}
+[84.840760] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/process.h\n'}
+[84.841170] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/arch.h\n'}
+[84.841226] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/dynlib.h\n'}
+[84.841358] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/avl.h\n'}
+[84.841698] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/xmlparser.h\n'}
+[84.841763] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/sched.h\n'}
+[84.841811] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/types.h\n'}
+[84.841857] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/bswap.h\n'}
+[84.841963] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/ifaddrs.h\n'}
+[84.842094] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/environ.h\n'}
+[84.843433] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/attributes.h\n'}
+[84.843488] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/filesystem.h\n'}
+[84.843520] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsrt/mh3.h\n'}
+[84.843550] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc\n'}
+[84.843581] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_loan_api.h\n'}
+[84.843650] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_internal_api.h\n'}
+[84.844037] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_data_allocator.h\n'}
+[84.844427] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_basic_types.h\n'}
+[84.844608] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_opcodes.h\n'}
+[84.844806] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_public_impl.h\n'}
+[84.844992] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_rhc.h\n'}
+[84.845530] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_public_status.h\n'}
+[84.847623] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_public_error.h\n'}
+[84.847692] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_public_qosdefs.h\n'}
+[84.847732] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_public_qos.h\n'}
+[84.847764] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_public_alloc.h\n'}
+[84.847794] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_statistics.h\n'}
+[84.847823] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/dds/ddsc/dds_public_listener.h\n'}
+[84.847861] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddsc\n'}
+[84.847897] (unitree_sdk2) StdoutLine: {'line': b'-- Installing: /home/yzz/ROS2_WS/install/unitree_sdk2/include/ddsc/dds.h\n'}
+[84.852719] (unitree_sdk2) CommandEnded: {'returncode': 0}
+[84.871978] (unitree_sdk2) JobEnded: {'identifier': 'unitree_sdk2', 'rc': 0}
+[84.872726] (-) EventReactorShutdown: {}

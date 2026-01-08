@@ -1,0 +1,1 @@
+/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_generator_cpp/control_input_msgs/msg/detail/inputs__traits.hpp

@@ -1,0 +1,7 @@
+[01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Klogging.hpp: 没有那个文件或目录
+   11 | #include [01;31m[K<logging.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/unitree_guide_controller.dir/build.make:146：CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/unitree_guide_controller.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

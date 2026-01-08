@@ -1,0 +1,1 @@
+/home/yzz/ROS2_WS/build/controller_common/ament_cmake_core/controller_commonConfig-version.cmake

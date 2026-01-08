@@ -1,0 +1,1 @@
+/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_core/control_input_msgsConfig-version.cmake

@@ -1,0 +1,3 @@
+/home/yzz/ROS2_WS/install/unitree_guide_controller/lib/unitree_guide_controller/libunitree_guide_controller.so
+/home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/cmake/export_unitree_guide_controllerExport.cmake
+/home/yzz/ROS2_WS/install/unitree_guide_controller/share/unitree_guide_controller/cmake/export_unitree_guide_controllerExport-release.cmake

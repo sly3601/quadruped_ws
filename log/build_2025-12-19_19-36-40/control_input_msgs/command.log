@@ -1,0 +1,6 @@
+Invoking command in '/home/yzz/ROS2_WS/build/control_input_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzz/ROS2_WS/install/control_input_msgs
+Invoked command in '/home/yzz/ROS2_WS/build/control_input_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzz/ROS2_WS/install/control_input_msgs
+Invoking command in '/home/yzz/ROS2_WS/build/control_input_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzz/ROS2_WS/build/control_input_msgs -- -j2 -l2
+Invoked command in '/home/yzz/ROS2_WS/build/control_input_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzz/ROS2_WS/build/control_input_msgs -- -j2 -l2
+Invoking command in '/home/yzz/ROS2_WS/build/control_input_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzz/ROS2_WS/build/control_input_msgs
+Invoked command in '/home/yzz/ROS2_WS/build/control_input_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzz/ROS2_WS/build/control_input_msgs

@@ -1,0 +1,23 @@
+[0.039s] Invoking command in '/home/yzz/ROS2_WS/build/unitree_guide_controller': CMAKE_PREFIX_PATH=/home/yzz/ROS2_WS/install/controller_common:/home/yzz/ROS2_WS/install/control_input_msgs:/home/yzz/ROS2_WS/install/unitree_sdk2:/home/yzz/ROS2_WS/install/unitree_guide_controller:/home/yzz/ROS2_WS/install/leg_pd_controller:/home/yzz/ROS2_WS/install/keyboard_input:/home/yzz/ROS2_WS/install/go1_description:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/ROS2_WS/install/controller_common/lib:/home/yzz/ROS2_WS/install/control_input_msgs/lib:/home/yzz/ROS2_WS/install/unitree_sdk2/lib:/home/yzz/ROS2_WS/install/unitree_guide_controller/lib:/home/yzz/ROS2_WS/install/leg_pd_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yzz/ROS2_WS/build/unitree_guide_controller -- -j2 -l2
+[0.154s] [  5%] [32mBuilding CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o[0m
+[1.840s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:[m[K In member function ‘[01m[Kvoid StateTrotting::calcTau()[m[K’:
+[1.840s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:165:25:[m[K [01;31m[Kerror: [m[K‘[01m[Klog_counter[m[K’ was not declared in this scope
+[1.841s]   165 |                     if ([01;31m[Klog_counter[m[K % 10 == 0) {
+[1.841s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[1.842s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:167:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[1.844s]   167 |                 rclcpp::[01;31m[Kget_logger[m[K("JointTorqueLogger"),  // 日志器名称（方便过滤）
+[1.844s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[1.847s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:169:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kleg_names[m[K’ was not declared in this scope
+[1.847s]   169 |                 [01;31m[Kleg_names[m[K[i].c_str(),
+[1.849s]       |                 [01;31m[K^~~~~~~~~[m[K
+[1.852s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:170:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names[m[K’ was not declared in this scope
+[1.852s]   170 |                 [01;31m[Kjoint_names[m[K[j].c_str(),
+[1.853s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[1.857s] [01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:166:13:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_IMPORT[m[K’?
+[1.859s]   166 |             [01;31m[KRCLCPP_INFO[m[K(
+[1.859s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.859s]       |             [32m[KRCLCPP_IMPORT[m[K
+[2.575s] gmake[2]: *** [CMakeFiles/unitree_guide_controller.dir/build.make:146：CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o] 错误 1
+[2.576s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/unitree_guide_controller.dir/all] 错误 2
+[2.576s] gmake: *** [Makefile:146：all] 错误 2
+[2.579s] Invoked command in '/home/yzz/ROS2_WS/build/unitree_guide_controller' returned '2': CMAKE_PREFIX_PATH=/home/yzz/ROS2_WS/install/controller_common:/home/yzz/ROS2_WS/install/control_input_msgs:/home/yzz/ROS2_WS/install/unitree_sdk2:/home/yzz/ROS2_WS/install/unitree_guide_controller:/home/yzz/ROS2_WS/install/leg_pd_controller:/home/yzz/ROS2_WS/install/keyboard_input:/home/yzz/ROS2_WS/install/go1_description:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/ROS2_WS/install/controller_common/lib:/home/yzz/ROS2_WS/install/control_input_msgs/lib:/home/yzz/ROS2_WS/install/unitree_sdk2/lib:/home/yzz/ROS2_WS/install/unitree_guide_controller/lib:/home/yzz/ROS2_WS/install/leg_pd_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yzz/ROS2_WS/build/unitree_guide_controller -- -j2 -l2

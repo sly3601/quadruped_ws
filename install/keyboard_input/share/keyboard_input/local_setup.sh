@@ -1,0 +1,1 @@
+/home/yzz/ROS2_WS/build/keyboard_input/ament_cmake_environment_hooks/local_setup.sh
