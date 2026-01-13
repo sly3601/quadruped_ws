@@ -1,1 +1,1 @@
-/home/yzz/ROS2_WS/build/unitree_guide_controller/ament_cmake_core/unitree_guide_controllerConfig-version.cmake
+/home/yzz/quadruped_ws/build/unitree_guide_controller/ament_cmake_core/unitree_guide_controllerConfig-version.cmake

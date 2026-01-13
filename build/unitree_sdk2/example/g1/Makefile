@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/unitree_sdk2
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/unitree_sdk2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/unitree_sdk2
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/unitree_sdk2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles /home/yzz/ROS2_WS/build/unitree_sdk2/example/g1//CMakeFiles/progress.marks
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles 0
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles /home/yzz/quadruped_ws/build/unitree_sdk2/example/g1//CMakeFiles/progress.marks
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/clean
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/preinstall
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/preinstall
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 example/g1/CMakeFiles/g1_loco_client.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_loco_client.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_loco_client.dir/rule
 .PHONY : example/g1/CMakeFiles/g1_loco_client.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ g1_loco_client: example/g1/CMakeFiles/g1_loco_client.dir/rule
 
 # fast build rule for target.
 g1_loco_client/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_loco_client.dir/build.make example/g1/CMakeFiles/g1_loco_client.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_loco_client.dir/build.make example/g1/CMakeFiles/g1_loco_client.dir/build
 .PHONY : g1_loco_client/fast
 
 # Convenience name for target.
 example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/rule
 .PHONY : example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ g1_arm5_sdk_dds_example: example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/rule
 
 # fast build rule for target.
 g1_arm5_sdk_dds_example/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/build
 .PHONY : g1_arm5_sdk_dds_example/fast
 
 # Convenience name for target.
 example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/rule
 .PHONY : example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/rule
 
 # Convenience name for target.
@@ -200,26 +200,12 @@ g1_arm7_sdk_dds_example: example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/rule
 
 # fast build rule for target.
 g1_arm7_sdk_dds_example/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/build
 .PHONY : g1_arm7_sdk_dds_example/fast
 
 # Convenience name for target.
-example/g1/CMakeFiles/g1_arm_action_example.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_arm_action_example.dir/rule
-.PHONY : example/g1/CMakeFiles/g1_arm_action_example.dir/rule
-
-# Convenience name for target.
-g1_arm_action_example: example/g1/CMakeFiles/g1_arm_action_example.dir/rule
-.PHONY : g1_arm_action_example
-
-# fast build rule for target.
-g1_arm_action_example/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm_action_example.dir/build.make example/g1/CMakeFiles/g1_arm_action_example.dir/build
-.PHONY : g1_arm_action_example/fast
-
-# Convenience name for target.
 example/g1/CMakeFiles/g1_ankle_swing_example.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_ankle_swing_example.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_ankle_swing_example.dir/rule
 .PHONY : example/g1/CMakeFiles/g1_ankle_swing_example.dir/rule
 
 # Convenience name for target.
@@ -228,12 +214,12 @@ g1_ankle_swing_example: example/g1/CMakeFiles/g1_ankle_swing_example.dir/rule
 
 # fast build rule for target.
 g1_ankle_swing_example/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_ankle_swing_example.dir/build.make example/g1/CMakeFiles/g1_ankle_swing_example.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_ankle_swing_example.dir/build.make example/g1/CMakeFiles/g1_ankle_swing_example.dir/build
 .PHONY : g1_ankle_swing_example/fast
 
 # Convenience name for target.
 example/g1/CMakeFiles/g1_audio_client_example.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_audio_client_example.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_audio_client_example.dir/rule
 .PHONY : example/g1/CMakeFiles/g1_audio_client_example.dir/rule
 
 # Convenience name for target.
@@ -242,12 +228,12 @@ g1_audio_client_example: example/g1/CMakeFiles/g1_audio_client_example.dir/rule
 
 # fast build rule for target.
 g1_audio_client_example/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_audio_client_example.dir/build.make example/g1/CMakeFiles/g1_audio_client_example.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_audio_client_example.dir/build.make example/g1/CMakeFiles/g1_audio_client_example.dir/build
 .PHONY : g1_audio_client_example/fast
 
 # Convenience name for target.
 example/g1/CMakeFiles/g1_dex3_example.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_dex3_example.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_dex3_example.dir/rule
 .PHONY : example/g1/CMakeFiles/g1_dex3_example.dir/rule
 
 # Convenience name for target.
@@ -256,12 +242,12 @@ g1_dex3_example: example/g1/CMakeFiles/g1_dex3_example.dir/rule
 
 # fast build rule for target.
 g1_dex3_example/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dex3_example.dir/build.make example/g1/CMakeFiles/g1_dex3_example.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dex3_example.dir/build.make example/g1/CMakeFiles/g1_dex3_example.dir/build
 .PHONY : g1_dex3_example/fast
 
 # Convenience name for target.
 example/g1/CMakeFiles/g1_termination.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_termination.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_termination.dir/rule
 .PHONY : example/g1/CMakeFiles/g1_termination.dir/rule
 
 # Convenience name for target.
@@ -270,12 +256,26 @@ g1_termination: example/g1/CMakeFiles/g1_termination.dir/rule
 
 # fast build rule for target.
 g1_termination/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_termination.dir/build.make example/g1/CMakeFiles/g1_termination.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_termination.dir/build.make example/g1/CMakeFiles/g1_termination.dir/build
 .PHONY : g1_termination/fast
 
 # Convenience name for target.
+example/g1/CMakeFiles/g1_arm_action_example.dir/rule:
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_arm_action_example.dir/rule
+.PHONY : example/g1/CMakeFiles/g1_arm_action_example.dir/rule
+
+# Convenience name for target.
+g1_arm_action_example: example/g1/CMakeFiles/g1_arm_action_example.dir/rule
+.PHONY : g1_arm_action_example
+
+# fast build rule for target.
+g1_arm_action_example/fast:
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm_action_example.dir/build.make example/g1/CMakeFiles/g1_arm_action_example.dir/build
+.PHONY : g1_arm_action_example/fast
+
+# Convenience name for target.
 example/g1/CMakeFiles/g1_dual_arm_example.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_dual_arm_example.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_dual_arm_example.dir/rule
 .PHONY : example/g1/CMakeFiles/g1_dual_arm_example.dir/rule
 
 # Convenience name for target.
@@ -284,15 +284,53 @@ g1_dual_arm_example: example/g1/CMakeFiles/g1_dual_arm_example.dir/rule
 
 # fast build rule for target.
 g1_dual_arm_example/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dual_arm_example.dir/build.make example/g1/CMakeFiles/g1_dual_arm_example.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dual_arm_example.dir/build.make example/g1/CMakeFiles/g1_dual_arm_example.dir/build
 .PHONY : g1_dual_arm_example/fast
+
+# Convenience name for target.
+example/g1/CMakeFiles/g1_agv_client_example.dir/rule:
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/g1/CMakeFiles/g1_agv_client_example.dir/rule
+.PHONY : example/g1/CMakeFiles/g1_agv_client_example.dir/rule
+
+# Convenience name for target.
+g1_agv_client_example: example/g1/CMakeFiles/g1_agv_client_example.dir/rule
+.PHONY : g1_agv_client_example
+
+# fast build rule for target.
+g1_agv_client_example/fast:
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_agv_client_example.dir/build.make example/g1/CMakeFiles/g1_agv_client_example.dir/build
+.PHONY : g1_agv_client_example/fast
+
+agv/g1_agv_client_example.o: agv/g1_agv_client_example.cpp.o
+.PHONY : agv/g1_agv_client_example.o
+
+# target to build an object file
+agv/g1_agv_client_example.cpp.o:
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_agv_client_example.dir/build.make example/g1/CMakeFiles/g1_agv_client_example.dir/agv/g1_agv_client_example.cpp.o
+.PHONY : agv/g1_agv_client_example.cpp.o
+
+agv/g1_agv_client_example.i: agv/g1_agv_client_example.cpp.i
+.PHONY : agv/g1_agv_client_example.i
+
+# target to preprocess a source file
+agv/g1_agv_client_example.cpp.i:
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_agv_client_example.dir/build.make example/g1/CMakeFiles/g1_agv_client_example.dir/agv/g1_agv_client_example.cpp.i
+.PHONY : agv/g1_agv_client_example.cpp.i
+
+agv/g1_agv_client_example.s: agv/g1_agv_client_example.cpp.s
+.PHONY : agv/g1_agv_client_example.s
+
+# target to generate assembly for a file
+agv/g1_agv_client_example.cpp.s:
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_agv_client_example.dir/build.make example/g1/CMakeFiles/g1_agv_client_example.dir/agv/g1_agv_client_example.cpp.s
+.PHONY : agv/g1_agv_client_example.cpp.s
 
 audio/g1_audio_client_example.o: audio/g1_audio_client_example.cpp.o
 .PHONY : audio/g1_audio_client_example.o
 
 # target to build an object file
 audio/g1_audio_client_example.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_audio_client_example.dir/build.make example/g1/CMakeFiles/g1_audio_client_example.dir/audio/g1_audio_client_example.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_audio_client_example.dir/build.make example/g1/CMakeFiles/g1_audio_client_example.dir/audio/g1_audio_client_example.cpp.o
 .PHONY : audio/g1_audio_client_example.cpp.o
 
 audio/g1_audio_client_example.i: audio/g1_audio_client_example.cpp.i
@@ -300,7 +338,7 @@ audio/g1_audio_client_example.i: audio/g1_audio_client_example.cpp.i
 
 # target to preprocess a source file
 audio/g1_audio_client_example.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_audio_client_example.dir/build.make example/g1/CMakeFiles/g1_audio_client_example.dir/audio/g1_audio_client_example.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_audio_client_example.dir/build.make example/g1/CMakeFiles/g1_audio_client_example.dir/audio/g1_audio_client_example.cpp.i
 .PHONY : audio/g1_audio_client_example.cpp.i
 
 audio/g1_audio_client_example.s: audio/g1_audio_client_example.cpp.s
@@ -308,7 +346,7 @@ audio/g1_audio_client_example.s: audio/g1_audio_client_example.cpp.s
 
 # target to generate assembly for a file
 audio/g1_audio_client_example.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_audio_client_example.dir/build.make example/g1/CMakeFiles/g1_audio_client_example.dir/audio/g1_audio_client_example.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_audio_client_example.dir/build.make example/g1/CMakeFiles/g1_audio_client_example.dir/audio/g1_audio_client_example.cpp.s
 .PHONY : audio/g1_audio_client_example.cpp.s
 
 dex3/g1_dex3_example.o: dex3/g1_dex3_example.cpp.o
@@ -316,7 +354,7 @@ dex3/g1_dex3_example.o: dex3/g1_dex3_example.cpp.o
 
 # target to build an object file
 dex3/g1_dex3_example.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dex3_example.dir/build.make example/g1/CMakeFiles/g1_dex3_example.dir/dex3/g1_dex3_example.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dex3_example.dir/build.make example/g1/CMakeFiles/g1_dex3_example.dir/dex3/g1_dex3_example.cpp.o
 .PHONY : dex3/g1_dex3_example.cpp.o
 
 dex3/g1_dex3_example.i: dex3/g1_dex3_example.cpp.i
@@ -324,7 +362,7 @@ dex3/g1_dex3_example.i: dex3/g1_dex3_example.cpp.i
 
 # target to preprocess a source file
 dex3/g1_dex3_example.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dex3_example.dir/build.make example/g1/CMakeFiles/g1_dex3_example.dir/dex3/g1_dex3_example.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dex3_example.dir/build.make example/g1/CMakeFiles/g1_dex3_example.dir/dex3/g1_dex3_example.cpp.i
 .PHONY : dex3/g1_dex3_example.cpp.i
 
 dex3/g1_dex3_example.s: dex3/g1_dex3_example.cpp.s
@@ -332,7 +370,7 @@ dex3/g1_dex3_example.s: dex3/g1_dex3_example.cpp.s
 
 # target to generate assembly for a file
 dex3/g1_dex3_example.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dex3_example.dir/build.make example/g1/CMakeFiles/g1_dex3_example.dir/dex3/g1_dex3_example.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dex3_example.dir/build.make example/g1/CMakeFiles/g1_dex3_example.dir/dex3/g1_dex3_example.cpp.s
 .PHONY : dex3/g1_dex3_example.cpp.s
 
 high_level/g1_arm5_sdk_dds_example.o: high_level/g1_arm5_sdk_dds_example.cpp.o
@@ -340,7 +378,7 @@ high_level/g1_arm5_sdk_dds_example.o: high_level/g1_arm5_sdk_dds_example.cpp.o
 
 # target to build an object file
 high_level/g1_arm5_sdk_dds_example.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/high_level/g1_arm5_sdk_dds_example.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/high_level/g1_arm5_sdk_dds_example.cpp.o
 .PHONY : high_level/g1_arm5_sdk_dds_example.cpp.o
 
 high_level/g1_arm5_sdk_dds_example.i: high_level/g1_arm5_sdk_dds_example.cpp.i
@@ -348,7 +386,7 @@ high_level/g1_arm5_sdk_dds_example.i: high_level/g1_arm5_sdk_dds_example.cpp.i
 
 # target to preprocess a source file
 high_level/g1_arm5_sdk_dds_example.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/high_level/g1_arm5_sdk_dds_example.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/high_level/g1_arm5_sdk_dds_example.cpp.i
 .PHONY : high_level/g1_arm5_sdk_dds_example.cpp.i
 
 high_level/g1_arm5_sdk_dds_example.s: high_level/g1_arm5_sdk_dds_example.cpp.s
@@ -356,7 +394,7 @@ high_level/g1_arm5_sdk_dds_example.s: high_level/g1_arm5_sdk_dds_example.cpp.s
 
 # target to generate assembly for a file
 high_level/g1_arm5_sdk_dds_example.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/high_level/g1_arm5_sdk_dds_example.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/high_level/g1_arm5_sdk_dds_example.cpp.s
 .PHONY : high_level/g1_arm5_sdk_dds_example.cpp.s
 
 high_level/g1_arm7_sdk_dds_example.o: high_level/g1_arm7_sdk_dds_example.cpp.o
@@ -364,7 +402,7 @@ high_level/g1_arm7_sdk_dds_example.o: high_level/g1_arm7_sdk_dds_example.cpp.o
 
 # target to build an object file
 high_level/g1_arm7_sdk_dds_example.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/high_level/g1_arm7_sdk_dds_example.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/high_level/g1_arm7_sdk_dds_example.cpp.o
 .PHONY : high_level/g1_arm7_sdk_dds_example.cpp.o
 
 high_level/g1_arm7_sdk_dds_example.i: high_level/g1_arm7_sdk_dds_example.cpp.i
@@ -372,7 +410,7 @@ high_level/g1_arm7_sdk_dds_example.i: high_level/g1_arm7_sdk_dds_example.cpp.i
 
 # target to preprocess a source file
 high_level/g1_arm7_sdk_dds_example.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/high_level/g1_arm7_sdk_dds_example.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/high_level/g1_arm7_sdk_dds_example.cpp.i
 .PHONY : high_level/g1_arm7_sdk_dds_example.cpp.i
 
 high_level/g1_arm7_sdk_dds_example.s: high_level/g1_arm7_sdk_dds_example.cpp.s
@@ -380,7 +418,7 @@ high_level/g1_arm7_sdk_dds_example.s: high_level/g1_arm7_sdk_dds_example.cpp.s
 
 # target to generate assembly for a file
 high_level/g1_arm7_sdk_dds_example.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/high_level/g1_arm7_sdk_dds_example.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/build.make example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/high_level/g1_arm7_sdk_dds_example.cpp.s
 .PHONY : high_level/g1_arm7_sdk_dds_example.cpp.s
 
 high_level/g1_arm_action_example.o: high_level/g1_arm_action_example.cpp.o
@@ -388,7 +426,7 @@ high_level/g1_arm_action_example.o: high_level/g1_arm_action_example.cpp.o
 
 # target to build an object file
 high_level/g1_arm_action_example.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm_action_example.dir/build.make example/g1/CMakeFiles/g1_arm_action_example.dir/high_level/g1_arm_action_example.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm_action_example.dir/build.make example/g1/CMakeFiles/g1_arm_action_example.dir/high_level/g1_arm_action_example.cpp.o
 .PHONY : high_level/g1_arm_action_example.cpp.o
 
 high_level/g1_arm_action_example.i: high_level/g1_arm_action_example.cpp.i
@@ -396,7 +434,7 @@ high_level/g1_arm_action_example.i: high_level/g1_arm_action_example.cpp.i
 
 # target to preprocess a source file
 high_level/g1_arm_action_example.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm_action_example.dir/build.make example/g1/CMakeFiles/g1_arm_action_example.dir/high_level/g1_arm_action_example.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm_action_example.dir/build.make example/g1/CMakeFiles/g1_arm_action_example.dir/high_level/g1_arm_action_example.cpp.i
 .PHONY : high_level/g1_arm_action_example.cpp.i
 
 high_level/g1_arm_action_example.s: high_level/g1_arm_action_example.cpp.s
@@ -404,7 +442,7 @@ high_level/g1_arm_action_example.s: high_level/g1_arm_action_example.cpp.s
 
 # target to generate assembly for a file
 high_level/g1_arm_action_example.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm_action_example.dir/build.make example/g1/CMakeFiles/g1_arm_action_example.dir/high_level/g1_arm_action_example.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm_action_example.dir/build.make example/g1/CMakeFiles/g1_arm_action_example.dir/high_level/g1_arm_action_example.cpp.s
 .PHONY : high_level/g1_arm_action_example.cpp.s
 
 high_level/g1_loco_client_example.o: high_level/g1_loco_client_example.cpp.o
@@ -412,7 +450,7 @@ high_level/g1_loco_client_example.o: high_level/g1_loco_client_example.cpp.o
 
 # target to build an object file
 high_level/g1_loco_client_example.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_loco_client.dir/build.make example/g1/CMakeFiles/g1_loco_client.dir/high_level/g1_loco_client_example.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_loco_client.dir/build.make example/g1/CMakeFiles/g1_loco_client.dir/high_level/g1_loco_client_example.cpp.o
 .PHONY : high_level/g1_loco_client_example.cpp.o
 
 high_level/g1_loco_client_example.i: high_level/g1_loco_client_example.cpp.i
@@ -420,7 +458,7 @@ high_level/g1_loco_client_example.i: high_level/g1_loco_client_example.cpp.i
 
 # target to preprocess a source file
 high_level/g1_loco_client_example.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_loco_client.dir/build.make example/g1/CMakeFiles/g1_loco_client.dir/high_level/g1_loco_client_example.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_loco_client.dir/build.make example/g1/CMakeFiles/g1_loco_client.dir/high_level/g1_loco_client_example.cpp.i
 .PHONY : high_level/g1_loco_client_example.cpp.i
 
 high_level/g1_loco_client_example.s: high_level/g1_loco_client_example.cpp.s
@@ -428,7 +466,7 @@ high_level/g1_loco_client_example.s: high_level/g1_loco_client_example.cpp.s
 
 # target to generate assembly for a file
 high_level/g1_loco_client_example.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_loco_client.dir/build.make example/g1/CMakeFiles/g1_loco_client.dir/high_level/g1_loco_client_example.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_loco_client.dir/build.make example/g1/CMakeFiles/g1_loco_client.dir/high_level/g1_loco_client_example.cpp.s
 .PHONY : high_level/g1_loco_client_example.cpp.s
 
 low_level/g1_ankle_swing_example.o: low_level/g1_ankle_swing_example.cpp.o
@@ -436,7 +474,7 @@ low_level/g1_ankle_swing_example.o: low_level/g1_ankle_swing_example.cpp.o
 
 # target to build an object file
 low_level/g1_ankle_swing_example.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_ankle_swing_example.dir/build.make example/g1/CMakeFiles/g1_ankle_swing_example.dir/low_level/g1_ankle_swing_example.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_ankle_swing_example.dir/build.make example/g1/CMakeFiles/g1_ankle_swing_example.dir/low_level/g1_ankle_swing_example.cpp.o
 .PHONY : low_level/g1_ankle_swing_example.cpp.o
 
 low_level/g1_ankle_swing_example.i: low_level/g1_ankle_swing_example.cpp.i
@@ -444,7 +482,7 @@ low_level/g1_ankle_swing_example.i: low_level/g1_ankle_swing_example.cpp.i
 
 # target to preprocess a source file
 low_level/g1_ankle_swing_example.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_ankle_swing_example.dir/build.make example/g1/CMakeFiles/g1_ankle_swing_example.dir/low_level/g1_ankle_swing_example.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_ankle_swing_example.dir/build.make example/g1/CMakeFiles/g1_ankle_swing_example.dir/low_level/g1_ankle_swing_example.cpp.i
 .PHONY : low_level/g1_ankle_swing_example.cpp.i
 
 low_level/g1_ankle_swing_example.s: low_level/g1_ankle_swing_example.cpp.s
@@ -452,7 +490,7 @@ low_level/g1_ankle_swing_example.s: low_level/g1_ankle_swing_example.cpp.s
 
 # target to generate assembly for a file
 low_level/g1_ankle_swing_example.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_ankle_swing_example.dir/build.make example/g1/CMakeFiles/g1_ankle_swing_example.dir/low_level/g1_ankle_swing_example.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_ankle_swing_example.dir/build.make example/g1/CMakeFiles/g1_ankle_swing_example.dir/low_level/g1_ankle_swing_example.cpp.s
 .PHONY : low_level/g1_ankle_swing_example.cpp.s
 
 low_level/g1_dual_arm_example.o: low_level/g1_dual_arm_example.cpp.o
@@ -460,7 +498,7 @@ low_level/g1_dual_arm_example.o: low_level/g1_dual_arm_example.cpp.o
 
 # target to build an object file
 low_level/g1_dual_arm_example.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dual_arm_example.dir/build.make example/g1/CMakeFiles/g1_dual_arm_example.dir/low_level/g1_dual_arm_example.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dual_arm_example.dir/build.make example/g1/CMakeFiles/g1_dual_arm_example.dir/low_level/g1_dual_arm_example.cpp.o
 .PHONY : low_level/g1_dual_arm_example.cpp.o
 
 low_level/g1_dual_arm_example.i: low_level/g1_dual_arm_example.cpp.i
@@ -468,7 +506,7 @@ low_level/g1_dual_arm_example.i: low_level/g1_dual_arm_example.cpp.i
 
 # target to preprocess a source file
 low_level/g1_dual_arm_example.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dual_arm_example.dir/build.make example/g1/CMakeFiles/g1_dual_arm_example.dir/low_level/g1_dual_arm_example.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dual_arm_example.dir/build.make example/g1/CMakeFiles/g1_dual_arm_example.dir/low_level/g1_dual_arm_example.cpp.i
 .PHONY : low_level/g1_dual_arm_example.cpp.i
 
 low_level/g1_dual_arm_example.s: low_level/g1_dual_arm_example.cpp.s
@@ -476,7 +514,7 @@ low_level/g1_dual_arm_example.s: low_level/g1_dual_arm_example.cpp.s
 
 # target to generate assembly for a file
 low_level/g1_dual_arm_example.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dual_arm_example.dir/build.make example/g1/CMakeFiles/g1_dual_arm_example.dir/low_level/g1_dual_arm_example.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dual_arm_example.dir/build.make example/g1/CMakeFiles/g1_dual_arm_example.dir/low_level/g1_dual_arm_example.cpp.s
 .PHONY : low_level/g1_dual_arm_example.cpp.s
 
 low_level/terminations.o: low_level/terminations.cpp.o
@@ -484,7 +522,7 @@ low_level/terminations.o: low_level/terminations.cpp.o
 
 # target to build an object file
 low_level/terminations.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_termination.dir/build.make example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_termination.dir/build.make example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o
 .PHONY : low_level/terminations.cpp.o
 
 low_level/terminations.i: low_level/terminations.cpp.i
@@ -492,7 +530,7 @@ low_level/terminations.i: low_level/terminations.cpp.i
 
 # target to preprocess a source file
 low_level/terminations.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_termination.dir/build.make example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_termination.dir/build.make example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.i
 .PHONY : low_level/terminations.cpp.i
 
 low_level/terminations.s: low_level/terminations.cpp.s
@@ -500,7 +538,7 @@ low_level/terminations.s: low_level/terminations.cpp.s
 
 # target to generate assembly for a file
 low_level/terminations.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_termination.dir/build.make example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_termination.dir/build.make example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.s
 .PHONY : low_level/terminations.cpp.s
 
 # Help Target
@@ -515,6 +553,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... g1_agv_client_example"
 	@echo "... g1_ankle_swing_example"
 	@echo "... g1_arm5_sdk_dds_example"
 	@echo "... g1_arm7_sdk_dds_example"
@@ -524,6 +563,9 @@ help:
 	@echo "... g1_dual_arm_example"
 	@echo "... g1_loco_client"
 	@echo "... g1_termination"
+	@echo "... agv/g1_agv_client_example.o"
+	@echo "... agv/g1_agv_client_example.i"
+	@echo "... agv/g1_agv_client_example.s"
 	@echo "... audio/g1_audio_client_example.o"
 	@echo "... audio/g1_audio_client_example.i"
 	@echo "... audio/g1_audio_client_example.s"
@@ -562,6 +604,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/unitree_guide_controller
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/unitree_guide_controller
 
 # Include any dependencies generated for this target.
 include CMakeFiles/unitree_guide_controller.dir/depend.make
@@ -70,228 +70,228 @@ include CMakeFiles/unitree_guide_controller.dir/progress.make
 include CMakeFiles/unitree_guide_controller.dir/flags.make
 
 CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/UnitreeGuideController.cpp
+CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/UnitreeGuideController.cpp
 CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/UnitreeGuideController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/UnitreeGuideController.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/UnitreeGuideController.cpp > CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/UnitreeGuideController.cpp > CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/UnitreeGuideController.cpp -o CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/UnitreeGuideController.cpp -o CMakeFiles/unitree_guide_controller.dir/src/UnitreeGuideController.cpp.s
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFixedStand.cpp
+CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFixedStand.cpp
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFixedStand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFixedStand.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFixedStand.cpp > CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFixedStand.cpp > CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFixedStand.cpp -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFixedStand.cpp -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFixedStand.cpp.s
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateSwingTest.cpp
+CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateSwingTest.cpp
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateSwingTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateSwingTest.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateSwingTest.cpp > CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateSwingTest.cpp > CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateSwingTest.cpp -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateSwingTest.cpp -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateSwingTest.cpp.s
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFreeStand.cpp
+CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFreeStand.cpp
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFreeStand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFreeStand.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFreeStand.cpp > CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFreeStand.cpp > CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFreeStand.cpp -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateFreeStand.cpp -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateFreeStand.cpp.s
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateBalanceTest.cpp
+CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateBalanceTest.cpp
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateBalanceTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateBalanceTest.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateBalanceTest.cpp > CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateBalanceTest.cpp > CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateBalanceTest.cpp -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateBalanceTest.cpp -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateBalanceTest.cpp.s
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp
+CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp > CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp > CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp -o CMakeFiles/unitree_guide_controller.dir/src/FSM/StateTrotting.cpp.s
 
 CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/QuadrupedRobot.cpp
+CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/QuadrupedRobot.cpp
 CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/QuadrupedRobot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/QuadrupedRobot.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/QuadrupedRobot.cpp > CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/QuadrupedRobot.cpp > CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/QuadrupedRobot.cpp -o CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/QuadrupedRobot.cpp -o CMakeFiles/unitree_guide_controller.dir/src/robot/QuadrupedRobot.cpp.s
 
 CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/RobotLeg.cpp
+CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/RobotLeg.cpp
 CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/RobotLeg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/RobotLeg.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/RobotLeg.cpp > CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/RobotLeg.cpp > CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/RobotLeg.cpp -o CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/RobotLeg.cpp -o CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.s
 
 CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/Estimator.cpp
+CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/Estimator.cpp
 CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/Estimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/Estimator.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/Estimator.cpp > CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/Estimator.cpp > CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/Estimator.cpp -o CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/Estimator.cpp -o CMakeFiles/unitree_guide_controller.dir/src/control/Estimator.cpp.s
 
 CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/LowPassFilter.cpp
+CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/LowPassFilter.cpp
 CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/LowPassFilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/LowPassFilter.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/LowPassFilter.cpp > CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/LowPassFilter.cpp > CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/LowPassFilter.cpp -o CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/LowPassFilter.cpp -o CMakeFiles/unitree_guide_controller.dir/src/control/LowPassFilter.cpp.s
 
 CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/BalanceCtrl.cpp
+CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/BalanceCtrl.cpp
 CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/BalanceCtrl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/BalanceCtrl.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/BalanceCtrl.cpp > CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/BalanceCtrl.cpp > CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/BalanceCtrl.cpp -o CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/control/BalanceCtrl.cpp -o CMakeFiles/unitree_guide_controller.dir/src/control/BalanceCtrl.cpp.s
 
 CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/Array.cc
+CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/Array.cc
 CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.o -MF CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.o.d -o CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/Array.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.o -MF CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.o.d -o CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/Array.cc
 
 CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/Array.cc > CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/Array.cc > CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.i
 
 CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/Array.cc -o CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/Array.cc -o CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.s
 
 CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/QuadProg++.cc
+CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/QuadProg++.cc
 CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.o -MF CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.o.d -o CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/QuadProg++.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.o -MF CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.o.d -o CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/QuadProg++.cc
 
 CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/QuadProg++.cc > CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/QuadProg++.cc > CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.i
 
 CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/QuadProg++.cc -o CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/QuadProg++.cc -o CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/QuadProg++.cc.s
 
 CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/WaveGenerator.cpp
+CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/WaveGenerator.cpp
 CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/WaveGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/WaveGenerator.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/WaveGenerator.cpp > CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/WaveGenerator.cpp > CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/WaveGenerator.cpp -o CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/WaveGenerator.cpp -o CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.s
 
 CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/FeetEndCalc.cpp
+CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/FeetEndCalc.cpp
 CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/FeetEndCalc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/FeetEndCalc.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/FeetEndCalc.cpp > CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/FeetEndCalc.cpp > CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/FeetEndCalc.cpp -o CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/FeetEndCalc.cpp -o CMakeFiles/unitree_guide_controller.dir/src/gait/FeetEndCalc.cpp.s
 
 CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o: CMakeFiles/unitree_guide_controller.dir/flags.make
-CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/GaitGenerator.cpp
+CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/GaitGenerator.cpp
 CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o: CMakeFiles/unitree_guide_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o -c /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/GaitGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o -MF CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o.d -o CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o -c /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/GaitGenerator.cpp
 
 CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/GaitGenerator.cpp > CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/GaitGenerator.cpp > CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.i
 
 CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/GaitGenerator.cpp -o CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/GaitGenerator.cpp -o CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.s
 
 # Object files for target unitree_guide_controller
 unitree_guide_controller_OBJECTS = \
@@ -335,18 +335,18 @@ libunitree_guide_controller.so: CMakeFiles/unitree_guide_controller.dir/build.ma
 libunitree_guide_controller.so: /opt/ros/humble/lib/libcontroller_interface.so
 libunitree_guide_controller.so: /opt/ros/humble/lib/librealtime_tools.so
 libunitree_guide_controller.so: /opt/ros/humble/lib/libthread_priority.so
-libunitree_guide_controller.so: /home/yzz/ROS2_WS/install/controller_common/lib/libcontroller_common.so
+libunitree_guide_controller.so: /home/yzz/quadruped_ws/install/controller_common/lib/libcontroller_common.so
 libunitree_guide_controller.so: /opt/ros/humble/lib/libkdl_parser.so
 libunitree_guide_controller.so: /opt/ros/humble/lib/librclcpp_action.so
 libunitree_guide_controller.so: /opt/ros/humble/lib/librcl_action.so
-libunitree_guide_controller.so: /home/yzz/ROS2_WS/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_typesupport_fastrtps_c.so
-libunitree_guide_controller.so: /home/yzz/ROS2_WS/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_typesupport_introspection_c.so
-libunitree_guide_controller.so: /home/yzz/ROS2_WS/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_typesupport_fastrtps_cpp.so
-libunitree_guide_controller.so: /home/yzz/ROS2_WS/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_typesupport_introspection_cpp.so
-libunitree_guide_controller.so: /home/yzz/ROS2_WS/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_typesupport_cpp.so
-libunitree_guide_controller.so: /home/yzz/ROS2_WS/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_generator_py.so
-libunitree_guide_controller.so: /home/yzz/ROS2_WS/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_typesupport_c.so
-libunitree_guide_controller.so: /home/yzz/ROS2_WS/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_generator_c.so
+libunitree_guide_controller.so: /home/yzz/quadruped_ws/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_typesupport_fastrtps_c.so
+libunitree_guide_controller.so: /home/yzz/quadruped_ws/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_typesupport_introspection_c.so
+libunitree_guide_controller.so: /home/yzz/quadruped_ws/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_typesupport_fastrtps_cpp.so
+libunitree_guide_controller.so: /home/yzz/quadruped_ws/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_typesupport_introspection_cpp.so
+libunitree_guide_controller.so: /home/yzz/quadruped_ws/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_typesupport_cpp.so
+libunitree_guide_controller.so: /home/yzz/quadruped_ws/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_generator_py.so
+libunitree_guide_controller.so: /home/yzz/quadruped_ws/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_typesupport_c.so
+libunitree_guide_controller.so: /home/yzz/quadruped_ws/install/control_input_msgs/lib/libcontrol_input_msgs__rosidl_generator_c.so
 libunitree_guide_controller.so: /opt/ros/humble/lib/libfake_components.so
 libunitree_guide_controller.so: /opt/ros/humble/lib/libmock_components.so
 libunitree_guide_controller.so: /opt/ros/humble/lib/libhardware_interface.so
@@ -475,7 +475,7 @@ libunitree_guide_controller.so: /opt/ros/humble/lib/libtracetools.so
 libunitree_guide_controller.so: /opt/ros/humble/lib/librcutils.so
 libunitree_guide_controller.so: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
 libunitree_guide_controller.so: CMakeFiles/unitree_guide_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library libunitree_guide_controller.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library libunitree_guide_controller.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unitree_guide_controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -487,6 +487,6 @@ CMakeFiles/unitree_guide_controller.dir/clean:
 .PHONY : CMakeFiles/unitree_guide_controller.dir/clean
 
 CMakeFiles/unitree_guide_controller.dir/depend:
-	cd /home/yzz/ROS2_WS/build/unitree_guide_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller /home/yzz/ROS2_WS/build/unitree_guide_controller /home/yzz/ROS2_WS/build/unitree_guide_controller /home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles/unitree_guide_controller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzz/quadruped_ws/build/unitree_guide_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller /home/yzz/quadruped_ws/build/unitree_guide_controller /home/yzz/quadruped_ws/build/unitree_guide_controller /home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles/unitree_guide_controller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_guide_controller.dir/depend
 

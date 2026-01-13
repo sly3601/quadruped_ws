@@ -1,7 +1,7 @@
 CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o: \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/GaitGenerator.cpp \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/GaitGenerator.cpp \
  /usr/include/stdc-predef.h \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/gait/GaitGenerator.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/gait/GaitGenerator.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -118,7 +118,7 @@ CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/common/mathTypes.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/common/mathTypes.h \
  /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
@@ -419,18 +419,18 @@ CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/gait/FeetEndCalc.h \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/control/CtrlComponent.h \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/gait/WaveGenerator.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/gait/FeetEndCalc.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/control/CtrlComponent.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/gait/WaveGenerator.h \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
- /home/yzz/ROS2_WS/install/controller_common/include/controller_common/controller_common/common/enumClass.h \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/control/BalanceCtrl.h \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/control/Estimator.h \
+ /home/yzz/quadruped_ws/install/controller_common/include/controller_common/controller_common/common/enumClass.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/control/BalanceCtrl.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/control/Estimator.h \
  /usr/include/kdl/frames.hpp /usr/include/kdl/utilities/kdl-config.h \
  /usr/include/kdl/utilities/utility.h \
  /usr/include/kdl/utilities/kdl-config.h /usr/include/kdl/frames.inl \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/robot/QuadrupedRobot.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/robot/QuadrupedRobot.h \
  /opt/ros/humble/include/kdl_parser/kdl_parser/kdl_parser.hpp \
  /usr/include/kdl/tree.hpp /usr/include/kdl/config.h \
  /usr/include/kdl/segment.hpp /usr/include/kdl/frames.hpp \
@@ -457,7 +457,7 @@ CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o: \
  /usr/include/c++/11/math.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/types.h \
  /opt/ros/humble/include/kdl_parser/kdl_parser/visibility_control.hpp \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/robot/RobotLeg.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/robot/RobotLeg.h \
  /usr/include/kdl/chainfksolverpos_recursive.hpp \
  /usr/include/kdl/chainfksolver.hpp /usr/include/kdl/framevel.hpp \
  /usr/include/kdl/utilities/rall1d.h /usr/include/kdl/utilities/utility.h \
@@ -469,5 +469,5 @@ CMakeFiles/unitree_guide_controller.dir/src/gait/GaitGenerator.cpp.o: \
  /usr/include/kdl/solveri.hpp /usr/include/kdl/chainiksolverpos_lma.hpp \
  /usr/include/kdl/chainiksolver.hpp /usr/include/eigen3/Eigen/Dense \
  /usr/include/kdl/chainjnttojacsolver.hpp \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/control/LowPassFilter.h \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/control/Estimator.h
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/control/LowPassFilter.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/control/Estimator.h

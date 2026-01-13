@@ -1,8 +1,8 @@
-# Install script for directory: /home/yzz/ROS2_WS/src/unitree_sdk2/example
+# Install script for directory: /home/yzz/quadruped_ws/src/unitree_sdk2/example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yzz/ROS2_WS/install/unitree_sdk2")
+  set(CMAKE_INSTALL_PREFIX "/home/yzz/quadruped_ws/install/unitree_sdk2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,16 +44,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yzz/ROS2_WS/build/unitree_sdk2/example/helloworld/cmake_install.cmake")
-  include("/home/yzz/ROS2_WS/build/unitree_sdk2/example/wireless_controller/cmake_install.cmake")
-  include("/home/yzz/ROS2_WS/build/unitree_sdk2/example/jsonize/cmake_install.cmake")
-  include("/home/yzz/ROS2_WS/build/unitree_sdk2/example/state_machine/cmake_install.cmake")
-  include("/home/yzz/ROS2_WS/build/unitree_sdk2/example/go2/cmake_install.cmake")
-  include("/home/yzz/ROS2_WS/build/unitree_sdk2/example/b2/cmake_install.cmake")
-  include("/home/yzz/ROS2_WS/build/unitree_sdk2/example/h1/cmake_install.cmake")
-  include("/home/yzz/ROS2_WS/build/unitree_sdk2/example/g1/cmake_install.cmake")
-  include("/home/yzz/ROS2_WS/build/unitree_sdk2/example/go2w/cmake_install.cmake")
-  include("/home/yzz/ROS2_WS/build/unitree_sdk2/example/b2w/cmake_install.cmake")
+  include("/home/yzz/quadruped_ws/build/unitree_sdk2/example/helloworld/cmake_install.cmake")
+  include("/home/yzz/quadruped_ws/build/unitree_sdk2/example/wireless_controller/cmake_install.cmake")
+  include("/home/yzz/quadruped_ws/build/unitree_sdk2/example/jsonize/cmake_install.cmake")
+  include("/home/yzz/quadruped_ws/build/unitree_sdk2/example/state_machine/cmake_install.cmake")
+  include("/home/yzz/quadruped_ws/build/unitree_sdk2/example/go2/cmake_install.cmake")
+  include("/home/yzz/quadruped_ws/build/unitree_sdk2/example/b2/cmake_install.cmake")
+  include("/home/yzz/quadruped_ws/build/unitree_sdk2/example/h1/cmake_install.cmake")
+  include("/home/yzz/quadruped_ws/build/unitree_sdk2/example/g1/cmake_install.cmake")
+  include("/home/yzz/quadruped_ws/build/unitree_sdk2/example/go2w/cmake_install.cmake")
+  include("/home/yzz/quadruped_ws/build/unitree_sdk2/example/b2w/cmake_install.cmake")
+  include("/home/yzz/quadruped_ws/build/unitree_sdk2/example/a2/cmake_install.cmake")
 
 endif()
 

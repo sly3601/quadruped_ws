@@ -1,0 +1,1008 @@
+[0.015s] Invoking command in '/home/yzz/quadruped_ws/build/unitree_sdk2': /usr/bin/cmake /home/yzz/quadruped_ws/src/unitree_sdk2 -DCMAKE_INSTALL_PREFIX=/home/yzz/quadruped_ws/install/unitree_sdk2
+[0.132s] -- The C compiler identification is GNU 11.4.0
+[0.276s] -- The CXX compiler identification is GNU 11.4.0
+[0.290s] -- Detecting C compiler ABI info
+[0.460s] -- Detecting C compiler ABI info - done
+[0.473s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.479s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.480s] -- Detecting CXX compiler ABI info
+[0.692s] -- Detecting CXX compiler ABI info - done
+[0.707s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.708s] -- Detecting CXX compile features
+[0.710s] -- Detecting CXX compile features - done
+[0.712s] -- Setting build type to 'Release' as none was specified.
+[0.717s] -- Current system architecture: x86_64
+[0.717s] -- Looking for pthread.h
+[0.925s] -- Looking for pthread.h - found
+[0.925s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.125s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.128s] -- Found Threads: TRUE  
+[1.128s] -- Importing: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
+[1.129s] -- Importing: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
+[1.129s] -- Unitree SDK library found at: /home/yzz/quadruped_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+[1.129s] -- Importing: /home/yzz/quadruped_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+[1.153s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[1.158s] -- Found yaml-cpp version 0.7.0
+[1.163s] -- Configuring done
+[1.245s] -- Generating done
+[1.264s] -- Build files have been written to: /home/yzz/quadruped_ws/build/unitree_sdk2
+[1.276s] Invoked command in '/home/yzz/quadruped_ws/build/unitree_sdk2' returned '0': /usr/bin/cmake /home/yzz/quadruped_ws/src/unitree_sdk2 -DCMAKE_INSTALL_PREFIX=/home/yzz/quadruped_ws/install/unitree_sdk2
+[1.286s] Invoking command in '/home/yzz/quadruped_ws/build/unitree_sdk2': /usr/bin/cmake --build /home/yzz/quadruped_ws/build/unitree_sdk2 -- -j2 -l2
+[1.459s] [  1%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o[0m
+[1.466s] [  2%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o[0m
+[10.474s] [  4%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o[0m
+[11.099s] [  5%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o[0m
+[12.218s] [  6%] [32m[1mLinking CXX executable ../../bin/test_publisher[0m
+[12.635s] [  8%] [32m[1mLinking CXX executable ../../bin/test_subscriber[0m
+[13.065s] [  8%] Built target test_publisher
+[13.128s] [  9%] [32mBuilding CXX object example/wireless_controller/CMakeFiles/advanced_gamepad.dir/main.cpp.o[0m
+[13.563s] [  9%] Built target test_subscriber
+[13.658s] [ 10%] [32mBuilding CXX object example/jsonize/CMakeFiles/test_jsonize.dir/test_jsonize.cpp.o[0m
+[17.151s] [ 12%] [32m[1mLinking CXX executable ../../bin/test_jsonize[0m
+[17.489s] [ 12%] Built target test_jsonize
+[17.604s] [ 13%] [32mBuilding CXX object example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o[0m
+[24.002s] [ 14%] [32m[1mLinking CXX executable ../../bin/advanced_gamepad[0m
+[24.571s] [ 14%] Built target advanced_gamepad
+[33.073s] [ 16%] [32m[1mLinking CXX executable ../../bin/state_machine_example[0m
+[33.606s] [ 16%] Built target state_machine_example
+[33.656s] [ 17%] [32mBuilding CXX object example/go2/CMakeFiles/go2_sport_client.dir/go2_sport_client.cpp.o[0m
+[40.777s] [ 18%] [32m[1mLinking CXX executable ../../bin/go2_sport_client[0m
+[41.323s] [ 18%] Built target go2_sport_client
+[41.388s] [ 20%] [32mBuilding CXX object example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o[0m
+[51.824s] [ 21%] [32m[1mLinking CXX executable ../../bin/go2_low_level[0m
+[52.277s] [ 21%] Built target go2_low_level
+[52.336s] [ 22%] [32mBuilding CXX object example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.o[0m
+[62.894s] [ 24%] [32m[1mLinking CXX executable ../../bin/go2_stand_example[0m
+[63.467s] [ 24%] Built target go2_stand_example
+[63.508s] [ 25%] [32mBuilding CXX object example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o[0m
+[65.566s] [ 27%] [32m[1mLinking CXX executable ../../bin/go2_robot_state_client[0m
+[66.110s] [ 27%] Built target go2_robot_state_client
+[66.144s] [ 28%] [32mBuilding CXX object example/go2/CMakeFiles/go2_video_client.dir/go2_video_client.cpp.o[0m
+[68.227s] [ 29%] [32m[1mLinking CXX executable ../../bin/go2_video_client[0m
+[68.823s] [ 29%] Built target go2_video_client
+[68.853s] [ 31%] [32mBuilding CXX object example/go2/CMakeFiles/go2_vui_client.dir/go2_vui_client.cpp.o[0m
+[70.859s] [ 32%] [32m[1mLinking CXX executable ../../bin/go2_vui_client[0m
+[71.421s] [ 32%] Built target go2_vui_client
+[71.472s] [ 33%] [32mBuilding CXX object example/b2/CMakeFiles/b2_sport_client.dir/b2_sport_client.cpp.o[0m
+[73.792s] [ 35%] [32m[1mLinking CXX executable ../../bin/b2_sport_client[0m
+[74.330s] [ 35%] Built target b2_sport_client
+[74.374s] [ 36%] [32mBuilding CXX object example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o[0m
+[84.947s] [ 37%] [32m[1mLinking CXX executable ../../bin/b2_stand_example[0m
+[85.520s] [ 37%] Built target b2_stand_example
+[85.559s] [ 39%] [32mBuilding CXX object example/h1/CMakeFiles/h1_loco_client.dir/high_level/h1_loco_client_example.cpp.o[0m
+[89.210s] [ 40%] [32m[1mLinking CXX executable ../../bin/h1_loco_client[0m
+[89.725s] [ 40%] Built target h1_loco_client
+[89.766s] [ 41%] [32mBuilding CXX object example/h1/CMakeFiles/h1_low_level_example.dir/low_level/humanoid.cpp.o[0m
+[101.234s] [ 43%] [32m[1mLinking CXX executable ../../bin/h1_low_level_example[0m
+[101.928s] [ 43%] Built target h1_low_level_example
+[101.976s] [ 44%] [32mBuilding CXX object example/h1/CMakeFiles/h1_27dof_example.dir/low_level/h1_27dof_example.cpp.o[0m
+[111.829s] [ 45%] [32m[1mLinking CXX executable ../../bin/h1_27dof_example[0m
+[112.240s] [ 45%] Built target h1_27dof_example
+[112.277s] [ 47%] [32mBuilding CXX object example/h1/CMakeFiles/h1_2_ankle_track.dir/low_level/h1_2_ankle_track.cpp.o[0m
+[121.067s] [ 48%] [32m[1mLinking CXX executable ../../bin/h1_2_ankle_track[0m
+[121.519s] [ 48%] Built target h1_2_ankle_track
+[121.563s] [ 50%] [32mBuilding CXX object example/h1/CMakeFiles/h1_arm_sdk_dds_example.dir/high_level/h1_arm_sdk_dds_example.cpp.o[0m
+[130.666s] [ 51%] [32m[1mLinking CXX executable ../../bin/h1_arm_sdk_dds_example[0m
+[131.137s] [ 51%] Built target h1_arm_sdk_dds_example
+[131.180s] [ 52%] [32mBuilding CXX object example/h1/CMakeFiles/h1_2_arm_sdk_dds_example.dir/high_level/h1_2_arm_sdk_dds_example.cpp.o[0m
+[139.599s] [ 54%] [32m[1mLinking CXX executable ../../bin/h1_2_arm_sdk_dds_example[0m
+[140.028s] [ 54%] Built target h1_2_arm_sdk_dds_example
+[140.069s] [ 55%] [32mBuilding CXX object example/g1/CMakeFiles/g1_loco_client.dir/high_level/g1_loco_client_example.cpp.o[0m
+[143.497s] [ 56%] [32m[1mLinking CXX executable ../../bin/g1_loco_client[0m
+[144.076s] [ 56%] Built target g1_loco_client
+[144.133s] [ 58%] [32mBuilding CXX object example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/high_level/g1_arm5_sdk_dds_example.cpp.o[0m
+[152.754s] [ 59%] [32m[1mLinking CXX executable ../../bin/g1_arm5_sdk_dds_example[0m
+[153.184s] [ 59%] Built target g1_arm5_sdk_dds_example
+[153.225s] [ 60%] [32mBuilding CXX object example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/high_level/g1_arm7_sdk_dds_example.cpp.o[0m
+[161.674s] [ 62%] [32m[1mLinking CXX executable ../../bin/g1_arm7_sdk_dds_example[0m
+[162.064s] [ 62%] Built target g1_arm7_sdk_dds_example
+[162.099s] [ 63%] [32mBuilding CXX object example/g1/CMakeFiles/g1_ankle_swing_example.dir/low_level/g1_ankle_swing_example.cpp.o[0m
+[173.523s] [ 64%] [32m[1mLinking CXX executable ../../bin/g1_ankle_swing_example[0m
+[174.206s] [ 64%] Built target g1_ankle_swing_example
+[174.256s] [ 66%] [32mBuilding CXX object example/g1/CMakeFiles/g1_audio_client_example.dir/audio/g1_audio_client_example.cpp.o[0m
+[180.160s] [ 67%] [32m[1mLinking CXX executable ../../bin/g1_audio_client_example[0m
+[180.832s] [ 67%] Built target g1_audio_client_example
+[180.887s] [ 68%] [32mBuilding CXX object example/g1/CMakeFiles/g1_dex3_example.dir/dex3/g1_dex3_example.cpp.o[0m
+[191.016s] [ 70%] [32m[1mLinking CXX executable ../../bin/g1_dex3_example[0m
+[191.430s] [ 70%] Built target g1_dex3_example
+[191.465s] [ 71%] [32mBuilding CXX object example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o[0m
+[200.597s] [ 72%] [32m[1mLinking CXX executable ../../bin/g1_termination[0m
+[201.038s] [ 72%] Built target g1_termination
+[201.077s] [ 74%] [32mBuilding CXX object example/g1/CMakeFiles/g1_arm_action_example.dir/high_level/g1_arm_action_example.cpp.o[0m
+[206.425s] [ 75%] [32m[1mLinking CXX executable ../../bin/g1_arm_action_example[0m
+[206.953s] [ 75%] Built target g1_arm_action_example
+[206.990s] [ 77%] [32mBuilding CXX object example/g1/CMakeFiles/g1_dual_arm_example.dir/low_level/g1_dual_arm_example.cpp.o[0m
+[217.892s] [ 78%] [32m[1mLinking CXX executable ../../bin/g1_dual_arm_example[0m
+[218.472s] [ 78%] Built target g1_dual_arm_example
+[218.512s] [ 79%] [32mBuilding CXX object example/g1/CMakeFiles/g1_agv_client_example.dir/agv/g1_agv_client_example.cpp.o[0m
+[221.039s] [ 81%] [32m[1mLinking CXX executable ../../bin/g1_agv_client_example[0m
+[221.590s] [ 81%] Built target g1_agv_client_example
+[221.634s] [ 82%] [32mBuilding CXX object example/go2w/CMakeFiles/go2w_sport_client.dir/go2w_sport_client.cpp.o[0m
+[228.629s] [ 83%] [32m[1mLinking CXX executable ../../bin/go2w_sport_client[0m
+[229.123s] [ 83%] Built target go2w_sport_client
+[229.164s] [ 85%] [32mBuilding CXX object example/go2w/CMakeFiles/go2w_stand_example.dir/go2w_stand_example.cpp.o[0m
+[239.988s] [ 86%] [32m[1mLinking CXX executable ../../bin/go2w_stand_example[0m
+[240.571s] [ 86%] Built target go2w_stand_example
+[240.610s] [ 87%] [32mBuilding CXX object example/b2w/CMakeFiles/b2w_sport_client.dir/b2w_sport_client.cpp.o[0m
+[242.838s] [ 89%] [32m[1mLinking CXX executable ../../bin/b2w_sport_client[0m
+[243.374s] [ 89%] Built target b2w_sport_client
+[243.434s] [ 90%] [32mBuilding CXX object example/b2w/CMakeFiles/b2w_stand_example.dir/b2w_stand_example.cpp.o[0m
+[253.741s] [ 91%] [32m[1mLinking CXX executable ../../bin/b2w_stand_example[0m
+[254.271s] [ 91%] Built target b2w_stand_example
+[254.308s] [ 93%] [32mBuilding CXX object example/a2/CMakeFiles/a2_sport_client.dir/a2_sport_client.cpp.o[0m
+[257.633s] [ 94%] [32m[1mLinking CXX executable ../../bin/a2_sport_client[0m
+[258.197s] [ 94%] Built target a2_sport_client
+[258.249s] [ 95%] [32mBuilding CXX object example/a2/CMakeFiles/a2_sport_state.dir/a2_sport_state.cpp.o[0m
+[265.000s] [ 97%] [32m[1mLinking CXX executable ../../bin/a2_sport_state[0m
+[265.406s] [ 97%] Built target a2_sport_state
+[265.443s] [ 98%] [32mBuilding CXX object example/a2/CMakeFiles/a2_audio_client_example.dir/audio/a2_audio_client_example.cpp.o[0m
+[271.445s] [100%] [32m[1mLinking CXX executable ../../bin/a2_audio_client_example[0m
+[272.024s] [100%] Built target a2_audio_client_example
+[272.051s] Invoked command in '/home/yzz/quadruped_ws/build/unitree_sdk2' returned '0': /usr/bin/cmake --build /home/yzz/quadruped_ws/build/unitree_sdk2 -- -j2 -l2
+[272.066s] Invoking command in '/home/yzz/quadruped_ws/build/unitree_sdk2': /usr/bin/cmake --install /home/yzz/quadruped_ws/build/unitree_sdk2
+[272.078s] -- Install configuration: "Release"
+[272.079s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include
+[272.079s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree
+[272.079s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper
+[272.080s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots
+[272.081s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2
+[272.081s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/go2.h
+[272.081s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/go2_pub.h
+[272.081s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/defines.h
+[272.082s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/go2_sub.h
+[272.082s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1
+[272.082s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/g1.h
+[272.082s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/defines.h
+[272.084s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/g1_pub.h
+[272.084s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/g1_sub.h
+[272.085s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common
+[272.085s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/unitree_joystick.hpp
+[272.085s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/crc.h
+[272.085s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/Publisher.h
+[272.086s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/Subscription.h
+[272.087s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl
+[272.087s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2
+[272.088s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovarianceStamped_.hpp
+[272.089s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/Vector3_.hpp
+[272.089s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/Point_.hpp
+[272.089s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/Imu_.hpp
+[272.090s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/Header_.hpp
+[272.091s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/Twist_.hpp
+[272.092s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovarianceStamped_.hpp
+[272.092s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/Time_.hpp
+[272.092s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovariance_.hpp
+[272.093s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/String_.hpp
+[272.093s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointField_.hpp
+[272.093s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/Pose_.hpp
+[272.093s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/Pose2D_.hpp
+[272.094s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/Odometry_.hpp
+[272.094s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/Quaternion_.hpp
+[272.094s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/QuaternionStamped_.hpp
+[272.095s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovariance_.hpp
+[272.095s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseStamped_.hpp
+[272.095s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/OccupancyGrid_.hpp
+[272.095s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointStamped_.hpp
+[272.095s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/Point32_.hpp
+[272.095s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistStamped_.hpp
+[272.095s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointCloud2_.hpp
+[272.096s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/ros2/MapMetaData_.hpp
+[272.096s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2
+[272.096s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/BmsState_.hpp
+[272.096s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/WirelessController_.hpp
+[272.096s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/SportModeState_.hpp
+[272.096s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorStates_.hpp
+[272.097s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/UwbState_.hpp
+[272.097s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/PathPoint_.hpp
+[272.097s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/LowCmd_.hpp
+[272.097s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/SportModeCmd_.hpp
+[272.097s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/Req_.hpp
+[272.097s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/IMUState_.hpp
+[272.098s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/LidarState_.hpp
+[272.098s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/UwbSwitch_.hpp
+[272.098s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/HeightMap_.hpp
+[272.098s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/Go2FrontVideoData_.hpp
+[272.098s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/InterfaceConfig_.hpp
+[272.098s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/ConfigChangeStatus_.hpp
+[272.099s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/TimeSpec_.hpp
+[272.099s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorCmds_.hpp
+[272.099s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorCmd_.hpp
+[272.099s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/VoxelMapCompressed_.hpp
+[272.099s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/BmsCmd_.hpp
+[272.099s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/AudioData_.hpp
+[272.099s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/LowState_.hpp
+[272.099s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/Error_.hpp
+[272.099s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorState_.hpp
+[272.100s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/go2/Res_.hpp
+[272.100s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg_doubleimu
+[272.100s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg_doubleimu/doubleIMUState_.hpp
+[272.100s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg
+[272.100s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg/BmsState_.hpp
+[272.100s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg/SportModeState_.hpp
+[272.100s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg/HandCmd_.hpp
+[272.101s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg/LowCmd_.hpp
+[272.101s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg/HandState_.hpp
+[272.101s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg/AgvBmsState_.hpp
+[272.101s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg/PressSensorState_.hpp
+[272.101s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg/IMUState_.hpp
+[272.101s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg/MotorCmd_.hpp
+[272.101s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg/BmsCmd_.hpp
+[272.102s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg/LowState_.hpp
+[272.102s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg/MainBoardState_.hpp
+[272.102s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/idl/hg/MotorState_.hpp
+[272.102s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot
+[272.102s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/future
+[272.102s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/future/request_future.hpp
+[272.103s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2
+[272.105s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/public
+[272.108s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/public/jsonize_type.hpp
+[272.108s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state
+[272.108s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_client.hpp
+[272.108s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_api.hpp
+[272.108s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_error.hpp
+[272.108s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/video
+[272.108s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_error.hpp
+[272.109s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_client.hpp
+[272.109s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_api.hpp
+[272.109s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/vui
+[272.109s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_api.hpp
+[272.109s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_error.hpp
+[272.109s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_client.hpp
+[272.110s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/config
+[272.110s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/config/config_error.hpp
+[272.110s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/config/config_api.hpp
+[272.111s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/config/config_client.hpp
+[272.111s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack
+[272.111s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_client.hpp
+[272.111s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_api.hpp
+[272.111s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/sport
+[272.111s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_error.hpp
+[272.111s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_api.hpp
+[272.111s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_client.hpp
+[272.111s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid
+[272.112s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_api.hpp
+[272.112s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_client.hpp
+[272.112s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/h1
+[272.112s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/h1/loco
+[272.112s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_error.hpp
+[272.112s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_client.hpp
+[272.113s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_api.hpp
+[272.113s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/client
+[272.113s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/client/client_stub.hpp
+[272.113s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/client/client.hpp
+[272.113s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/client/lease_client.hpp
+[272.113s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/client/client_base.hpp
+[272.113s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/serialize
+[272.113s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/serialize/serialize.hpp
+[272.113s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2
+[272.114s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state
+[272.114s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_client.hpp
+[272.114s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_api.hpp
+[272.114s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_error.hpp
+[272.114s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video
+[272.118s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_error.hpp
+[272.118s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_client.hpp
+[272.118s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_api.hpp
+[272.118s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/config
+[272.118s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_error.hpp
+[272.119s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_api.hpp
+[272.119s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_client.hpp
+[272.119s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video
+[272.119s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_client.hpp
+[272.119s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_error.hpp
+[272.119s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_api.hpp
+[272.119s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/sport
+[272.119s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_error.hpp
+[272.119s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_api.hpp
+[272.119s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_client.hpp
+[272.119s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher
+[272.119s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_error.hpp
+[272.119s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_client.hpp
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_api.hpp
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/server
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/server/server.hpp
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/server/lease_server.hpp
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/server/server_base.hpp
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/server/server_stub.hpp
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_request_response.hpp
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_error.hpp
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal/internal.hpp
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Request_.hpp
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp
+[272.120s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestLease_.hpp
+[272.121s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseHeader_.hpp
+[272.121s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestPolicy_.hpp
+[272.121s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Response_.hpp
+[272.121s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseStatus_.hpp
+[272.121s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_api.hpp
+[272.121s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1
+[272.122s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/audio
+[272.122s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_api.hpp
+[272.122s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_error.hpp
+[272.122s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_client.hpp
+[272.122s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/agv
+[272.122s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/agv/g1_agv_api.hpp
+[272.123s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/agv/g1_agv_error.hpp
+[272.123s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/agv/g1_agv_client.hpp
+[272.123s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/loco
+[272.123s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_api.hpp
+[272.123s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_client.hpp
+[272.124s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_error.hpp
+[272.124s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/arm
+[272.124s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_api.hpp
+[272.124s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_client.hpp
+[272.125s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_error.hpp
+[272.125s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/common
+[272.125s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/g1/common/terminations.hpp
+[272.126s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/a2
+[272.126s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/a2/audio
+[272.126s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/a2/audio/audio_client.hpp
+[272.126s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/a2/audio/audio_api.hpp
+[272.127s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/a2/audio/audio_error.hpp
+[272.127s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/a2/sport
+[272.127s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/a2/sport/sport_error.hpp
+[272.127s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/a2/sport/sport_api.hpp
+[272.127s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/a2/sport/sport_client.hpp
+[272.128s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/channel
+[272.129s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp
+[272.129s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_namer.hpp
+[272.129s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_publisher.hpp
+[272.129s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp
+[272.129s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_labor.hpp
+[272.129s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common
+[272.129s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/string_tool.hpp
+[272.130s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/service
+[272.130s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/service/dds_service.hpp
+[272.131s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/service/base
+[272.131s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/service/base/service_application.hpp
+[272.132s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/service/base/service_base.hpp
+[272.132s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/service/base/service_decl.hpp
+[272.132s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/service/base/service_config.hpp
+[272.133s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/decl.hpp
+[272.134s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/block_queue.hpp
+[272.134s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/assert.hpp
+[272.134s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/json
+[272.135s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/json/jsonize.hpp
+[272.135s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/json/json_config.hpp
+[272.135s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/json/json.hpp
+[272.136s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/thread
+[272.136s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/thread/thread_task.hpp
+[272.136s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/thread/thread_pool.hpp
+[272.137s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/thread/recurrent_thread.hpp
+[272.137s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/thread/future.hpp
+[272.137s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/thread/thread.hpp
+[272.138s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/thread/thread_decl.hpp
+[272.138s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/time
+[272.139s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/time/sleep.hpp
+[272.139s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/time/time_tool.hpp
+[272.139s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/filesystem
+[272.140s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/filesystem/filesystem.hpp
+[272.140s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/filesystem/file.hpp
+[272.140s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/filesystem/directory.hpp
+[272.141s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds
+[272.141s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp
+[272.141s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_realize.hpp
+[272.142s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy_parameter.hpp
+[272.142s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_callback.hpp
+[272.142s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_traits.hpp
+[272.143s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_native.hpp
+[272.143s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp
+[272.144s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos.hpp
+[272.144s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_error.hpp
+[272.144s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_exception.hpp
+[272.144s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_easy_model.hpp
+[272.145s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_parameter.hpp
+[272.145s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp
+[272.146s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_parameter.hpp
+[272.146s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy.hpp
+[272.146s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/os.hpp
+[272.146s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/error.hpp
+[272.147s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/any.hpp
+[272.147s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/exception.hpp
+[272.147s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/log
+[272.148s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/log/log_initor.hpp
+[272.148s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/log/log_logger.hpp
+[272.148s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/log/log_policy.hpp
+[272.149s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/log/log_writer.hpp
+[272.149s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/log/log_buffer.hpp
+[272.149s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/log/log_keeper.hpp
+[272.150s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/log/log.hpp
+[272.150s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/log/log_decl.hpp
+[272.151s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/log/log_store.hpp
+[272.151s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/lock
+[272.152s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/unitree/common/lock/lock.hpp
+[272.152s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/lib/libunitree_sdk2.a
+[272.194s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Targets.cmake
+[272.194s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Config.cmake
+[272.195s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2ConfigVersion.cmake
+[272.195s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/lib/libddsc.so
+[272.205s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/lib/libddsc.so.0
+[272.206s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/lib/libddscxx.so
+[272.210s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/lib/libddscxx.so.0
+[272.210s] -- Up-to-date: /home/yzz/quadruped_ws/install/unitree_sdk2/include
+[272.210s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddsc
+[272.210s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddsc/dds.h
+[272.210s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx
+[272.211s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org
+[272.211s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse
+[272.211s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds
+[272.211s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic
+[272.212s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/find.hpp
+[272.212s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp
+[272.212s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicListener.hpp
+[272.213s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos
+[272.213s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos/TopicQosDelegate.hpp
+[272.213s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/CDRBlob.hpp
+[272.214s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicKeyDelegate.hpp
+[272.214s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/hash.hpp
+[272.214s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/discovery.hpp
+[272.214s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicDelegate.hpp
+[272.215s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicListener.hpp
+[272.215s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicDelegate.hpp
+[272.215s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TBuiltinTopic.hpp
+[272.215s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/FilterDelegate.hpp
+[272.216s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicCopy.hpp
+[272.216s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicDescriptionDelegate.hpp
+[272.217s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopic.hpp
+[272.217s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp
+[272.217s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicTraits.hpp
+[272.217s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub
+[272.218s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SampleInfoImpl.hpp
+[272.218s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/GenerationCountImpl.hpp
+[272.218s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/RankImpl.hpp
+[272.218s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos
+[272.219s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/DataReaderQosDelegate.hpp
+[272.219s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/SubscriberQosDelegate.hpp
+[272.219s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/CoherentAccessDelegate.hpp
+[272.219s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond
+[272.220s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/QueryConditionDelegate.hpp
+[272.220s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/ReadConditionDelegate.hpp
+[272.220s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/BuiltinSubscriberDelegate.hpp
+[272.220s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/QueryDelegate.hpp
+[272.221s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SubscriberDelegate.hpp
+[272.221s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp
+[272.221s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core
+[272.221s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr
+[272.222s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_enums.hpp
+[272.222s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/fragchain.hpp
+[272.223s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/entity_properties.hpp
+[272.223s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp
+[272.223s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp
+[272.223s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp
+[272.224s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp
+[272.224s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectDelegate.hpp
+[272.224s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status
+[272.224s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status/StatusDelegate.hpp
+[272.226s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/config.hpp
+[272.226s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ReportUtils.hpp
+[272.226s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectSet.hpp
+[272.226s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond
+[272.226s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/GuardConditionDelegate.hpp
+[272.227s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/StatusConditionDelegate.hpp
+[272.227s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ConditionDelegate.hpp
+[272.227s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/WaitSetDelegate.hpp
+[272.227s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/FunctorHolder.hpp
+[272.227s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ShadowParticipant.hpp
+[272.228s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ListenerDispatcher.hpp
+[272.228s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityRegistry.hpp
+[272.228s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityDelegate.hpp
+[272.228s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Mutex.hpp
+[272.228s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/DDScObjectDelegate.hpp
+[272.228s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/InstanceHandleDelegate.hpp
+[272.228s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/WeakReferenceSet.hpp
+[272.229s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/type_helpers.hpp
+[272.229s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Missing.hpp
+[272.229s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ScopedLock.hpp
+[272.229s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntitySet.hpp
+[272.229s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/MiscUtils.hpp
+[272.230s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/TimeHelper.hpp
+[272.230s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy
+[272.230s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/PolicyDelegate.hpp
+[272.231s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/ProprietaryPolicyKind.hpp
+[272.231s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/QosPolicyCountDelegate.hpp
+[272.231s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/TPolicy.hpp
+[272.232s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/Policy.hpp
+[272.232s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/QosProviderDelegate.hpp
+[272.232s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/ForwardDeclarations.hpp
+[272.233s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain
+[272.233s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainWrap.hpp
+[272.233s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantDelegate.hpp
+[272.233s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos
+[272.234s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos/DomainParticipantQosDelegate.hpp
+[272.234s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantListener.hpp
+[272.234s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantRegistry.hpp
+[272.235s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/Domain.hpp
+[272.235s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub
+[272.236s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/PublisherDelegate.hpp
+[272.236s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/AnyDataWriterDelegate.hpp
+[272.236s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/SuspendedPublicationDelegate.hpp
+[272.236s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos
+[272.237s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/DataWriterQosDelegate.hpp
+[272.237s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/PublisherQosDelegate.hpp
+[272.237s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/CoherentSetDelegate.hpp
+[272.238s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds
+[272.238s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic
+[272.238s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/Topic.hpp
+[272.238s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/ContentFilteredTopic.hpp
+[272.239s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopicKey.hpp
+[272.239s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopicKey.hpp
+[272.240s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/Filter.hpp
+[272.240s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/find.hpp
+[272.241s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicTraits.hpp
+[272.241s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TAnyTopic.hpp
+[272.241s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopicListener.hpp
+[272.241s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicDescription.hpp
+[272.241s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos
+[272.242s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail
+[272.242s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail/TopicQos.hpp
+[272.242s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/TopicQos.hpp
+[272.243s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TTopicDescription.hpp
+[272.243s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TContentFilteredTopic.hpp
+[272.243s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/discovery.hpp
+[272.243s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/ddstopic.hpp
+[272.244s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TFilter.hpp
+[272.244s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TMultiTopic.hpp
+[272.244s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/MultiTopic.hpp
+[272.245s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TTopic.hpp
+[272.245s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicListener.hpp
+[272.245s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicInstance.hpp
+[272.245s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopic.hpp
+[272.246s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopic.hpp
+[272.247s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopic.hpp
+[272.248s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail
+[272.248s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Topic.hpp
+[272.248s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp
+[272.248s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopicKey.hpp
+[272.248s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Filter.hpp
+[272.248s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/find.hpp
+[272.248s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicInstanceImpl.hpp
+[272.248s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicDescription.hpp
+[272.252s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TAnyTopicImpl.hpp
+[272.252s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicKeyImpl.hpp
+[272.252s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TContentFilteredTopicImpl.hpp
+[272.252s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/discovery.hpp
+[272.252s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ddstopic.hpp
+[272.252s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/MultiTopic.hpp
+[272.252s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TFilterImpl.hpp
+[272.253s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicImpl.hpp
+[272.253s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/AnyTopic.hpp
+[272.253s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp
+[272.253s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicImpl.hpp
+[272.253s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicDescriptionImpl.hpp
+[272.253s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub
+[272.253s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SampleInfo.hpp
+[272.253s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Subscriber.hpp
+[272.253s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleRef.hpp
+[272.254s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/LoanedSamples.hpp
+[272.254s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TDataReader.hpp
+[272.254s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReader.hpp
+[272.254s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TGenerationCount.hpp
+[272.255s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/find.hpp
+[272.255s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/DataReaderListener.hpp
+[272.255s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SampleRef.hpp
+[272.256s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TCoherentAccess.hpp
+[272.256s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SharedSamples.hpp
+[272.256s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSubscriber.hpp
+[272.257s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/ddssub.hpp
+[272.257s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos
+[272.260s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/DataReaderQos.hpp
+[272.260s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/SubscriberQos.hpp
+[272.260s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail
+[272.260s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/DataReaderQos.hpp
+[272.260s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/SubscriberQos.hpp
+[272.260s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status
+[272.261s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/DataState.hpp
+[272.261s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail
+[272.261s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail/DataStateImpl.hpp
+[272.261s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Rank.hpp
+[272.261s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond
+[272.261s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/ReadCondition.hpp
+[272.261s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TReadCondition.hpp
+[272.261s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TQueryCondition.hpp
+[272.261s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail
+[272.261s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/ReadCondition.hpp
+[272.261s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TReadConditionImpl.hpp
+[272.261s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TQueryConditionImpl.hpp
+[272.262s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/QueryCondition.hpp
+[272.262s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/QueryCondition.hpp
+[272.262s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Sample.hpp
+[272.262s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/GenerationCount.hpp
+[272.262s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/discovery.hpp
+[272.263s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleInfo.hpp
+[272.263s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SubscriberListener.hpp
+[272.263s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSample.hpp
+[272.264s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/CoherentAccess.hpp
+[272.264s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TQuery.hpp
+[272.264s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/DataReader.hpp
+[272.265s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TRank.hpp
+[272.265s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReaderListener.hpp
+[272.266s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TAnyDataReader.hpp
+[272.266s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail
+[272.266s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleInfo.hpp
+[272.267s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Subscriber.hpp
+[272.267s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamples.hpp
+[272.267s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamplesImpl.hpp
+[272.268s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/AnyDataReader.hpp
+[272.268s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/find.hpp
+[272.268s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleRef.hpp
+[272.269s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamples.hpp
+[272.269s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TRankImpl.hpp
+[272.269s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleImpl.hpp
+[272.269s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/ddssub.hpp
+[272.270s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleRefImpl.hpp
+[272.270s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TAnyDataReaderImpl.hpp
+[272.271s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Rank.hpp
+[272.271s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Sample.hpp
+[272.271s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/GenerationCount.hpp
+[272.272s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/discovery.hpp
+[272.272s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamplesImpl.hpp
+[272.272s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TGenerationCountImpl.hpp
+[272.273s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TQueryImpl.hpp
+[272.273s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSubscriberImpl.hpp
+[272.273s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TCoherentAccessImpl.hpp
+[272.273s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/CoherentAccess.hpp
+[272.274s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Manipulators.hpp
+[272.274s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleInfoImpl.hpp
+[272.275s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TDataReaderImpl.hpp
+[272.275s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/DataReader.hpp
+[272.275s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SamplesHolder.hpp
+[272.276s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Query.hpp
+[272.276s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Query.hpp
+[272.276s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core
+[272.277s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/BuiltinTopicTypes.hpp
+[272.277s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes
+[272.277s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicType.hpp
+[272.277s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/StructType.hpp
+[272.278s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionType.hpp
+[272.278s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/Annotations.hpp
+[272.279s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicType.hpp
+[272.279s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionCase.hpp
+[272.279s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeKind.hpp
+[272.280s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/CollectionTypes.hpp
+[272.280s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeProvider.hpp
+[272.281s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TAnnotation.hpp
+[272.281s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/PrimitiveTypes.hpp
+[272.281s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TTypeProvider.hpp
+[272.282s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TStructType.hpp
+[272.282s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/MemberType.hpp
+[272.282s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TCollectionTypes.hpp
+[272.282s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicData.hpp
+[272.283s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicData.hpp
+[272.283s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail
+[272.283s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicType.hpp
+[272.284s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/StructType.hpp
+[272.284s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionType.hpp
+[272.285s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionCase.hpp
+[272.285s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/CollectionTypes.hpp
+[272.285s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/TypeProvider.hpp
+[272.286s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/PrimitiveTypes.hpp
+[272.286s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/Annotation.hpp
+[272.286s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/MemberType.hpp
+[272.287s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicData.hpp
+[272.287s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TMemberType.hpp
+[272.287s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/Value.hpp
+[272.288s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/External.hpp
+[272.288s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/ref_traits.hpp
+[272.288s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/TQosProvider.hpp
+[272.289s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/types.hpp
+[272.289s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/LengthUnlimited.hpp
+[272.289s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/Duration.hpp
+[272.290s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/Exception.hpp
+[272.290s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/macros.hpp
+[272.291s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/refmacros.hpp
+[272.291s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/TEntityQos.hpp
+[272.291s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/Time.hpp
+[272.291s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/SafeEnumeration.hpp
+[272.292s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/TEntity.hpp
+[272.292s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/status
+[272.293s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/TStatus.hpp
+[272.293s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/State.hpp
+[272.293s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/Status.hpp
+[272.293s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail
+[272.294s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/TStatusImpl.hpp
+[272.294s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/Status.hpp
+[272.295s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/TInstanceHandle.hpp
+[272.295s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/TBuiltinTopicTypes.hpp
+[272.295s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond
+[272.295s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/StatusCondition.hpp
+[272.296s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/WaitSet.hpp
+[272.296s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TCondition.hpp
+[272.297s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TStatusCondition.hpp
+[272.297s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TWaitSet.hpp
+[272.297s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/GuardCondition.hpp
+[272.298s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TGuardCondition.hpp
+[272.298s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/Condition.hpp
+[272.299s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail
+[272.299s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/StatusCondition.hpp
+[272.299s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/WaitSet.hpp
+[272.300s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TConditionImpl.hpp
+[272.301s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/GuardCondition.hpp
+[272.301s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TGuardConditionImpl.hpp
+[272.301s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TWaitSetImpl.hpp
+[272.301s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/Condition.hpp
+[272.302s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TStatusConditionImpl.hpp
+[272.302s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/Reference.hpp
+[272.303s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/conformance.hpp
+[272.303s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/ddscore.hpp
+[272.303s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/Optional.hpp
+[272.304s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/Entity.hpp
+[272.304s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/array.hpp
+[272.304s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail
+[272.305s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/BuiltinTopicTypes.hpp
+[272.305s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityImpl.hpp
+[272.306s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/Value.hpp
+[272.306s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ref_traits.hpp
+[272.307s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ReferenceImpl.hpp
+[272.307s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/macros.hpp
+[272.307s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/inttypes.hpp
+[272.308s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/WeakReferenceImpl.hpp
+[272.308s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/conformance.hpp
+[272.309s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ddscore.hpp
+[272.309s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/old_win_stdint.h
+[272.309s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/Entity.hpp
+[272.310s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/array.hpp
+[272.310s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityQosImpl.hpp
+[272.311s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/module_docs.hpp
+[272.311s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TInstanceHandleImpl.hpp
+[272.311s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/InstanceHandle.hpp
+[272.312s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/QosProvider.hpp
+[272.312s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TQosProviderImpl.hpp
+[272.313s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/export.hpp
+[272.313s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/InstanceHandle.hpp
+[272.313s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/QosProvider.hpp
+[272.316s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy
+[272.316s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/CorePolicy.hpp
+[272.316s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/TQosPolicyCount.hpp
+[272.316s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/PolicyKind.hpp
+[272.316s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/TCorePolicy.hpp
+[272.317s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/QosPolicyCount.hpp
+[272.317s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail
+[272.317s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/CorePolicy.hpp
+[272.318s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TCorePolicyImpl.hpp
+[272.318s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/QosPolicyCount.hpp
+[272.318s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TQosPolicyCountImpl.hpp
+[272.320s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/core/WeakReference.hpp
+[272.320s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/dds.hpp
+[272.320s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/features.hpp
+[272.321s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/LICENSE
+[272.321s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain
+[272.321s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/find.hpp
+[272.322s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos
+[272.322s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/DomainParticipantQos.hpp
+[272.322s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail
+[272.323s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail/DomainParticipantQos.hpp
+[272.323s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipantListener.hpp
+[272.324s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/discovery.hpp
+[272.324s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/ddsdomain.hpp
+[272.324s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/TDomainParticipant.hpp
+[272.326s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail
+[272.326s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/TDomainParticipantImpl.hpp
+[272.326s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/ddsdomain.hpp
+[272.326s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/DomainParticipant.hpp
+[272.327s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipant.hpp
+[272.327s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub
+[272.327s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/Publisher.hpp
+[272.328s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriter.hpp
+[272.328s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/ddspub.hpp
+[272.329s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TAnyDataWriter.hpp
+[272.329s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/find.hpp
+[272.330s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TPublisher.hpp
+[272.331s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/PublisherListener.hpp
+[272.331s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/CoherentSet.hpp
+[272.331s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriterListener.hpp
+[272.332s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos
+[272.332s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/PublisherQos.hpp
+[272.333s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/DataWriterQos.hpp
+[272.333s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail
+[272.333s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/PublisherQos.hpp
+[272.334s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/DataWriterQos.hpp
+[272.334s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TCoherentSet.hpp
+[272.334s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriter.hpp
+[272.335s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/discovery.hpp
+[272.335s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TSuspendedPublication.hpp
+[272.335s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/SuspendedPublication.hpp
+[272.336s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail
+[272.336s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/Publisher.hpp
+[272.337s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriter.hpp
+[272.337s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/ddspub.hpp
+[272.337s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TAnyDataWriterImpl.hpp
+[272.337s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/find.hpp
+[272.338s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/CoherentSet.hpp
+[272.338s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TSuspendedPublicationImpl.hpp
+[272.339s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriterImpl.hpp
+[272.339s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TPublisherImpl.hpp
+[272.339s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/AnyDataWriter.hpp
+[272.339s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/discovery.hpp
+[272.340s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/SuspendedPublication.hpp
+[272.340s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TCoherentSetImpl.hpp
+[272.340s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriterListener.hpp
+[272.341s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds
+[272.341s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/features.h
+[272.344s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/config.h
+[272.344s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc
+[272.345s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_internal_api.h
+[272.345s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_loan_api.h
+[272.345s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_error.h
+[272.345s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_data_allocator.h
+[272.346s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_qosdefs.h
+[272.346s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_basic_types.h
+[272.346s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_qos.h
+[272.347s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_status.h
+[272.347s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_opcodes.h
+[272.348s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_statistics.h
+[272.348s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_rhc.h
+[272.348s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_alloc.h
+[272.348s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_listener.h
+[272.349s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_impl.h
+[272.349s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/dds.h
+[272.350s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt
+[272.352s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/fibheap.h
+[272.353s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/io.h
+[272.354s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/types
+[272.354s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/types/vxworks.h
+[272.354s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/types/windows.h
+[272.356s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/types/posix.h
+[272.356s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/strtod.h
+[272.356s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/hopscotch.h
+[272.356s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/iovec.h
+[272.356s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/ifaddrs.h
+[272.356s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/attributes.h
+[272.357s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/strtol.h
+[272.357s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/misc.h
+[272.357s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/retcode.h
+[272.357s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/bswap.h
+[272.357s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/avl.h
+[272.357s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/netstat.h
+[272.357s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/cdtors.h
+[272.358s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/countargs.h
+[272.358s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/circlist.h
+[272.358s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/environ.h
+[272.358s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/expand_vars.h
+[272.358s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/sockets.h
+[272.359s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/atomics.h
+[272.359s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/sched.h
+[272.360s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/md5.h
+[272.360s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/xmlparser.h
+[272.360s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/static_assert.h
+[272.361s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem.h
+[272.361s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/arch.h
+[272.361s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/endian.h
+[272.361s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/align.h
+[272.362s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/time.h
+[272.362s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/mh3.h
+[272.362s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/types.h
+[272.363s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/sockets
+[272.363s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/sockets/windows.h
+[272.363s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/sockets/posix.h
+[272.363s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/threads.h
+[272.363s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/sync.h
+[272.364s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/time
+[272.365s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/time/freertos.h
+[272.365s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/string.h
+[272.365s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem
+[272.365s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem/windows.h
+[272.366s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem/posix.h
+[272.366s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/process.h
+[272.366s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/rusage.h
+[272.367s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/heap.h
+[272.367s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/threads
+[272.367s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/threads/freertos.h
+[272.367s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/threads/windows.h
+[272.368s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/threads/posix.h
+[272.368s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/log.h
+[272.368s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/sync
+[272.369s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/sync/freertos.h
+[272.369s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/sync/windows.h
+[272.369s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/sync/posix.h
+[272.370s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/dynlib.h
+[272.370s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/random.h
+[272.370s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/atomics
+[272.370s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/arm.h
+[272.371s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/sun.h
+[272.371s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/msvc.h
+[272.372s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/gcc.h
+[272.372s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/version.h
+[272.372s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi
+[272.373s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_acknack.h
+[272.373s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_radmin.h
+[272.373s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.h
+[272.374s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_sertype.h
+[272.374s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_deadline.h
+[272.375s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_pcap.h
+[272.376s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_deliver_locally.h
+[272.376s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_list_genptr.h
+[272.376s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_shm_transport.h
+[272.377s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_log.h
+[272.434s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.h
+[272.435s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_protocol.h
+[272.435s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/sysdeps.h
+[272.436s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_bitset.h
+[272.436s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_match.h
+[272.436s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_portmapping.h
+[272.437s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typebuilder.h
+[272.438s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_unused.h
+[272.438s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_whc.h
+[272.438s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_feature_check.h
+[272.439s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgunits.h
+[272.439s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_vendor.h
+[272.439s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_participant.h
+[272.440s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_lease.h
+[272.440s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_xevent.h
+[272.441s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_transmit.h
+[272.442s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ownip.h
+[272.442s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.h
+[272.442s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ipaddr.h
+[272.443s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_freelist.h
+[272.443s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typewrap.h
+[272.443s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_receive.h
+[272.444s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_vnet.h
+[272.444s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgelems.h
+[272.445s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_pserop.h
+[272.445s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_ddsi_discovery.h
+[272.445s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_thread.h
+[272.446s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata.h
+[272.446s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_lat_estim.h
+[272.446s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_pmd.h
+[272.447s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_bswap.h
+[272.447s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_topic.h
+[272.448s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_handshake.h
+[272.448s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_sockwaitset.h
+[272.449s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_config_impl.h
+[272.449s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_keyhash.h
+[272.449s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_default.h
+[272.450s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tran.h
+[272.450s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.idl
+[272.450s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_omg.h
+[272.451s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_debmon.h
+[272.451s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_udp.h
+[272.452s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tcp.h
+[272.452s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cdrstream.h
+[272.452s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_init.h
+[272.453s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_plist.h
+[272.453s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_iid.h
+[272.454s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_sertopic.h
+[272.454s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tkmap.h
+[272.454s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_locator.h
+[272.455s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_rtps.h
+[272.455s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_participant.h
+[272.456s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_raweth.h
+[272.456s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_impl.h
+[272.456s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_rhc.h
+[272.457s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_wraddrset.h
+[272.457s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.idl
+[272.458s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typelib.h
+[272.458s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_endpoint.h
+[272.459s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_mcgroup.h
+[272.459s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_misc.h
+[272.459s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_guid.h
+[272.459s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_inverse_uint32_set.h
+[272.460s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_endpoint.h
+[272.460s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_list_tmpl.h
+[272.461s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_plist.h
+[272.461s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_exchange.h
+[272.461s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xqos.h
+[272.462s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_hbcontrol.h
+[272.462s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_gc.h
+[272.462s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_addrset.h
+[272.462s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typelookup.h
+[272.463s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_xmsg.h
+[272.463s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_statistics.h
+[272.464s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ssl.h
+[272.464s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_msg.h
+[272.464s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_time.h
+[272.465s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_builtin_topic_if.h
+[272.465s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_plist_generic.h
+[272.466s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_config.h
+[272.468s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_threadmon.h
+[272.468s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/q_qosmatch.h
+[272.469s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_lifespan.h
+[272.469s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.idl
+[272.469s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_domaingv.h
+[272.469s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_util.h
+[272.469s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity.h
+[272.469s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_index.h
+[272.469s] -- Installing: /home/yzz/quadruped_ws/install/unitree_sdk2/include/dds/export.h
+[272.476s] Invoked command in '/home/yzz/quadruped_ws/build/unitree_sdk2' returned '0': /usr/bin/cmake --install /home/yzz/quadruped_ws/build/unitree_sdk2

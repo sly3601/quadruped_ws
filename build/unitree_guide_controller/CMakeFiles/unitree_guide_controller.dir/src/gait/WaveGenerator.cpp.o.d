@@ -1,7 +1,7 @@
 CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o: \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/WaveGenerator.cpp \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/gait/WaveGenerator.cpp \
  /usr/include/stdc-predef.h \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/gait/WaveGenerator.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/gait/WaveGenerator.h \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -43,8 +43,8 @@ CMakeFiles/unitree_guide_controller.dir/src/gait/WaveGenerator.cpp.o: \
  /usr/include/c++/11/ext/numeric_traits.h \
  /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h \
- /home/yzz/ROS2_WS/install/controller_common/include/controller_common/controller_common/common/enumClass.h \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/common/mathTypes.h \
+ /home/yzz/quadruped_ws/install/controller_common/include/controller_common/controller_common/common/enumClass.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/common/mathTypes.h \
  /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \

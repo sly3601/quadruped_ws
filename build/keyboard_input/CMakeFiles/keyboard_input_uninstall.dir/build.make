@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/keyboard_input
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/keyboard_input
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/keyboard_input
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/keyboard_input
 
 # Utility rule file for keyboard_input_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/keyboard_input_uninstall.dir/compiler_depend.make
 include CMakeFiles/keyboard_input_uninstall.dir/progress.make
 
 CMakeFiles/keyboard_input_uninstall:
-	/usr/bin/cmake -P /home/yzz/ROS2_WS/build/keyboard_input/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/yzz/quadruped_ws/build/keyboard_input/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 keyboard_input_uninstall: CMakeFiles/keyboard_input_uninstall
 keyboard_input_uninstall: CMakeFiles/keyboard_input_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/keyboard_input_uninstall.dir/clean:
 .PHONY : CMakeFiles/keyboard_input_uninstall.dir/clean
 
 CMakeFiles/keyboard_input_uninstall.dir/depend:
-	cd /home/yzz/ROS2_WS/build/keyboard_input && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/keyboard_input /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/keyboard_input /home/yzz/ROS2_WS/build/keyboard_input /home/yzz/ROS2_WS/build/keyboard_input /home/yzz/ROS2_WS/build/keyboard_input/CMakeFiles/keyboard_input_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzz/quadruped_ws/build/keyboard_input && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/keyboard_input /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/keyboard_input /home/yzz/quadruped_ws/build/keyboard_input /home/yzz/quadruped_ws/build/keyboard_input /home/yzz/quadruped_ws/build/keyboard_input/CMakeFiles/keyboard_input_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/keyboard_input_uninstall.dir/depend
 

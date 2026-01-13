@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yzz/ROS2_WS/src/unitree_sdk2/example/go2w/go2w_sport_client.cpp" "example/go2w/CMakeFiles/go2w_sport_client.dir/go2w_sport_client.cpp.o" "gcc" "example/go2w/CMakeFiles/go2w_sport_client.dir/go2w_sport_client.cpp.o.d"
+  "/home/yzz/quadruped_ws/src/unitree_sdk2/example/go2w/go2w_sport_client.cpp" "example/go2w/CMakeFiles/go2w_sport_client.dir/go2w_sport_client.cpp.o" "gcc" "example/go2w/CMakeFiles/go2w_sport_client.dir/go2w_sport_client.cpp.o.d"
   )
 
 # Targets to which this target links.

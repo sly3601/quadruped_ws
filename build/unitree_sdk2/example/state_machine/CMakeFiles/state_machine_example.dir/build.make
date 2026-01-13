@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/unitree_sdk2
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/unitree_sdk2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/unitree_sdk2
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/unitree_sdk2
 
 # Include any dependencies generated for this target.
 include example/state_machine/CMakeFiles/state_machine_example.dir/depend.make
@@ -70,18 +70,18 @@ include example/state_machine/CMakeFiles/state_machine_example.dir/progress.make
 include example/state_machine/CMakeFiles/state_machine_example.dir/flags.make
 
 example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o: example/state_machine/CMakeFiles/state_machine_example.dir/flags.make
-example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o: /home/yzz/ROS2_WS/src/unitree_sdk2/example/state_machine/main.cpp
+example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o: /home/yzz/quadruped_ws/src/unitree_sdk2/example/state_machine/main.cpp
 example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o: example/state_machine/CMakeFiles/state_machine_example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/state_machine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o -MF CMakeFiles/state_machine_example.dir/main.cpp.o.d -o CMakeFiles/state_machine_example.dir/main.cpp.o -c /home/yzz/ROS2_WS/src/unitree_sdk2/example/state_machine/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o"
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/state_machine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o -MF CMakeFiles/state_machine_example.dir/main.cpp.o.d -o CMakeFiles/state_machine_example.dir/main.cpp.o -c /home/yzz/quadruped_ws/src/unitree_sdk2/example/state_machine/main.cpp
 
 example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/state_machine_example.dir/main.cpp.i"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/state_machine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/unitree_sdk2/example/state_machine/main.cpp > CMakeFiles/state_machine_example.dir/main.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/state_machine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/unitree_sdk2/example/state_machine/main.cpp > CMakeFiles/state_machine_example.dir/main.cpp.i
 
 example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/state_machine_example.dir/main.cpp.s"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/state_machine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/unitree_sdk2/example/state_machine/main.cpp -o CMakeFiles/state_machine_example.dir/main.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/state_machine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/unitree_sdk2/example/state_machine/main.cpp -o CMakeFiles/state_machine_example.dir/main.cpp.s
 
 # Object files for target state_machine_example
 state_machine_example_OBJECTS = \
@@ -92,22 +92,22 @@ state_machine_example_EXTERNAL_OBJECTS =
 
 bin/state_machine_example: example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o
 bin/state_machine_example: example/state_machine/CMakeFiles/state_machine_example.dir/build.make
-bin/state_machine_example: /home/yzz/ROS2_WS/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
-bin/state_machine_example: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
-bin/state_machine_example: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
+bin/state_machine_example: /home/yzz/quadruped_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+bin/state_machine_example: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
+bin/state_machine_example: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
 bin/state_machine_example: example/state_machine/CMakeFiles/state_machine_example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/state_machine_example"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/state_machine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/state_machine_example.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/state_machine_example"
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/state_machine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/state_machine_example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 example/state_machine/CMakeFiles/state_machine_example.dir/build: bin/state_machine_example
 .PHONY : example/state_machine/CMakeFiles/state_machine_example.dir/build
 
 example/state_machine/CMakeFiles/state_machine_example.dir/clean:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/state_machine && $(CMAKE_COMMAND) -P CMakeFiles/state_machine_example.dir/cmake_clean.cmake
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/state_machine && $(CMAKE_COMMAND) -P CMakeFiles/state_machine_example.dir/cmake_clean.cmake
 .PHONY : example/state_machine/CMakeFiles/state_machine_example.dir/clean
 
 example/state_machine/CMakeFiles/state_machine_example.dir/depend:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/ROS2_WS/src/unitree_sdk2 /home/yzz/ROS2_WS/src/unitree_sdk2/example/state_machine /home/yzz/ROS2_WS/build/unitree_sdk2 /home/yzz/ROS2_WS/build/unitree_sdk2/example/state_machine /home/yzz/ROS2_WS/build/unitree_sdk2/example/state_machine/CMakeFiles/state_machine_example.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/quadruped_ws/src/unitree_sdk2 /home/yzz/quadruped_ws/src/unitree_sdk2/example/state_machine /home/yzz/quadruped_ws/build/unitree_sdk2 /home/yzz/quadruped_ws/build/unitree_sdk2/example/state_machine /home/yzz/quadruped_ws/build/unitree_sdk2/example/state_machine/CMakeFiles/state_machine_example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/state_machine/CMakeFiles/state_machine_example.dir/depend
 

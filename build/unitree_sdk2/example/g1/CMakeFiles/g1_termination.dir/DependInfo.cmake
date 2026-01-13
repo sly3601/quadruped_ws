@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yzz/ROS2_WS/src/unitree_sdk2/example/g1/low_level/terminations.cpp" "example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o" "gcc" "example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o.d"
+  "/home/yzz/quadruped_ws/src/unitree_sdk2/example/g1/low_level/terminations.cpp" "example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o" "gcc" "example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,7 +1,0 @@
-[01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:[m[K In member function ‘[01m[Kvoid StateTrotting::calcTau()[m[K’:
-[01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:156:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kpos_feet_global[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
-  156 |     Vec34 [01;35m[Kpos_feet_global[m[K = estimator_->getFeetPos();
-      |           [01;35m[K^~~~~~~~~~~~~~~[m[K
-[01m[K/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/FSM/StateTrotting.cpp:157:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kvel_feet_global[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
-  157 |     Vec34 [01;35m[Kvel_feet_global[m[K = estimator_->getFeetVel();
-      |           [01;35m[K^~~~~~~~~~~~~~~[m[K

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/unitree_sdk2
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/unitree_sdk2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/unitree_sdk2
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/unitree_sdk2
 
 # Include any dependencies generated for this target.
 include example/b2/CMakeFiles/b2_stand_example.dir/depend.make
@@ -70,18 +70,18 @@ include example/b2/CMakeFiles/b2_stand_example.dir/progress.make
 include example/b2/CMakeFiles/b2_stand_example.dir/flags.make
 
 example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o: example/b2/CMakeFiles/b2_stand_example.dir/flags.make
-example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o: /home/yzz/ROS2_WS/src/unitree_sdk2/example/b2/b2_stand_example.cpp
+example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o: /home/yzz/quadruped_ws/src/unitree_sdk2/example/b2/b2_stand_example.cpp
 example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o: example/b2/CMakeFiles/b2_stand_example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/b2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o -MF CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o.d -o CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o -c /home/yzz/ROS2_WS/src/unitree_sdk2/example/b2/b2_stand_example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o"
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/b2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o -MF CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o.d -o CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o -c /home/yzz/quadruped_ws/src/unitree_sdk2/example/b2/b2_stand_example.cpp
 
 example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.i"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/b2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/unitree_sdk2/example/b2/b2_stand_example.cpp > CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/b2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/unitree_sdk2/example/b2/b2_stand_example.cpp > CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.i
 
 example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.s"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/b2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/unitree_sdk2/example/b2/b2_stand_example.cpp -o CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/b2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/unitree_sdk2/example/b2/b2_stand_example.cpp -o CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.s
 
 # Object files for target b2_stand_example
 b2_stand_example_OBJECTS = \
@@ -92,22 +92,22 @@ b2_stand_example_EXTERNAL_OBJECTS =
 
 bin/b2_stand_example: example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o
 bin/b2_stand_example: example/b2/CMakeFiles/b2_stand_example.dir/build.make
-bin/b2_stand_example: /home/yzz/ROS2_WS/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
-bin/b2_stand_example: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
-bin/b2_stand_example: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
+bin/b2_stand_example: /home/yzz/quadruped_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+bin/b2_stand_example: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
+bin/b2_stand_example: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
 bin/b2_stand_example: example/b2/CMakeFiles/b2_stand_example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/b2_stand_example"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/b2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/b2_stand_example.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/b2_stand_example"
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/b2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/b2_stand_example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 example/b2/CMakeFiles/b2_stand_example.dir/build: bin/b2_stand_example
 .PHONY : example/b2/CMakeFiles/b2_stand_example.dir/build
 
 example/b2/CMakeFiles/b2_stand_example.dir/clean:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/b2 && $(CMAKE_COMMAND) -P CMakeFiles/b2_stand_example.dir/cmake_clean.cmake
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/b2 && $(CMAKE_COMMAND) -P CMakeFiles/b2_stand_example.dir/cmake_clean.cmake
 .PHONY : example/b2/CMakeFiles/b2_stand_example.dir/clean
 
 example/b2/CMakeFiles/b2_stand_example.dir/depend:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/ROS2_WS/src/unitree_sdk2 /home/yzz/ROS2_WS/src/unitree_sdk2/example/b2 /home/yzz/ROS2_WS/build/unitree_sdk2 /home/yzz/ROS2_WS/build/unitree_sdk2/example/b2 /home/yzz/ROS2_WS/build/unitree_sdk2/example/b2/CMakeFiles/b2_stand_example.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/quadruped_ws/src/unitree_sdk2 /home/yzz/quadruped_ws/src/unitree_sdk2/example/b2 /home/yzz/quadruped_ws/build/unitree_sdk2 /home/yzz/quadruped_ws/build/unitree_sdk2/example/b2 /home/yzz/quadruped_ws/build/unitree_sdk2/example/b2/CMakeFiles/b2_stand_example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/b2/CMakeFiles/b2_stand_example.dir/depend
 

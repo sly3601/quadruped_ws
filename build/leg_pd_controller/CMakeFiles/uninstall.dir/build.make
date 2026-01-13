@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/leg_pd_controller
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/leg_pd_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/leg_pd_controller
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/leg_pd_controller
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/yzz/ROS2_WS/build/leg_pd_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/leg_pd_controller /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/leg_pd_controller /home/yzz/ROS2_WS/build/leg_pd_controller /home/yzz/ROS2_WS/build/leg_pd_controller /home/yzz/ROS2_WS/build/leg_pd_controller/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzz/quadruped_ws/build/leg_pd_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/leg_pd_controller /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/leg_pd_controller /home/yzz/quadruped_ws/build/leg_pd_controller /home/yzz/quadruped_ws/build/leg_pd_controller /home/yzz/quadruped_ws/build/leg_pd_controller/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/unitree_sdk2
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/unitree_sdk2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/unitree_sdk2
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/unitree_sdk2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2//CMakeFiles/progress.marks
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles 0
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2//CMakeFiles/progress.marks
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/clean
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/preinstall
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/preinstall
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 example/go2/CMakeFiles/go2_sport_client.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/CMakeFiles/go2_sport_client.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/CMakeFiles/go2_sport_client.dir/rule
 .PHONY : example/go2/CMakeFiles/go2_sport_client.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ go2_sport_client: example/go2/CMakeFiles/go2_sport_client.dir/rule
 
 # fast build rule for target.
 go2_sport_client/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_sport_client.dir/build.make example/go2/CMakeFiles/go2_sport_client.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_sport_client.dir/build.make example/go2/CMakeFiles/go2_sport_client.dir/build
 .PHONY : go2_sport_client/fast
 
 # Convenience name for target.
 example/go2/CMakeFiles/go2_low_level.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/CMakeFiles/go2_low_level.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/CMakeFiles/go2_low_level.dir/rule
 .PHONY : example/go2/CMakeFiles/go2_low_level.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ go2_low_level: example/go2/CMakeFiles/go2_low_level.dir/rule
 
 # fast build rule for target.
 go2_low_level/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_low_level.dir/build.make example/go2/CMakeFiles/go2_low_level.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_low_level.dir/build.make example/go2/CMakeFiles/go2_low_level.dir/build
 .PHONY : go2_low_level/fast
 
 # Convenience name for target.
 example/go2/CMakeFiles/go2_stand_example.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/CMakeFiles/go2_stand_example.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/CMakeFiles/go2_stand_example.dir/rule
 .PHONY : example/go2/CMakeFiles/go2_stand_example.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ go2_stand_example: example/go2/CMakeFiles/go2_stand_example.dir/rule
 
 # fast build rule for target.
 go2_stand_example/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_stand_example.dir/build.make example/go2/CMakeFiles/go2_stand_example.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_stand_example.dir/build.make example/go2/CMakeFiles/go2_stand_example.dir/build
 .PHONY : go2_stand_example/fast
 
 # Convenience name for target.
 example/go2/CMakeFiles/go2_robot_state_client.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/CMakeFiles/go2_robot_state_client.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/CMakeFiles/go2_robot_state_client.dir/rule
 .PHONY : example/go2/CMakeFiles/go2_robot_state_client.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ go2_robot_state_client: example/go2/CMakeFiles/go2_robot_state_client.dir/rule
 
 # fast build rule for target.
 go2_robot_state_client/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_robot_state_client.dir/build.make example/go2/CMakeFiles/go2_robot_state_client.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_robot_state_client.dir/build.make example/go2/CMakeFiles/go2_robot_state_client.dir/build
 .PHONY : go2_robot_state_client/fast
 
 # Convenience name for target.
 example/go2/CMakeFiles/go2_video_client.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/CMakeFiles/go2_video_client.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/CMakeFiles/go2_video_client.dir/rule
 .PHONY : example/go2/CMakeFiles/go2_video_client.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ go2_video_client: example/go2/CMakeFiles/go2_video_client.dir/rule
 
 # fast build rule for target.
 go2_video_client/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_video_client.dir/build.make example/go2/CMakeFiles/go2_video_client.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_video_client.dir/build.make example/go2/CMakeFiles/go2_video_client.dir/build
 .PHONY : go2_video_client/fast
 
 # Convenience name for target.
 example/go2/CMakeFiles/go2_vui_client.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/CMakeFiles/go2_vui_client.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/go2/CMakeFiles/go2_vui_client.dir/rule
 .PHONY : example/go2/CMakeFiles/go2_vui_client.dir/rule
 
 # Convenience name for target.
@@ -242,7 +242,7 @@ go2_vui_client: example/go2/CMakeFiles/go2_vui_client.dir/rule
 
 # fast build rule for target.
 go2_vui_client/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_vui_client.dir/build.make example/go2/CMakeFiles/go2_vui_client.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_vui_client.dir/build.make example/go2/CMakeFiles/go2_vui_client.dir/build
 .PHONY : go2_vui_client/fast
 
 go2_low_level.o: go2_low_level.cpp.o
@@ -250,7 +250,7 @@ go2_low_level.o: go2_low_level.cpp.o
 
 # target to build an object file
 go2_low_level.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_low_level.dir/build.make example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_low_level.dir/build.make example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o
 .PHONY : go2_low_level.cpp.o
 
 go2_low_level.i: go2_low_level.cpp.i
@@ -258,7 +258,7 @@ go2_low_level.i: go2_low_level.cpp.i
 
 # target to preprocess a source file
 go2_low_level.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_low_level.dir/build.make example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_low_level.dir/build.make example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.i
 .PHONY : go2_low_level.cpp.i
 
 go2_low_level.s: go2_low_level.cpp.s
@@ -266,7 +266,7 @@ go2_low_level.s: go2_low_level.cpp.s
 
 # target to generate assembly for a file
 go2_low_level.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_low_level.dir/build.make example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_low_level.dir/build.make example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.s
 .PHONY : go2_low_level.cpp.s
 
 go2_robot_state_client.o: go2_robot_state_client.cpp.o
@@ -274,7 +274,7 @@ go2_robot_state_client.o: go2_robot_state_client.cpp.o
 
 # target to build an object file
 go2_robot_state_client.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_robot_state_client.dir/build.make example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_robot_state_client.dir/build.make example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o
 .PHONY : go2_robot_state_client.cpp.o
 
 go2_robot_state_client.i: go2_robot_state_client.cpp.i
@@ -282,7 +282,7 @@ go2_robot_state_client.i: go2_robot_state_client.cpp.i
 
 # target to preprocess a source file
 go2_robot_state_client.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_robot_state_client.dir/build.make example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_robot_state_client.dir/build.make example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.i
 .PHONY : go2_robot_state_client.cpp.i
 
 go2_robot_state_client.s: go2_robot_state_client.cpp.s
@@ -290,7 +290,7 @@ go2_robot_state_client.s: go2_robot_state_client.cpp.s
 
 # target to generate assembly for a file
 go2_robot_state_client.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_robot_state_client.dir/build.make example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_robot_state_client.dir/build.make example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.s
 .PHONY : go2_robot_state_client.cpp.s
 
 go2_sport_client.o: go2_sport_client.cpp.o
@@ -298,7 +298,7 @@ go2_sport_client.o: go2_sport_client.cpp.o
 
 # target to build an object file
 go2_sport_client.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_sport_client.dir/build.make example/go2/CMakeFiles/go2_sport_client.dir/go2_sport_client.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_sport_client.dir/build.make example/go2/CMakeFiles/go2_sport_client.dir/go2_sport_client.cpp.o
 .PHONY : go2_sport_client.cpp.o
 
 go2_sport_client.i: go2_sport_client.cpp.i
@@ -306,7 +306,7 @@ go2_sport_client.i: go2_sport_client.cpp.i
 
 # target to preprocess a source file
 go2_sport_client.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_sport_client.dir/build.make example/go2/CMakeFiles/go2_sport_client.dir/go2_sport_client.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_sport_client.dir/build.make example/go2/CMakeFiles/go2_sport_client.dir/go2_sport_client.cpp.i
 .PHONY : go2_sport_client.cpp.i
 
 go2_sport_client.s: go2_sport_client.cpp.s
@@ -314,7 +314,7 @@ go2_sport_client.s: go2_sport_client.cpp.s
 
 # target to generate assembly for a file
 go2_sport_client.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_sport_client.dir/build.make example/go2/CMakeFiles/go2_sport_client.dir/go2_sport_client.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_sport_client.dir/build.make example/go2/CMakeFiles/go2_sport_client.dir/go2_sport_client.cpp.s
 .PHONY : go2_sport_client.cpp.s
 
 go2_stand_example.o: go2_stand_example.cpp.o
@@ -322,7 +322,7 @@ go2_stand_example.o: go2_stand_example.cpp.o
 
 # target to build an object file
 go2_stand_example.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_stand_example.dir/build.make example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_stand_example.dir/build.make example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.o
 .PHONY : go2_stand_example.cpp.o
 
 go2_stand_example.i: go2_stand_example.cpp.i
@@ -330,7 +330,7 @@ go2_stand_example.i: go2_stand_example.cpp.i
 
 # target to preprocess a source file
 go2_stand_example.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_stand_example.dir/build.make example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_stand_example.dir/build.make example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.i
 .PHONY : go2_stand_example.cpp.i
 
 go2_stand_example.s: go2_stand_example.cpp.s
@@ -338,7 +338,7 @@ go2_stand_example.s: go2_stand_example.cpp.s
 
 # target to generate assembly for a file
 go2_stand_example.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_stand_example.dir/build.make example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_stand_example.dir/build.make example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.s
 .PHONY : go2_stand_example.cpp.s
 
 go2_video_client.o: go2_video_client.cpp.o
@@ -346,7 +346,7 @@ go2_video_client.o: go2_video_client.cpp.o
 
 # target to build an object file
 go2_video_client.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_video_client.dir/build.make example/go2/CMakeFiles/go2_video_client.dir/go2_video_client.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_video_client.dir/build.make example/go2/CMakeFiles/go2_video_client.dir/go2_video_client.cpp.o
 .PHONY : go2_video_client.cpp.o
 
 go2_video_client.i: go2_video_client.cpp.i
@@ -354,7 +354,7 @@ go2_video_client.i: go2_video_client.cpp.i
 
 # target to preprocess a source file
 go2_video_client.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_video_client.dir/build.make example/go2/CMakeFiles/go2_video_client.dir/go2_video_client.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_video_client.dir/build.make example/go2/CMakeFiles/go2_video_client.dir/go2_video_client.cpp.i
 .PHONY : go2_video_client.cpp.i
 
 go2_video_client.s: go2_video_client.cpp.s
@@ -362,7 +362,7 @@ go2_video_client.s: go2_video_client.cpp.s
 
 # target to generate assembly for a file
 go2_video_client.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_video_client.dir/build.make example/go2/CMakeFiles/go2_video_client.dir/go2_video_client.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_video_client.dir/build.make example/go2/CMakeFiles/go2_video_client.dir/go2_video_client.cpp.s
 .PHONY : go2_video_client.cpp.s
 
 go2_vui_client.o: go2_vui_client.cpp.o
@@ -370,7 +370,7 @@ go2_vui_client.o: go2_vui_client.cpp.o
 
 # target to build an object file
 go2_vui_client.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_vui_client.dir/build.make example/go2/CMakeFiles/go2_vui_client.dir/go2_vui_client.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_vui_client.dir/build.make example/go2/CMakeFiles/go2_vui_client.dir/go2_vui_client.cpp.o
 .PHONY : go2_vui_client.cpp.o
 
 go2_vui_client.i: go2_vui_client.cpp.i
@@ -378,7 +378,7 @@ go2_vui_client.i: go2_vui_client.cpp.i
 
 # target to preprocess a source file
 go2_vui_client.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_vui_client.dir/build.make example/go2/CMakeFiles/go2_vui_client.dir/go2_vui_client.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_vui_client.dir/build.make example/go2/CMakeFiles/go2_vui_client.dir/go2_vui_client.cpp.i
 .PHONY : go2_vui_client.cpp.i
 
 go2_vui_client.s: go2_vui_client.cpp.s
@@ -386,7 +386,7 @@ go2_vui_client.s: go2_vui_client.cpp.s
 
 # target to generate assembly for a file
 go2_vui_client.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_vui_client.dir/build.make example/go2/CMakeFiles/go2_vui_client.dir/go2_vui_client.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/go2/CMakeFiles/go2_vui_client.dir/build.make example/go2/CMakeFiles/go2_vui_client.dir/go2_vui_client.cpp.s
 .PHONY : go2_vui_client.cpp.s
 
 # Help Target
@@ -436,6 +436,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

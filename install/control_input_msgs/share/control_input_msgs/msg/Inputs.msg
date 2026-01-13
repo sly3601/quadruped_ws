@@ -1,1 +1,1 @@
-/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs/msg/Inputs.msg
+/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs/msg/Inputs.msg

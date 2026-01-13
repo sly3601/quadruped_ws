@@ -1,8 +1,8 @@
-# Install script for directory: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty
+# Install script for directory: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yzz/ROS2_WS/install/unitree_sdk2")
+  set(CMAKE_INSTALL_PREFIX "/home/yzz/quadruped_ws/install/unitree_sdk2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,14 +44,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES
-    "/home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so"
-    "/home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so.0"
-    "/home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so"
-    "/home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so.0"
+    "/home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so"
+    "/home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so.0"
+    "/home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so"
+    "/home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so.0"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/include/")
 endif()
 

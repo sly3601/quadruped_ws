@@ -1,8 +1,8 @@
-# Install script for directory: /home/yzz/ROS2_WS/src/unitree_sdk2/example/go2w
+# Install script for directory: /home/yzz/quadruped_ws/src/unitree_sdk2/example/go2w
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yzz/ROS2_WS/install/unitree_sdk2")
+  set(CMAKE_INSTALL_PREFIX "/home/yzz/quadruped_ws/install/unitree_sdk2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

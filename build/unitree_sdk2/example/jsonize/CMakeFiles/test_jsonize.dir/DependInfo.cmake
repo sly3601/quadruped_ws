@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yzz/ROS2_WS/src/unitree_sdk2/example/jsonize/test_jsonize.cpp" "example/jsonize/CMakeFiles/test_jsonize.dir/test_jsonize.cpp.o" "gcc" "example/jsonize/CMakeFiles/test_jsonize.dir/test_jsonize.cpp.o.d"
+  "/home/yzz/quadruped_ws/src/unitree_sdk2/example/jsonize/test_jsonize.cpp" "example/jsonize/CMakeFiles/test_jsonize.dir/test_jsonize.cpp.o" "gcc" "example/jsonize/CMakeFiles/test_jsonize.dir/test_jsonize.cpp.o.d"
   )
 
 # Targets to which this target links.

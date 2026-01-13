@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/unitree_sdk2
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/unitree_sdk2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/unitree_sdk2
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/unitree_sdk2
 
 # Include any dependencies generated for this target.
 include example/helloworld/CMakeFiles/test_publisher.dir/depend.make
@@ -70,32 +70,32 @@ include example/helloworld/CMakeFiles/test_publisher.dir/progress.make
 include example/helloworld/CMakeFiles/test_publisher.dir/flags.make
 
 example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o: example/helloworld/CMakeFiles/test_publisher.dir/flags.make
-example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o: /home/yzz/ROS2_WS/src/unitree_sdk2/example/helloworld/publisher.cpp
+example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o: /home/yzz/quadruped_ws/src/unitree_sdk2/example/helloworld/publisher.cpp
 example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o: example/helloworld/CMakeFiles/test_publisher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/helloworld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o -MF CMakeFiles/test_publisher.dir/publisher.cpp.o.d -o CMakeFiles/test_publisher.dir/publisher.cpp.o -c /home/yzz/ROS2_WS/src/unitree_sdk2/example/helloworld/publisher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o"
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/helloworld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o -MF CMakeFiles/test_publisher.dir/publisher.cpp.o.d -o CMakeFiles/test_publisher.dir/publisher.cpp.o -c /home/yzz/quadruped_ws/src/unitree_sdk2/example/helloworld/publisher.cpp
 
 example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_publisher.dir/publisher.cpp.i"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/helloworld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/unitree_sdk2/example/helloworld/publisher.cpp > CMakeFiles/test_publisher.dir/publisher.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/helloworld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/unitree_sdk2/example/helloworld/publisher.cpp > CMakeFiles/test_publisher.dir/publisher.cpp.i
 
 example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_publisher.dir/publisher.cpp.s"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/helloworld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/unitree_sdk2/example/helloworld/publisher.cpp -o CMakeFiles/test_publisher.dir/publisher.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/helloworld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/unitree_sdk2/example/helloworld/publisher.cpp -o CMakeFiles/test_publisher.dir/publisher.cpp.s
 
 example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o: example/helloworld/CMakeFiles/test_publisher.dir/flags.make
-example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o: /home/yzz/ROS2_WS/src/unitree_sdk2/example/helloworld/HelloWorldData.cpp
+example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o: /home/yzz/quadruped_ws/src/unitree_sdk2/example/helloworld/HelloWorldData.cpp
 example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o: example/helloworld/CMakeFiles/test_publisher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/helloworld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o -MF CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o.d -o CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o -c /home/yzz/ROS2_WS/src/unitree_sdk2/example/helloworld/HelloWorldData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o"
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/helloworld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o -MF CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o.d -o CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o -c /home/yzz/quadruped_ws/src/unitree_sdk2/example/helloworld/HelloWorldData.cpp
 
 example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_publisher.dir/HelloWorldData.cpp.i"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/helloworld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/unitree_sdk2/example/helloworld/HelloWorldData.cpp > CMakeFiles/test_publisher.dir/HelloWorldData.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/helloworld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/unitree_sdk2/example/helloworld/HelloWorldData.cpp > CMakeFiles/test_publisher.dir/HelloWorldData.cpp.i
 
 example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_publisher.dir/HelloWorldData.cpp.s"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/helloworld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/unitree_sdk2/example/helloworld/HelloWorldData.cpp -o CMakeFiles/test_publisher.dir/HelloWorldData.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/helloworld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/unitree_sdk2/example/helloworld/HelloWorldData.cpp -o CMakeFiles/test_publisher.dir/HelloWorldData.cpp.s
 
 # Object files for target test_publisher
 test_publisher_OBJECTS = \
@@ -108,22 +108,22 @@ test_publisher_EXTERNAL_OBJECTS =
 bin/test_publisher: example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o
 bin/test_publisher: example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o
 bin/test_publisher: example/helloworld/CMakeFiles/test_publisher.dir/build.make
-bin/test_publisher: /home/yzz/ROS2_WS/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
-bin/test_publisher: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
-bin/test_publisher: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
+bin/test_publisher: /home/yzz/quadruped_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+bin/test_publisher: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
+bin/test_publisher: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
 bin/test_publisher: example/helloworld/CMakeFiles/test_publisher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/test_publisher"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/helloworld && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_publisher.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/test_publisher"
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/helloworld && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_publisher.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 example/helloworld/CMakeFiles/test_publisher.dir/build: bin/test_publisher
 .PHONY : example/helloworld/CMakeFiles/test_publisher.dir/build
 
 example/helloworld/CMakeFiles/test_publisher.dir/clean:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/helloworld && $(CMAKE_COMMAND) -P CMakeFiles/test_publisher.dir/cmake_clean.cmake
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/helloworld && $(CMAKE_COMMAND) -P CMakeFiles/test_publisher.dir/cmake_clean.cmake
 .PHONY : example/helloworld/CMakeFiles/test_publisher.dir/clean
 
 example/helloworld/CMakeFiles/test_publisher.dir/depend:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/ROS2_WS/src/unitree_sdk2 /home/yzz/ROS2_WS/src/unitree_sdk2/example/helloworld /home/yzz/ROS2_WS/build/unitree_sdk2 /home/yzz/ROS2_WS/build/unitree_sdk2/example/helloworld /home/yzz/ROS2_WS/build/unitree_sdk2/example/helloworld/CMakeFiles/test_publisher.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/quadruped_ws/src/unitree_sdk2 /home/yzz/quadruped_ws/src/unitree_sdk2/example/helloworld /home/yzz/quadruped_ws/build/unitree_sdk2 /home/yzz/quadruped_ws/build/unitree_sdk2/example/helloworld /home/yzz/quadruped_ws/build/unitree_sdk2/example/helloworld/CMakeFiles/test_publisher.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/helloworld/CMakeFiles/test_publisher.dir/depend
 

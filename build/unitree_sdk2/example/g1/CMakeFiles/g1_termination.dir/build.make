@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/unitree_sdk2
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/unitree_sdk2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/unitree_sdk2
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/unitree_sdk2
 
 # Include any dependencies generated for this target.
 include example/g1/CMakeFiles/g1_termination.dir/depend.make
@@ -70,18 +70,18 @@ include example/g1/CMakeFiles/g1_termination.dir/progress.make
 include example/g1/CMakeFiles/g1_termination.dir/flags.make
 
 example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o: example/g1/CMakeFiles/g1_termination.dir/flags.make
-example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o: /home/yzz/ROS2_WS/src/unitree_sdk2/example/g1/low_level/terminations.cpp
+example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o: /home/yzz/quadruped_ws/src/unitree_sdk2/example/g1/low_level/terminations.cpp
 example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o: example/g1/CMakeFiles/g1_termination.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/g1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o -MF CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o.d -o CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o -c /home/yzz/ROS2_WS/src/unitree_sdk2/example/g1/low_level/terminations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o"
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/g1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o -MF CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o.d -o CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o -c /home/yzz/quadruped_ws/src/unitree_sdk2/example/g1/low_level/terminations.cpp
 
 example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g1_termination.dir/low_level/terminations.cpp.i"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/g1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/unitree_sdk2/example/g1/low_level/terminations.cpp > CMakeFiles/g1_termination.dir/low_level/terminations.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/g1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/unitree_sdk2/example/g1/low_level/terminations.cpp > CMakeFiles/g1_termination.dir/low_level/terminations.cpp.i
 
 example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g1_termination.dir/low_level/terminations.cpp.s"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/g1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/unitree_sdk2/example/g1/low_level/terminations.cpp -o CMakeFiles/g1_termination.dir/low_level/terminations.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/g1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/unitree_sdk2/example/g1/low_level/terminations.cpp -o CMakeFiles/g1_termination.dir/low_level/terminations.cpp.s
 
 # Object files for target g1_termination
 g1_termination_OBJECTS = \
@@ -92,23 +92,23 @@ g1_termination_EXTERNAL_OBJECTS =
 
 bin/g1_termination: example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o
 bin/g1_termination: example/g1/CMakeFiles/g1_termination.dir/build.make
-bin/g1_termination: /home/yzz/ROS2_WS/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+bin/g1_termination: /home/yzz/quadruped_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
 bin/g1_termination: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.74.0
-bin/g1_termination: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
-bin/g1_termination: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
+bin/g1_termination: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
+bin/g1_termination: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
 bin/g1_termination: example/g1/CMakeFiles/g1_termination.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/g1_termination"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/g1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g1_termination.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/g1_termination"
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/g1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g1_termination.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 example/g1/CMakeFiles/g1_termination.dir/build: bin/g1_termination
 .PHONY : example/g1/CMakeFiles/g1_termination.dir/build
 
 example/g1/CMakeFiles/g1_termination.dir/clean:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/g1 && $(CMAKE_COMMAND) -P CMakeFiles/g1_termination.dir/cmake_clean.cmake
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/g1 && $(CMAKE_COMMAND) -P CMakeFiles/g1_termination.dir/cmake_clean.cmake
 .PHONY : example/g1/CMakeFiles/g1_termination.dir/clean
 
 example/g1/CMakeFiles/g1_termination.dir/depend:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/ROS2_WS/src/unitree_sdk2 /home/yzz/ROS2_WS/src/unitree_sdk2/example/g1 /home/yzz/ROS2_WS/build/unitree_sdk2 /home/yzz/ROS2_WS/build/unitree_sdk2/example/g1 /home/yzz/ROS2_WS/build/unitree_sdk2/example/g1/CMakeFiles/g1_termination.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/quadruped_ws/src/unitree_sdk2 /home/yzz/quadruped_ws/src/unitree_sdk2/example/g1 /home/yzz/quadruped_ws/build/unitree_sdk2 /home/yzz/quadruped_ws/build/unitree_sdk2/example/g1 /home/yzz/quadruped_ws/build/unitree_sdk2/example/g1/CMakeFiles/g1_termination.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/g1/CMakeFiles/g1_termination.dir/depend
 

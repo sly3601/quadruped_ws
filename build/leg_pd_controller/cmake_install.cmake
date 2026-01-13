@@ -1,8 +1,8 @@
-# Install script for directory: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/leg_pd_controller
+# Install script for directory: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/leg_pd_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yzz/ROS2_WS/install/leg_pd_controller")
+  set(CMAKE_INSTALL_PREFIX "/home/yzz/quadruped_ws/install/leg_pd_controller")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,11 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/leg_pd_controller/leg_pd_controller.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/leg_pd_controller/leg_pd_controller.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/leg_pd_controller" TYPE DIRECTORY FILES "/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/leg_pd_controller/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/leg_pd_controller" TYPE DIRECTORY FILES "/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/leg_pd_controller/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -57,7 +57,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/leg_pd_controller/libleg_pd_controller.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/leg_pd_controller" TYPE SHARED_LIBRARY FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/libleg_pd_controller.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/leg_pd_controller" TYPE SHARED_LIBRARY FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/libleg_pd_controller.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/leg_pd_controller/libleg_pd_controller.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/leg_pd_controller/libleg_pd_controller.so")
     file(RPATH_CHANGE
@@ -78,15 +78,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/environment" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/environment" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/leg_pd_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/leg_pd_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/leg_pd_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/leg_pd_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -94,7 +94,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/environment" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/environment" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -102,42 +102,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/environment" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/environment" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_index/share/ament_index/resource_index/packages/leg_pd_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_index/share/ament_index/resource_index/packages/leg_pd_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/controller_interface__pluginlib__plugin" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_index/share/ament_index/resource_index/controller_interface__pluginlib__plugin/leg_pd_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/controller_interface__pluginlib__plugin" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_index/share/ament_index/resource_index/controller_interface__pluginlib__plugin/leg_pd_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/cmake/export_leg_pd_controllerExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/cmake/export_leg_pd_controllerExport.cmake"
-         "/home/yzz/ROS2_WS/build/leg_pd_controller/CMakeFiles/Export/share/leg_pd_controller/cmake/export_leg_pd_controllerExport.cmake")
+         "/home/yzz/quadruped_ws/build/leg_pd_controller/CMakeFiles/Export/share/leg_pd_controller/cmake/export_leg_pd_controllerExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/cmake/export_leg_pd_controllerExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -146,29 +146,29 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/cmake" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/CMakeFiles/Export/share/leg_pd_controller/cmake/export_leg_pd_controllerExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/cmake" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/CMakeFiles/Export/share/leg_pd_controller/cmake/export_leg_pd_controllerExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/cmake" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/CMakeFiles/Export/share/leg_pd_controller/cmake/export_leg_pd_controllerExport-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/cmake" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/CMakeFiles/Export/share/leg_pd_controller/cmake/export_leg_pd_controllerExport-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/cmake" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/cmake" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/cmake" TYPE FILE FILES "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/cmake" TYPE FILE FILES "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller/cmake" TYPE FILE FILES
-    "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_core/leg_pd_controllerConfig.cmake"
-    "/home/yzz/ROS2_WS/build/leg_pd_controller/ament_cmake_core/leg_pd_controllerConfig-version.cmake"
+    "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_core/leg_pd_controllerConfig.cmake"
+    "/home/yzz/quadruped_ws/build/leg_pd_controller/ament_cmake_core/leg_pd_controllerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/leg_pd_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_pd_controller" TYPE FILE FILES "/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/leg_pd_controller/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -179,5 +179,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yzz/ROS2_WS/build/leg_pd_controller/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yzz/quadruped_ws/build/leg_pd_controller/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

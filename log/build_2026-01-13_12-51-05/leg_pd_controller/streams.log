@@ -1,0 +1,87 @@
+[0.016s] Invoking command in '/home/yzz/quadruped_ws/build/leg_pd_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/leg_pd_controller -DCMAKE_INSTALL_PREFIX=/home/yzz/quadruped_ws/install/leg_pd_controller
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.226s] -- The CXX compiler identification is GNU 11.4.0
+[0.242s] -- Detecting C compiler ABI info
+[0.413s] -- Detecting C compiler ABI info - done
+[0.424s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.425s] -- Detecting C compile features
+[0.426s] -- Detecting C compile features - done
+[0.430s] -- Detecting CXX compiler ABI info
+[0.631s] -- Detecting CXX compiler ABI info - done
+[0.640s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.641s] -- Detecting CXX compile features
+[0.642s] -- Detecting CXX compile features - done
+[0.648s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.878s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.995s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[1.045s] -- Found controller_interface: 2.52.2 (/opt/ros/humble/share/controller_interface/cmake)
+[1.081s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.087s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.097s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.116s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.384s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.389s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.441s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.564s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.567s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.585s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.590s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.605s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.642s] -- Looking for pthread.h
+[1.773s] -- Looking for pthread.h - found
+[1.809s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.926s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.929s] -- Found Threads: TRUE  
+[1.993s] -- Found realtime_tools: 2.14.1 (/opt/ros/humble/share/realtime_tools/cmake)
+[2.010s] -- Found controller_manager: 2.52.2 (/opt/ros/humble/share/controller_manager/cmake)
+[2.032s] -- ros2_control version below 3.0.0. Change the implementation to support ros2_control version 2.
+[2.039s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.150s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.150s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/leg_pd_controller/include>
+[2.150s] -- Configured cppcheck exclude dirs and/or files: 
+[2.153s] -- Added test 'lint_cmake' to check CMake code style
+[2.155s] -- Added test 'uncrustify' to check C / C++ code style
+[2.155s] -- Configured uncrustify additional arguments: 
+[2.156s] -- Added test 'xmllint' to check XML markup files
+[2.159s] -- Configuring done
+[2.187s] -- Generating done
+[2.192s] -- Build files have been written to: /home/yzz/quadruped_ws/build/leg_pd_controller
+[2.212s] Invoked command in '/home/yzz/quadruped_ws/build/leg_pd_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/leg_pd_controller -DCMAKE_INSTALL_PREFIX=/home/yzz/quadruped_ws/install/leg_pd_controller
+[2.213s] Invoking command in '/home/yzz/quadruped_ws/build/leg_pd_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzz/quadruped_ws/build/leg_pd_controller -- -j2 -l2
+[2.366s] [ 50%] [32mBuilding CXX object CMakeFiles/leg_pd_controller.dir/src/LegPdController.cpp.o[0m
+[8.420s] [100%] [32m[1mLinking CXX shared library libleg_pd_controller.so[0m
+[8.588s] [100%] Built target leg_pd_controller
+[8.614s] Invoked command in '/home/yzz/quadruped_ws/build/leg_pd_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzz/quadruped_ws/build/leg_pd_controller -- -j2 -l2
+[8.636s] Invoking command in '/home/yzz/quadruped_ws/build/leg_pd_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzz/quadruped_ws/build/leg_pd_controller
+[8.662s] -- Install configuration: "Release"
+[8.662s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/leg_pd_controller.xml
+[8.663s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/include/leg_pd_controller
+[8.663s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/include/leg_pd_controller/leg_pd_controller
+[8.663s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/include/leg_pd_controller/leg_pd_controller/LegPdController.h
+[8.664s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/lib/leg_pd_controller/libleg_pd_controller.so
+[8.665s] -- Set runtime path of "/home/yzz/quadruped_ws/install/leg_pd_controller/lib/leg_pd_controller/libleg_pd_controller.so" to ""
+[8.666s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/environment/library_path.sh
+[8.666s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/environment/library_path.dsv
+[8.666s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/ament_index/resource_index/package_run_dependencies/leg_pd_controller
+[8.667s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/ament_index/resource_index/parent_prefix_path/leg_pd_controller
+[8.668s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/environment/ament_prefix_path.sh
+[8.668s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/environment/ament_prefix_path.dsv
+[8.669s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/environment/path.sh
+[8.670s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/environment/path.dsv
+[8.670s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/local_setup.bash
+[8.672s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/local_setup.sh
+[8.672s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/local_setup.zsh
+[8.673s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/local_setup.dsv
+[8.673s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/package.dsv
+[8.673s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/ament_index/resource_index/packages/leg_pd_controller
+[8.673s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/leg_pd_controller
+[8.673s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/cmake/export_leg_pd_controllerExport.cmake
+[8.673s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/cmake/export_leg_pd_controllerExport-release.cmake
+[8.673s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.674s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/cmake/ament_cmake_export_targets-extras.cmake
+[8.674s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/cmake/leg_pd_controllerConfig.cmake
+[8.675s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/cmake/leg_pd_controllerConfig-version.cmake
+[8.675s] -- Installing: /home/yzz/quadruped_ws/install/leg_pd_controller/share/leg_pd_controller/package.xml
+[8.679s] Invoked command in '/home/yzz/quadruped_ws/build/leg_pd_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzz/quadruped_ws/build/leg_pd_controller

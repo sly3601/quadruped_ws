@@ -1,5 +1,5 @@
 CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o: \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/RobotLeg.cpp \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/robot/RobotLeg.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -117,7 +117,7 @@ CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/robot/RobotLeg.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/robot/RobotLeg.h \
  /usr/include/kdl/chainfksolverpos_recursive.hpp \
  /usr/include/kdl/chainfksolver.hpp /usr/include/kdl/chain.hpp \
  /usr/include/kdl/segment.hpp /usr/include/kdl/frames.hpp \
@@ -456,5 +456,5 @@ CMakeFiles/unitree_guide_controller.dir/src/robot/RobotLeg.cpp.o: \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/color.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/types.h \
  /opt/ros/humble/include/kdl_parser/kdl_parser/visibility_control.hpp \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/common/mathTypes.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/include/unitree_guide_controller/common/mathTypes.h \
  /usr/include/eigen3/Eigen/Dense

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/unitree_sdk2
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/unitree_sdk2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/unitree_sdk2
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/unitree_sdk2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles /home/yzz/ROS2_WS/build/unitree_sdk2/example/wireless_controller//CMakeFiles/progress.marks
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/wireless_controller/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles 0
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles /home/yzz/quadruped_ws/build/unitree_sdk2/example/wireless_controller//CMakeFiles/progress.marks
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/wireless_controller/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/wireless_controller/clean
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/wireless_controller/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/wireless_controller/preinstall
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/wireless_controller/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/wireless_controller/preinstall
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/wireless_controller/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 example/wireless_controller/CMakeFiles/advanced_gamepad.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/wireless_controller/CMakeFiles/advanced_gamepad.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/wireless_controller/CMakeFiles/advanced_gamepad.dir/rule
 .PHONY : example/wireless_controller/CMakeFiles/advanced_gamepad.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ advanced_gamepad: example/wireless_controller/CMakeFiles/advanced_gamepad.dir/ru
 
 # fast build rule for target.
 advanced_gamepad/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/wireless_controller/CMakeFiles/advanced_gamepad.dir/build.make example/wireless_controller/CMakeFiles/advanced_gamepad.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/wireless_controller/CMakeFiles/advanced_gamepad.dir/build.make example/wireless_controller/CMakeFiles/advanced_gamepad.dir/build
 .PHONY : advanced_gamepad/fast
 
 main.o: main.cpp.o
@@ -180,7 +180,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/wireless_controller/CMakeFiles/advanced_gamepad.dir/build.make example/wireless_controller/CMakeFiles/advanced_gamepad.dir/main.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/wireless_controller/CMakeFiles/advanced_gamepad.dir/build.make example/wireless_controller/CMakeFiles/advanced_gamepad.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -188,7 +188,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/wireless_controller/CMakeFiles/advanced_gamepad.dir/build.make example/wireless_controller/CMakeFiles/advanced_gamepad.dir/main.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/wireless_controller/CMakeFiles/advanced_gamepad.dir/build.make example/wireless_controller/CMakeFiles/advanced_gamepad.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -196,7 +196,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/wireless_controller/CMakeFiles/advanced_gamepad.dir/build.make example/wireless_controller/CMakeFiles/advanced_gamepad.dir/main.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/wireless_controller/CMakeFiles/advanced_gamepad.dir/build.make example/wireless_controller/CMakeFiles/advanced_gamepad.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

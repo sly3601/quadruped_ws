@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/control_input_msgs
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/control_input_msgs
 
 # Utility rule file for control_input_msgs.
 
@@ -66,7 +66,7 @@ include CMakeFiles/control_input_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/control_input_msgs.dir/progress.make
 
-CMakeFiles/control_input_msgs: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs/msg/Inputs.msg
+CMakeFiles/control_input_msgs: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs/msg/Inputs.msg
 
 control_input_msgs: CMakeFiles/control_input_msgs
 control_input_msgs: CMakeFiles/control_input_msgs.dir/build.make
@@ -81,6 +81,6 @@ CMakeFiles/control_input_msgs.dir/clean:
 .PHONY : CMakeFiles/control_input_msgs.dir/clean
 
 CMakeFiles/control_input_msgs.dir/depend:
-	cd /home/yzz/ROS2_WS/build/control_input_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs /home/yzz/ROS2_WS/build/control_input_msgs /home/yzz/ROS2_WS/build/control_input_msgs /home/yzz/ROS2_WS/build/control_input_msgs/CMakeFiles/control_input_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzz/quadruped_ws/build/control_input_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs /home/yzz/quadruped_ws/build/control_input_msgs /home/yzz/quadruped_ws/build/control_input_msgs /home/yzz/quadruped_ws/build/control_input_msgs/CMakeFiles/control_input_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/control_input_msgs.dir/depend
 

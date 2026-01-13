@@ -1,1 +1,1 @@
-/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake
+/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake

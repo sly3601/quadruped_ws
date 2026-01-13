@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/unitree_guide_controller
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/unitree_guide_controller
 
 # Utility rule file for unitree_guide_controller_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/unitree_guide_controller_uninstall.dir/compiler_depend.make
 include CMakeFiles/unitree_guide_controller_uninstall.dir/progress.make
 
 CMakeFiles/unitree_guide_controller_uninstall:
-	/usr/bin/cmake -P /home/yzz/ROS2_WS/build/unitree_guide_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/yzz/quadruped_ws/build/unitree_guide_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 unitree_guide_controller_uninstall: CMakeFiles/unitree_guide_controller_uninstall
 unitree_guide_controller_uninstall: CMakeFiles/unitree_guide_controller_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/unitree_guide_controller_uninstall.dir/clean:
 .PHONY : CMakeFiles/unitree_guide_controller_uninstall.dir/clean
 
 CMakeFiles/unitree_guide_controller_uninstall.dir/depend:
-	cd /home/yzz/ROS2_WS/build/unitree_guide_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller /home/yzz/ROS2_WS/build/unitree_guide_controller /home/yzz/ROS2_WS/build/unitree_guide_controller /home/yzz/ROS2_WS/build/unitree_guide_controller/CMakeFiles/unitree_guide_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzz/quadruped_ws/build/unitree_guide_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller /home/yzz/quadruped_ws/build/unitree_guide_controller /home/yzz/quadruped_ws/build/unitree_guide_controller /home/yzz/quadruped_ws/build/unitree_guide_controller/CMakeFiles/unitree_guide_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_guide_controller_uninstall.dir/depend
 

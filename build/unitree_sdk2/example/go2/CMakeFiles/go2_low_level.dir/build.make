@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/unitree_sdk2
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/unitree_sdk2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/unitree_sdk2
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/unitree_sdk2
 
 # Include any dependencies generated for this target.
 include example/go2/CMakeFiles/go2_low_level.dir/depend.make
@@ -70,18 +70,18 @@ include example/go2/CMakeFiles/go2_low_level.dir/progress.make
 include example/go2/CMakeFiles/go2_low_level.dir/flags.make
 
 example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o: example/go2/CMakeFiles/go2_low_level.dir/flags.make
-example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o: /home/yzz/ROS2_WS/src/unitree_sdk2/example/go2/go2_low_level.cpp
+example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o: /home/yzz/quadruped_ws/src/unitree_sdk2/example/go2/go2_low_level.cpp
 example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o: example/go2/CMakeFiles/go2_low_level.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o -MF CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o.d -o CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o -c /home/yzz/ROS2_WS/src/unitree_sdk2/example/go2/go2_low_level.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o"
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o -MF CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o.d -o CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o -c /home/yzz/quadruped_ws/src/unitree_sdk2/example/go2/go2_low_level.cpp
 
 example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/go2_low_level.dir/go2_low_level.cpp.i"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/unitree_sdk2/example/go2/go2_low_level.cpp > CMakeFiles/go2_low_level.dir/go2_low_level.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/unitree_sdk2/example/go2/go2_low_level.cpp > CMakeFiles/go2_low_level.dir/go2_low_level.cpp.i
 
 example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/go2_low_level.dir/go2_low_level.cpp.s"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/unitree_sdk2/example/go2/go2_low_level.cpp -o CMakeFiles/go2_low_level.dir/go2_low_level.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/unitree_sdk2/example/go2/go2_low_level.cpp -o CMakeFiles/go2_low_level.dir/go2_low_level.cpp.s
 
 # Object files for target go2_low_level
 go2_low_level_OBJECTS = \
@@ -92,22 +92,22 @@ go2_low_level_EXTERNAL_OBJECTS =
 
 bin/go2_low_level: example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o
 bin/go2_low_level: example/go2/CMakeFiles/go2_low_level.dir/build.make
-bin/go2_low_level: /home/yzz/ROS2_WS/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
-bin/go2_low_level: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
-bin/go2_low_level: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
+bin/go2_low_level: /home/yzz/quadruped_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+bin/go2_low_level: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
+bin/go2_low_level: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
 bin/go2_low_level: example/go2/CMakeFiles/go2_low_level.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/go2_low_level"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/go2_low_level.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/go2_low_level"
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/go2_low_level.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 example/go2/CMakeFiles/go2_low_level.dir/build: bin/go2_low_level
 .PHONY : example/go2/CMakeFiles/go2_low_level.dir/build
 
 example/go2/CMakeFiles/go2_low_level.dir/clean:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2 && $(CMAKE_COMMAND) -P CMakeFiles/go2_low_level.dir/cmake_clean.cmake
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2 && $(CMAKE_COMMAND) -P CMakeFiles/go2_low_level.dir/cmake_clean.cmake
 .PHONY : example/go2/CMakeFiles/go2_low_level.dir/clean
 
 example/go2/CMakeFiles/go2_low_level.dir/depend:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/ROS2_WS/src/unitree_sdk2 /home/yzz/ROS2_WS/src/unitree_sdk2/example/go2 /home/yzz/ROS2_WS/build/unitree_sdk2 /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2 /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2/CMakeFiles/go2_low_level.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/quadruped_ws/src/unitree_sdk2 /home/yzz/quadruped_ws/src/unitree_sdk2/example/go2 /home/yzz/quadruped_ws/build/unitree_sdk2 /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2 /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2/CMakeFiles/go2_low_level.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/go2/CMakeFiles/go2_low_level.dir/depend
 

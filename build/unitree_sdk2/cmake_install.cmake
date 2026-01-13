@@ -1,8 +1,8 @@
-# Install script for directory: /home/yzz/ROS2_WS/src/unitree_sdk2
+# Install script for directory: /home/yzz/quadruped_ws/src/unitree_sdk2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yzz/ROS2_WS/install/unitree_sdk2")
+  set(CMAKE_INSTALL_PREFIX "/home/yzz/quadruped_ws/install/unitree_sdk2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,28 +43,28 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/yzz/ROS2_WS/src/unitree_sdk2/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/yzz/quadruped_ws/src/unitree_sdk2/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/yzz/ROS2_WS/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/yzz/quadruped_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/unitree_sdk2" TYPE FILE FILES "/home/yzz/ROS2_WS/src/unitree_sdk2/cmake/unitree_sdk2Targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/unitree_sdk2" TYPE FILE FILES "/home/yzz/quadruped_ws/src/unitree_sdk2/cmake/unitree_sdk2Targets.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/unitree_sdk2" TYPE FILE FILES
-    "/home/yzz/ROS2_WS/build/unitree_sdk2/unitree_sdk2Config.cmake"
-    "/home/yzz/ROS2_WS/build/unitree_sdk2/unitree_sdk2ConfigVersion.cmake"
+    "/home/yzz/quadruped_ws/build/unitree_sdk2/unitree_sdk2Config.cmake"
+    "/home/yzz/quadruped_ws/build/unitree_sdk2/unitree_sdk2ConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yzz/ROS2_WS/build/unitree_sdk2/thirdparty/cmake_install.cmake")
-  include("/home/yzz/ROS2_WS/build/unitree_sdk2/example/cmake_install.cmake")
+  include("/home/yzz/quadruped_ws/build/unitree_sdk2/thirdparty/cmake_install.cmake")
+  include("/home/yzz/quadruped_ws/build/unitree_sdk2/example/cmake_install.cmake")
 
 endif()
 
@@ -76,5 +76,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yzz/ROS2_WS/build/unitree_sdk2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yzz/quadruped_ws/build/unitree_sdk2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

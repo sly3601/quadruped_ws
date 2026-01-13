@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/control_input_msgs
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/control_input_msgs
 
 # Include any dependencies generated for this target.
 include CMakeFiles/control_input_msgs__rosidl_generator_c.dir/depend.make
@@ -83,8 +83,8 @@ rosidl_generator_c/control_input_msgs/msg/inputs.h: /opt/ros/humble/share/rosidl
 rosidl_generator_c/control_input_msgs/msg/inputs.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/control_input_msgs/msg/inputs.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/control_input_msgs/msg/inputs.h: rosidl_adapter/control_input_msgs/msg/Inputs.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzz/ROS2_WS/build/control_input_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/yzz/ROS2_WS/build/control_input_msgs/rosidl_generator_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzz/quadruped_ws/build/control_input_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/yzz/quadruped_ws/build/control_input_msgs/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.h: rosidl_generator_c/control_input_msgs/msg/inputs.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.h
@@ -101,16 +101,16 @@ rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c: rosidl_gen
 CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.o: CMakeFiles/control_input_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.o: rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c
 CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.o: CMakeFiles/control_input_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/control_input_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.o -MF CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.o.d -o CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.o -c /home/yzz/ROS2_WS/build/control_input_msgs/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/control_input_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.o -MF CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.o.d -o CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.o -c /home/yzz/quadruped_ws/build/control_input_msgs/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c
 
 CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yzz/ROS2_WS/build/control_input_msgs/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c > CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yzz/quadruped_ws/build/control_input_msgs/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c > CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.i
 
 CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yzz/ROS2_WS/build/control_input_msgs/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c -o CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yzz/quadruped_ws/build/control_input_msgs/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c -o CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.s
 
 # Object files for target control_input_msgs__rosidl_generator_c
 control_input_msgs__rosidl_generator_c_OBJECTS = \
@@ -124,7 +124,7 @@ libcontrol_input_msgs__rosidl_generator_c.so: CMakeFiles/control_input_msgs__ros
 libcontrol_input_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libcontrol_input_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libcontrol_input_msgs__rosidl_generator_c.so: CMakeFiles/control_input_msgs__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/ROS2_WS/build/control_input_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libcontrol_input_msgs__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/quadruped_ws/build/control_input_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libcontrol_input_msgs__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/control_input_msgs__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +140,6 @@ CMakeFiles/control_input_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c
 CMakeFiles/control_input_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/control_input_msgs/msg/detail/inputs__struct.h
 CMakeFiles/control_input_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/control_input_msgs/msg/detail/inputs__type_support.h
 CMakeFiles/control_input_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/control_input_msgs/msg/inputs.h
-	cd /home/yzz/ROS2_WS/build/control_input_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs /home/yzz/ROS2_WS/build/control_input_msgs /home/yzz/ROS2_WS/build/control_input_msgs /home/yzz/ROS2_WS/build/control_input_msgs/CMakeFiles/control_input_msgs__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzz/quadruped_ws/build/control_input_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs /home/yzz/quadruped_ws/build/control_input_msgs /home/yzz/quadruped_ws/build/control_input_msgs /home/yzz/quadruped_ws/build/control_input_msgs/CMakeFiles/control_input_msgs__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/control_input_msgs__rosidl_generator_c.dir/depend
 

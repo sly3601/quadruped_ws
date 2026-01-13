@@ -1,1 +1,1 @@
-/home/yzz/ROS2_WS/build/keyboard_input/ament_cmake_environment_hooks/local_setup.bash
+/home/yzz/quadruped_ws/build/keyboard_input/ament_cmake_environment_hooks/local_setup.bash

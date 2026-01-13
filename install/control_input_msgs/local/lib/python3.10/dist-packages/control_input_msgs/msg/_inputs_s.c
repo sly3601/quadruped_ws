@@ -1,1 +1,1 @@
-/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_generator_py/control_input_msgs/msg/_inputs_s.c
+/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_generator_py/control_input_msgs/msg/_inputs_s.c

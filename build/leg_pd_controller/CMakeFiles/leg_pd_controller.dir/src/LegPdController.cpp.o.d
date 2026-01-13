@@ -1,7 +1,7 @@
 CMakeFiles/leg_pd_controller.dir/src/LegPdController.cpp.o: \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/leg_pd_controller/src/LegPdController.cpp \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/leg_pd_controller/src/LegPdController.cpp \
  /usr/include/stdc-predef.h \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/leg_pd_controller/include/leg_pd_controller/LegPdController.h \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/leg_pd_controller/include/leg_pd_controller/LegPdController.h \
  /opt/ros/humble/include/controller_interface/controller_interface/chainable_controller_interface.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

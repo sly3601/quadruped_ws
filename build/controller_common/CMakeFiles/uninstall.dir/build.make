@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/libraries/controller_common
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/libraries/controller_common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/controller_common
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/controller_common
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/yzz/ROS2_WS/build/controller_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/libraries/controller_common /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/libraries/controller_common /home/yzz/ROS2_WS/build/controller_common /home/yzz/ROS2_WS/build/controller_common /home/yzz/ROS2_WS/build/controller_common/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzz/quadruped_ws/build/controller_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/libraries/controller_common /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/libraries/controller_common /home/yzz/quadruped_ws/build/controller_common /home/yzz/quadruped_ws/build/controller_common /home/yzz/quadruped_ws/build/controller_common/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

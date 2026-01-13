@@ -1,0 +1,73 @@
+[0.022s] Invoking command in '/home/yzz/quadruped_ws/build/hardware_unitree_mujoco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/hardwares/hardware_unitree_mujoco -DCMAKE_INSTALL_PREFIX=/home/yzz/quadruped_ws/install/hardware_unitree_mujoco
+[0.039s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.309s] -- Looking for pthread.h
+[0.513s] -- Looking for pthread.h - found
+[0.513s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.696s] -- Found Threads: TRUE  
+[0.698s] -- Found hardware_interface: 2.52.2 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.753s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.758s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.772s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.794s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.818s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.110s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.113s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.151s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.303s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.307s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.348s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.361s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.377s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.395s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.489s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.635s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.638s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/hardwares/hardware_unitree_mujoco/include>;/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/hardwares/hardware_unitree_mujoco/src
+[1.638s] -- Configured cppcheck exclude dirs and/or files: 
+[1.638s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.641s] -- Added test 'lint_cmake' to check CMake code style
+[1.642s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.645s] -- Added test 'uncrustify' to check C / C++ code style
+[1.647s] -- Configured uncrustify additional arguments: 
+[1.648s] -- Added test 'xmllint' to check XML markup files
+[1.651s] -- Configuring done
+[1.674s] -- Generating done
+[1.683s] -- Build files have been written to: /home/yzz/quadruped_ws/build/hardware_unitree_mujoco
+[1.699s] Invoked command in '/home/yzz/quadruped_ws/build/hardware_unitree_mujoco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/hardwares/hardware_unitree_mujoco -DCMAKE_INSTALL_PREFIX=/home/yzz/quadruped_ws/install/hardware_unitree_mujoco
+[1.700s] Invoking command in '/home/yzz/quadruped_ws/build/hardware_unitree_mujoco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzz/quadruped_ws/build/hardware_unitree_mujoco -- -j2 -l2
+[1.848s] [ 50%] [32mBuilding CXX object CMakeFiles/hardware_unitree_mujoco.dir/src/HardwareUnitree.cpp.o[0m
+[9.940s] [100%] [32m[1mLinking CXX shared library libhardware_unitree_mujoco.so[0m
+[10.871s] [100%] Built target hardware_unitree_mujoco
+[10.888s] Invoked command in '/home/yzz/quadruped_ws/build/hardware_unitree_mujoco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzz/quadruped_ws/build/hardware_unitree_mujoco -- -j2 -l2
+[10.906s] Invoking command in '/home/yzz/quadruped_ws/build/hardware_unitree_mujoco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzz/quadruped_ws/build/hardware_unitree_mujoco
+[10.923s] -- Install configuration: ""
+[10.923s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/HardwareUnitree.xml
+[10.924s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/include/hardware_unitree_mujoco
+[10.924s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/include/hardware_unitree_mujoco/hardware_unitree_mujoco
+[10.925s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/include/hardware_unitree_mujoco/hardware_unitree_mujoco/HardwareUnitree.h
+[10.925s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/lib/libhardware_unitree_mujoco.so
+[10.941s] -- Set runtime path of "/home/yzz/quadruped_ws/install/hardware_unitree_mujoco/lib/libhardware_unitree_mujoco.so" to ""
+[10.941s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/environment/library_path.sh
+[10.941s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/environment/library_path.dsv
+[10.943s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco//launch
+[10.943s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco//launch/visualize.launch.py
+[10.943s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/ament_index/resource_index/package_run_dependencies/hardware_unitree_mujoco
+[10.943s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/ament_index/resource_index/parent_prefix_path/hardware_unitree_mujoco
+[10.944s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/environment/ament_prefix_path.sh
+[10.944s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/environment/ament_prefix_path.dsv
+[10.947s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/environment/path.sh
+[10.948s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/environment/path.dsv
+[10.948s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/local_setup.bash
+[10.948s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/local_setup.sh
+[10.948s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/local_setup.zsh
+[10.948s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/local_setup.dsv
+[10.948s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/package.dsv
+[10.948s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/ament_index/resource_index/packages/hardware_unitree_mujoco
+[10.949s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_unitree_mujoco
+[10.950s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/cmake/export_hardware_unitree_mujocoExport.cmake
+[10.950s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/cmake/export_hardware_unitree_mujocoExport-noconfig.cmake
+[10.951s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/cmake/ament_cmake_export_targets-extras.cmake
+[10.951s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/cmake/hardware_unitree_mujocoConfig.cmake
+[10.951s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/cmake/hardware_unitree_mujocoConfig-version.cmake
+[10.953s] -- Installing: /home/yzz/quadruped_ws/install/hardware_unitree_mujoco/share/hardware_unitree_mujoco/package.xml
+[10.955s] Invoked command in '/home/yzz/quadruped_ws/build/hardware_unitree_mujoco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzz/quadruped_ws/build/hardware_unitree_mujoco

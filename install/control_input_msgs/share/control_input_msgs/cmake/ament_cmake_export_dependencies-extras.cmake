@@ -1,1 +1,1 @@
-/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake
+/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

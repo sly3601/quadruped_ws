@@ -1,0 +1,82 @@
+[0.034s] Invoking command in '/home/yzz/quadruped_ws/build/controller_common': CMAKE_PREFIX_PATH=/home/yzz/quadruped_ws/install/control_input_msgs:/home/yzz/quadruped_ws/install/unitree_sdk2:/home/yzz/quadruped_ws/install/unitree_guide_controller:/home/yzz/quadruped_ws/install/leg_pd_controller:/home/yzz/quadruped_ws/install/keyboard_input:/home/yzz/quadruped_ws/install/go1_description:/home/yzz/quadruped_ws/install/controller_common:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/quadruped_ws/install/control_input_msgs/lib:/home/yzz/quadruped_ws/install/unitree_guide_controller/lib:/home/yzz/quadruped_ws/install/unitree_sdk2/lib:/home/yzz/quadruped_ws/install/leg_pd_controller/lib:/home/yzz/quadruped_ws/install/controller_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/libraries/controller_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzz/quadruped_ws/install/controller_common
+[0.162s] -- The C compiler identification is GNU 11.4.0
+[0.325s] -- The CXX compiler identification is GNU 11.4.0
+[0.343s] -- Detecting C compiler ABI info
+[0.565s] -- Detecting C compiler ABI info - done
+[0.581s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.582s] -- Detecting C compile features
+[0.583s] -- Detecting C compile features - done
+[0.596s] -- Detecting CXX compiler ABI info
+[0.764s] -- Detecting CXX compiler ABI info - done
+[0.778s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.781s] -- Detecting CXX compile features
+[0.781s] -- Detecting CXX compile features - done
+[0.785s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.172s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.325s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.385s] -- Found hardware_interface: 2.52.2 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.482s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.497s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.513s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.539s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.121s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.126s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.190s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.357s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.363s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.411s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.421s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.450s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.484s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.508s] -- Looking for pthread.h
+[2.823s] -- Looking for pthread.h - found
+[2.824s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.093s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.096s] -- Found Threads: TRUE  
+[3.225s] -- Found control_input_msgs: 0.0.0 (/home/yzz/quadruped_ws/install/control_input_msgs/share/control_input_msgs/cmake)
+[3.455s] -- Configuring done
+[3.495s] -- Generating done
+[3.511s] -- Build files have been written to: /home/yzz/quadruped_ws/build/controller_common
+[3.552s] Invoked command in '/home/yzz/quadruped_ws/build/controller_common' returned '0': CMAKE_PREFIX_PATH=/home/yzz/quadruped_ws/install/control_input_msgs:/home/yzz/quadruped_ws/install/unitree_sdk2:/home/yzz/quadruped_ws/install/unitree_guide_controller:/home/yzz/quadruped_ws/install/leg_pd_controller:/home/yzz/quadruped_ws/install/keyboard_input:/home/yzz/quadruped_ws/install/go1_description:/home/yzz/quadruped_ws/install/controller_common:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/quadruped_ws/install/control_input_msgs/lib:/home/yzz/quadruped_ws/install/unitree_guide_controller/lib:/home/yzz/quadruped_ws/install/unitree_sdk2/lib:/home/yzz/quadruped_ws/install/leg_pd_controller/lib:/home/yzz/quadruped_ws/install/controller_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/libraries/controller_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzz/quadruped_ws/install/controller_common
+[3.553s] Invoking command in '/home/yzz/quadruped_ws/build/controller_common': CMAKE_PREFIX_PATH=/home/yzz/quadruped_ws/install/control_input_msgs:/home/yzz/quadruped_ws/install/unitree_sdk2:/home/yzz/quadruped_ws/install/unitree_guide_controller:/home/yzz/quadruped_ws/install/leg_pd_controller:/home/yzz/quadruped_ws/install/keyboard_input:/home/yzz/quadruped_ws/install/go1_description:/home/yzz/quadruped_ws/install/controller_common:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/quadruped_ws/install/control_input_msgs/lib:/home/yzz/quadruped_ws/install/unitree_guide_controller/lib:/home/yzz/quadruped_ws/install/unitree_sdk2/lib:/home/yzz/quadruped_ws/install/leg_pd_controller/lib:/home/yzz/quadruped_ws/install/controller_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yzz/quadruped_ws/build/controller_common -- -j2 -l2
+[3.690s] [ 25%] [32mBuilding CXX object CMakeFiles/controller_common.dir/src/FSM/StatePassive.cpp.o[0m
+[6.213s] [ 50%] [32mBuilding CXX object CMakeFiles/controller_common.dir/src/FSM/BaseFixedStand.cpp.o[0m
+[8.809s] [ 75%] [32mBuilding CXX object CMakeFiles/controller_common.dir/src/FSM/StateFixedDown.cpp.o[0m
+[11.719s] [100%] [32m[1mLinking CXX shared library libcontroller_common.so[0m
+[12.043s] [100%] Built target controller_common
+[12.079s] Invoked command in '/home/yzz/quadruped_ws/build/controller_common' returned '0': CMAKE_PREFIX_PATH=/home/yzz/quadruped_ws/install/control_input_msgs:/home/yzz/quadruped_ws/install/unitree_sdk2:/home/yzz/quadruped_ws/install/unitree_guide_controller:/home/yzz/quadruped_ws/install/leg_pd_controller:/home/yzz/quadruped_ws/install/keyboard_input:/home/yzz/quadruped_ws/install/go1_description:/home/yzz/quadruped_ws/install/controller_common:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/quadruped_ws/install/control_input_msgs/lib:/home/yzz/quadruped_ws/install/unitree_guide_controller/lib:/home/yzz/quadruped_ws/install/unitree_sdk2/lib:/home/yzz/quadruped_ws/install/leg_pd_controller/lib:/home/yzz/quadruped_ws/install/controller_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yzz/quadruped_ws/build/controller_common -- -j2 -l2
+[12.081s] Invoking command in '/home/yzz/quadruped_ws/build/controller_common': CMAKE_PREFIX_PATH=/home/yzz/quadruped_ws/install/control_input_msgs:/home/yzz/quadruped_ws/install/unitree_sdk2:/home/yzz/quadruped_ws/install/unitree_guide_controller:/home/yzz/quadruped_ws/install/leg_pd_controller:/home/yzz/quadruped_ws/install/keyboard_input:/home/yzz/quadruped_ws/install/go1_description:/home/yzz/quadruped_ws/install/controller_common:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/quadruped_ws/install/control_input_msgs/lib:/home/yzz/quadruped_ws/install/unitree_guide_controller/lib:/home/yzz/quadruped_ws/install/unitree_sdk2/lib:/home/yzz/quadruped_ws/install/leg_pd_controller/lib:/home/yzz/quadruped_ws/install/controller_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yzz/quadruped_ws/build/controller_common
+[12.112s] -- Install configuration: "Release"
+[12.112s] -- Execute custom install script
+[12.112s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/include/controller_common/controller_common/CtrlInterfaces.h
+[12.135s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/include/controller_common/controller_common/FSM/BaseFixedStand.h
+[12.162s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/include/controller_common/controller_common/FSM/FSMState.h
+[12.187s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/include/controller_common/controller_common/FSM/StateFixedDown.h
+[12.211s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/include/controller_common/controller_common/FSM/StatePassive.h
+[12.240s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/include/controller_common/controller_common/common/enumClass.h
+[12.270s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/include/controller_common/controller_common/common/mathTools.h
+[12.296s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/include/controller_common/controller_common/common/mathTypes.h
+[12.330s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/environment/library_path.sh
+[12.356s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/environment/library_path.dsv
+[12.384s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/ament_index/resource_index/package_run_dependencies/controller_common
+[12.412s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/ament_index/resource_index/parent_prefix_path/controller_common
+[12.445s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/environment/ament_prefix_path.sh
+[12.476s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/environment/ament_prefix_path.dsv
+[12.506s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/environment/path.sh
+[12.533s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/environment/path.dsv
+[12.562s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/local_setup.bash
+[12.578s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/local_setup.sh
+[12.596s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/local_setup.zsh
+[12.626s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/local_setup.dsv
+[12.645s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/package.dsv
+[12.662s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/ament_index/resource_index/packages/controller_common
+[12.695s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/cmake/ament_cmake_export_targets-extras.cmake
+[12.718s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/cmake/controller_commonConfig.cmake
+[12.740s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/cmake/controller_commonConfig-version.cmake
+[12.771s] -- Symlinking: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/package.xml
+[12.796s] -- Installing: /home/yzz/quadruped_ws/install/controller_common/lib/libcontroller_common.so
+[12.798s] -- Set runtime path of "/home/yzz/quadruped_ws/install/controller_common/lib/libcontroller_common.so" to ""
+[12.799s] -- Installing: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/cmake/export_controller_commonExport.cmake
+[12.800s] -- Installing: /home/yzz/quadruped_ws/install/controller_common/share/controller_common/cmake/export_controller_commonExport-release.cmake
+[12.810s] Invoked command in '/home/yzz/quadruped_ws/build/controller_common' returned '0': CMAKE_PREFIX_PATH=/home/yzz/quadruped_ws/install/control_input_msgs:/home/yzz/quadruped_ws/install/unitree_sdk2:/home/yzz/quadruped_ws/install/unitree_guide_controller:/home/yzz/quadruped_ws/install/leg_pd_controller:/home/yzz/quadruped_ws/install/keyboard_input:/home/yzz/quadruped_ws/install/go1_description:/home/yzz/quadruped_ws/install/controller_common:/opt/ros/humble LD_LIBRARY_PATH=/home/yzz/quadruped_ws/install/control_input_msgs/lib:/home/yzz/quadruped_ws/install/unitree_guide_controller/lib:/home/yzz/quadruped_ws/install/unitree_sdk2/lib:/home/yzz/quadruped_ws/install/leg_pd_controller/lib:/home/yzz/quadruped_ws/install/controller_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yzz/quadruped_ws/build/controller_common

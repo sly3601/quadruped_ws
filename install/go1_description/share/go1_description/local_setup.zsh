@@ -1,1 +1,1 @@
-/home/yzz/ROS2_WS/build/go1_description/ament_cmake_environment_hooks/local_setup.zsh
+/home/yzz/quadruped_ws/build/go1_description/ament_cmake_environment_hooks/local_setup.zsh

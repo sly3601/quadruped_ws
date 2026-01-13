@@ -1,1 +1,1 @@
-/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

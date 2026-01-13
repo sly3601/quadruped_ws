@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/yzz/ROS2_WS/src/unitree_sdk2/include -isystem /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/include -isystem /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/include/ddscxx
+CXX_INCLUDES = -isystem /home/yzz/quadruped_ws/src/unitree_sdk2/include -isystem /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/include -isystem /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/include/ddscxx
 
 CXX_FLAGS = -O3 -DNDEBUG -std=c++17
 

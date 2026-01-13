@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yzz/ROS2_WS/src/unitree_sdk2/example/h1/low_level/humanoid.cpp" "example/h1/CMakeFiles/h1_low_level_example.dir/low_level/humanoid.cpp.o" "gcc" "example/h1/CMakeFiles/h1_low_level_example.dir/low_level/humanoid.cpp.o.d"
+  "/home/yzz/quadruped_ws/src/unitree_sdk2/example/h1/low_level/humanoid.cpp" "example/h1/CMakeFiles/h1_low_level_example.dir/low_level/humanoid.cpp.o" "gcc" "example/h1/CMakeFiles/h1_low_level_example.dir/low_level/humanoid.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/unitree_sdk2
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/unitree_sdk2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/unitree_sdk2
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/unitree_sdk2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles /home/yzz/ROS2_WS/build/unitree_sdk2//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles /home/yzz/quadruped_ws/build/unitree_sdk2//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -448,19 +448,6 @@ g1_arm7_sdk_dds_example/fast:
 .PHONY : g1_arm7_sdk_dds_example/fast
 
 #=============================================================================
-# Target rules for targets named g1_arm_action_example
-
-# Build rule for target.
-g1_arm_action_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 g1_arm_action_example
-.PHONY : g1_arm_action_example
-
-# fast build rule for target.
-g1_arm_action_example/fast:
-	$(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm_action_example.dir/build.make example/g1/CMakeFiles/g1_arm_action_example.dir/build
-.PHONY : g1_arm_action_example/fast
-
-#=============================================================================
 # Target rules for targets named g1_ankle_swing_example
 
 # Build rule for target.
@@ -513,6 +500,19 @@ g1_termination/fast:
 .PHONY : g1_termination/fast
 
 #=============================================================================
+# Target rules for targets named g1_arm_action_example
+
+# Build rule for target.
+g1_arm_action_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 g1_arm_action_example
+.PHONY : g1_arm_action_example
+
+# fast build rule for target.
+g1_arm_action_example/fast:
+	$(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_arm_action_example.dir/build.make example/g1/CMakeFiles/g1_arm_action_example.dir/build
+.PHONY : g1_arm_action_example/fast
+
+#=============================================================================
 # Target rules for targets named g1_dual_arm_example
 
 # Build rule for target.
@@ -524,6 +524,19 @@ g1_dual_arm_example: cmake_check_build_system
 g1_dual_arm_example/fast:
 	$(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_dual_arm_example.dir/build.make example/g1/CMakeFiles/g1_dual_arm_example.dir/build
 .PHONY : g1_dual_arm_example/fast
+
+#=============================================================================
+# Target rules for targets named g1_agv_client_example
+
+# Build rule for target.
+g1_agv_client_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 g1_agv_client_example
+.PHONY : g1_agv_client_example
+
+# fast build rule for target.
+g1_agv_client_example/fast:
+	$(MAKE) $(MAKESILENT) -f example/g1/CMakeFiles/g1_agv_client_example.dir/build.make example/g1/CMakeFiles/g1_agv_client_example.dir/build
+.PHONY : g1_agv_client_example/fast
 
 #=============================================================================
 # Target rules for targets named go2w_sport_client
@@ -577,6 +590,45 @@ b2w_stand_example/fast:
 	$(MAKE) $(MAKESILENT) -f example/b2w/CMakeFiles/b2w_stand_example.dir/build.make example/b2w/CMakeFiles/b2w_stand_example.dir/build
 .PHONY : b2w_stand_example/fast
 
+#=============================================================================
+# Target rules for targets named a2_sport_client
+
+# Build rule for target.
+a2_sport_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a2_sport_client
+.PHONY : a2_sport_client
+
+# fast build rule for target.
+a2_sport_client/fast:
+	$(MAKE) $(MAKESILENT) -f example/a2/CMakeFiles/a2_sport_client.dir/build.make example/a2/CMakeFiles/a2_sport_client.dir/build
+.PHONY : a2_sport_client/fast
+
+#=============================================================================
+# Target rules for targets named a2_sport_state
+
+# Build rule for target.
+a2_sport_state: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a2_sport_state
+.PHONY : a2_sport_state
+
+# fast build rule for target.
+a2_sport_state/fast:
+	$(MAKE) $(MAKESILENT) -f example/a2/CMakeFiles/a2_sport_state.dir/build.make example/a2/CMakeFiles/a2_sport_state.dir/build
+.PHONY : a2_sport_state/fast
+
+#=============================================================================
+# Target rules for targets named a2_audio_client_example
+
+# Build rule for target.
+a2_audio_client_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a2_audio_client_example
+.PHONY : a2_audio_client_example
+
+# fast build rule for target.
+a2_audio_client_example/fast:
+	$(MAKE) $(MAKESILENT) -f example/a2/CMakeFiles/a2_audio_client_example.dir/build.make example/a2/CMakeFiles/a2_audio_client_example.dir/build
+.PHONY : a2_audio_client_example/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -589,11 +641,15 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... a2_audio_client_example"
+	@echo "... a2_sport_client"
+	@echo "... a2_sport_state"
 	@echo "... advanced_gamepad"
 	@echo "... b2_sport_client"
 	@echo "... b2_stand_example"
 	@echo "... b2w_sport_client"
 	@echo "... b2w_stand_example"
+	@echo "... g1_agv_client_example"
 	@echo "... g1_ankle_swing_example"
 	@echo "... g1_arm5_sdk_dds_example"
 	@echo "... g1_arm7_sdk_dds_example"

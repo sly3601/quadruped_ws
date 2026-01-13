@@ -1,7 +1,7 @@
 CMakeFiles/unitree_guide_controller.dir/src/quadProgpp/Array.cc.o: \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/Array.cc \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/Array.cc \
  /usr/include/stdc-predef.h \
- /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/Array.hh \
+ /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/controllers/unitree_guide_controller/src/quadProgpp/Array.hh \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

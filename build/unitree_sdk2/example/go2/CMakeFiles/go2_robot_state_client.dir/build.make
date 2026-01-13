@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/unitree_sdk2
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/unitree_sdk2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/unitree_sdk2
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/unitree_sdk2
 
 # Include any dependencies generated for this target.
 include example/go2/CMakeFiles/go2_robot_state_client.dir/depend.make
@@ -70,18 +70,18 @@ include example/go2/CMakeFiles/go2_robot_state_client.dir/progress.make
 include example/go2/CMakeFiles/go2_robot_state_client.dir/flags.make
 
 example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o: example/go2/CMakeFiles/go2_robot_state_client.dir/flags.make
-example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o: /home/yzz/ROS2_WS/src/unitree_sdk2/example/go2/go2_robot_state_client.cpp
+example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o: /home/yzz/quadruped_ws/src/unitree_sdk2/example/go2/go2_robot_state_client.cpp
 example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o: example/go2/CMakeFiles/go2_robot_state_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o -MF CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o.d -o CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o -c /home/yzz/ROS2_WS/src/unitree_sdk2/example/go2/go2_robot_state_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o"
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o -MF CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o.d -o CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o -c /home/yzz/quadruped_ws/src/unitree_sdk2/example/go2/go2_robot_state_client.cpp
 
 example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.i"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/ROS2_WS/src/unitree_sdk2/example/go2/go2_robot_state_client.cpp > CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzz/quadruped_ws/src/unitree_sdk2/example/go2/go2_robot_state_client.cpp > CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.i
 
 example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.s"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/ROS2_WS/src/unitree_sdk2/example/go2/go2_robot_state_client.cpp -o CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzz/quadruped_ws/src/unitree_sdk2/example/go2/go2_robot_state_client.cpp -o CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.s
 
 # Object files for target go2_robot_state_client
 go2_robot_state_client_OBJECTS = \
@@ -92,22 +92,22 @@ go2_robot_state_client_EXTERNAL_OBJECTS =
 
 bin/go2_robot_state_client: example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o
 bin/go2_robot_state_client: example/go2/CMakeFiles/go2_robot_state_client.dir/build.make
-bin/go2_robot_state_client: /home/yzz/ROS2_WS/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
-bin/go2_robot_state_client: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
-bin/go2_robot_state_client: /home/yzz/ROS2_WS/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
+bin/go2_robot_state_client: /home/yzz/quadruped_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+bin/go2_robot_state_client: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
+bin/go2_robot_state_client: /home/yzz/quadruped_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
 bin/go2_robot_state_client: example/go2/CMakeFiles/go2_robot_state_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/go2_robot_state_client"
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/go2_robot_state_client.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/go2_robot_state_client"
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/go2_robot_state_client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 example/go2/CMakeFiles/go2_robot_state_client.dir/build: bin/go2_robot_state_client
 .PHONY : example/go2/CMakeFiles/go2_robot_state_client.dir/build
 
 example/go2/CMakeFiles/go2_robot_state_client.dir/clean:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2 && $(CMAKE_COMMAND) -P CMakeFiles/go2_robot_state_client.dir/cmake_clean.cmake
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2 && $(CMAKE_COMMAND) -P CMakeFiles/go2_robot_state_client.dir/cmake_clean.cmake
 .PHONY : example/go2/CMakeFiles/go2_robot_state_client.dir/clean
 
 example/go2/CMakeFiles/go2_robot_state_client.dir/depend:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/ROS2_WS/src/unitree_sdk2 /home/yzz/ROS2_WS/src/unitree_sdk2/example/go2 /home/yzz/ROS2_WS/build/unitree_sdk2 /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2 /home/yzz/ROS2_WS/build/unitree_sdk2/example/go2/CMakeFiles/go2_robot_state_client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzz/quadruped_ws/src/unitree_sdk2 /home/yzz/quadruped_ws/src/unitree_sdk2/example/go2 /home/yzz/quadruped_ws/build/unitree_sdk2 /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2 /home/yzz/quadruped_ws/build/unitree_sdk2/example/go2/CMakeFiles/go2_robot_state_client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/go2/CMakeFiles/go2_robot_state_client.dir/depend
 

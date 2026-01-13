@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yzz/ROS2_WS/src/unitree_sdk2/example/helloworld/HelloWorldData.cpp" "example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o" "gcc" "example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o.d"
-  "/home/yzz/ROS2_WS/src/unitree_sdk2/example/helloworld/subscriber.cpp" "example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o" "gcc" "example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o.d"
+  "/home/yzz/quadruped_ws/src/unitree_sdk2/example/helloworld/HelloWorldData.cpp" "example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o" "gcc" "example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o.d"
+  "/home/yzz/quadruped_ws/src/unitree_sdk2/example/helloworld/subscriber.cpp" "example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o" "gcc" "example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o.d"
   )
 
 # Targets to which this target links.

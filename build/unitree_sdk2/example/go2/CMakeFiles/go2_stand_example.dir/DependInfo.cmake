@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yzz/ROS2_WS/src/unitree_sdk2/example/go2/go2_stand_example.cpp" "example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.o" "gcc" "example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.o.d"
+  "/home/yzz/quadruped_ws/src/unitree_sdk2/example/go2/go2_stand_example.cpp" "example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.o" "gcc" "example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.o.d"
   )
 
 # Targets to which this target links.

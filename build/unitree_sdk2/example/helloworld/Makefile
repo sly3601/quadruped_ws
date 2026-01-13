@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/unitree_sdk2
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/unitree_sdk2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/unitree_sdk2
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/unitree_sdk2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles /home/yzz/ROS2_WS/build/unitree_sdk2/example/helloworld//CMakeFiles/progress.marks
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/helloworld/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/ROS2_WS/build/unitree_sdk2/CMakeFiles 0
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles /home/yzz/quadruped_ws/build/unitree_sdk2/example/helloworld//CMakeFiles/progress.marks
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/helloworld/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/quadruped_ws/build/unitree_sdk2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/helloworld/clean
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/helloworld/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/helloworld/preinstall
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/helloworld/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/helloworld/preinstall
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/helloworld/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 example/helloworld/CMakeFiles/test_publisher.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/helloworld/CMakeFiles/test_publisher.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/helloworld/CMakeFiles/test_publisher.dir/rule
 .PHONY : example/helloworld/CMakeFiles/test_publisher.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ test_publisher: example/helloworld/CMakeFiles/test_publisher.dir/rule
 
 # fast build rule for target.
 test_publisher/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/build
 .PHONY : test_publisher/fast
 
 # Convenience name for target.
 example/helloworld/CMakeFiles/test_subscriber.dir/rule:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/helloworld/CMakeFiles/test_subscriber.dir/rule
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/helloworld/CMakeFiles/test_subscriber.dir/rule
 .PHONY : example/helloworld/CMakeFiles/test_subscriber.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ test_subscriber: example/helloworld/CMakeFiles/test_subscriber.dir/rule
 
 # fast build rule for target.
 test_subscriber/fast:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/build
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/build
 .PHONY : test_subscriber/fast
 
 HelloWorldData.o: HelloWorldData.cpp.o
@@ -194,8 +194,8 @@ HelloWorldData.o: HelloWorldData.cpp.o
 
 # target to build an object file
 HelloWorldData.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o
 .PHONY : HelloWorldData.cpp.o
 
 HelloWorldData.i: HelloWorldData.cpp.i
@@ -203,8 +203,8 @@ HelloWorldData.i: HelloWorldData.cpp.i
 
 # target to preprocess a source file
 HelloWorldData.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.i
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.i
 .PHONY : HelloWorldData.cpp.i
 
 HelloWorldData.s: HelloWorldData.cpp.s
@@ -212,8 +212,8 @@ HelloWorldData.s: HelloWorldData.cpp.s
 
 # target to generate assembly for a file
 HelloWorldData.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.s
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.s
 .PHONY : HelloWorldData.cpp.s
 
 publisher.o: publisher.cpp.o
@@ -221,7 +221,7 @@ publisher.o: publisher.cpp.o
 
 # target to build an object file
 publisher.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o
 .PHONY : publisher.cpp.o
 
 publisher.i: publisher.cpp.i
@@ -229,7 +229,7 @@ publisher.i: publisher.cpp.i
 
 # target to preprocess a source file
 publisher.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.i
 .PHONY : publisher.cpp.i
 
 publisher.s: publisher.cpp.s
@@ -237,7 +237,7 @@ publisher.s: publisher.cpp.s
 
 # target to generate assembly for a file
 publisher.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_publisher.dir/build.make example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.s
 .PHONY : publisher.cpp.s
 
 subscriber.o: subscriber.cpp.o
@@ -245,7 +245,7 @@ subscriber.o: subscriber.cpp.o
 
 # target to build an object file
 subscriber.cpp.o:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o
 .PHONY : subscriber.cpp.o
 
 subscriber.i: subscriber.cpp.i
@@ -253,7 +253,7 @@ subscriber.i: subscriber.cpp.i
 
 # target to preprocess a source file
 subscriber.cpp.i:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.i
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.i
 .PHONY : subscriber.cpp.i
 
 subscriber.s: subscriber.cpp.s
@@ -261,7 +261,7 @@ subscriber.s: subscriber.cpp.s
 
 # target to generate assembly for a file
 subscriber.cpp.s:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.s
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(MAKE) $(MAKESILENT) -f example/helloworld/CMakeFiles/test_subscriber.dir/build.make example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.s
 .PHONY : subscriber.cpp.s
 
 # Help Target
@@ -298,6 +298,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yzz/ROS2_WS/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yzz/quadruped_ws/build/unitree_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

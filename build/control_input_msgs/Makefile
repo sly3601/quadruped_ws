@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs
+CMAKE_SOURCE_DIR = /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzz/ROS2_WS/build/control_input_msgs
+CMAKE_BINARY_DIR = /home/yzz/quadruped_ws/build/control_input_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/ROS2_WS/build/control_input_msgs/CMakeFiles /home/yzz/ROS2_WS/build/control_input_msgs//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/quadruped_ws/build/control_input_msgs/CMakeFiles /home/yzz/quadruped_ws/build/control_input_msgs//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/ROS2_WS/build/control_input_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzz/quadruped_ws/build/control_input_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

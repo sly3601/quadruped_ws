@@ -1,1 +1,1 @@
-/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_typesupport_introspection_c/control_input_msgs/msg/detail/inputs__rosidl_typesupport_introspection_c.h
+/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_typesupport_introspection_c/control_input_msgs/msg/detail/inputs__rosidl_typesupport_introspection_c.h

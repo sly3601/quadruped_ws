@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/yzz/ROS2_WS/install/control_input_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/yzz/quadruped_ws/install/control_input_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/yzz/ROS2_WS/install/control_input_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/yzz/quadruped_ws/install/control_input_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/yzz/ROS2_WS/install/control_input_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/yzz/quadruped_ws/install/control_input_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/yzz/ROS2_WS/install/control_input_msgs/${destination}")
+      set(destination "/home/yzz/quadruped_ws/install/control_input_msgs/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,119 +310,119 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_generator_c/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_generator_c/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.h")
+# install(DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_generator_c/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_generator_c/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.h")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/control_input_msgs/environment")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/control_input_msgs/environment")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/control_input_msgs/environment")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/control_input_msgs/environment")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/control_input_msgs/environment")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/control_input_msgs/environment")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/control_input_msgs/environment")
 
-# install(DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_typesupport_fastrtps_c/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_typesupport_fastrtps_c/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_typesupport_fastrtps_c/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_typesupport_fastrtps_c/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_typesupport_introspection_c/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_typesupport_introspection_c/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.h")
+# install(DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_typesupport_introspection_c/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_typesupport_introspection_c/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.h")
 
-# install(DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_generator_cpp/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_generator_cpp/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_generator_cpp/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_generator_cpp/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.hpp")
 
-# install(DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_typesupport_fastrtps_cpp/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_typesupport_fastrtps_cpp/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_typesupport_fastrtps_cpp/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_typesupport_fastrtps_cpp/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_typesupport_introspection_cpp/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_typesupport_introspection_cpp/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_typesupport_introspection_cpp/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_typesupport_introspection_cpp/control_input_msgs/" "DESTINATION" "include/control_input_msgs/control_input_msgs" "PATTERN" "*.hpp")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/control_input_msgs/environment")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/control_input_msgs/environment")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/control_input_msgs/environment")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/control_input_msgs/environment")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/control_input_msgs/environment")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/control_input_msgs/environment")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/control_input_msgs/environment")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/control_input_msgs/environment")
 
-# install(DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_python/control_input_msgs/control_input_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/control_input_msgs-0.0.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_python/control_input_msgs/control_input_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/control_input_msgs-0.0.0-py3.10.egg-info")
+# install(DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_python/control_input_msgs/control_input_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/control_input_msgs-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_python/control_input_msgs/control_input_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/control_input_msgs-0.0.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_generator_py/control_input_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/control_input_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_generator_py/control_input_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/control_input_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_generator_py/control_input_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/control_input_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" DIRECTORY "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_generator_py/control_input_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/control_input_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install("TARGETS" "control_input_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/control_input_msgs")
-include("/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "control_input_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/control_input_msgs")
-include("/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "control_input_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/control_input_msgs")
-include("/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_adapter/control_input_msgs/msg/Inputs.idl" "DESTINATION" "share/control_input_msgs/msg")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_adapter/control_input_msgs/msg/Inputs.idl" "DESTINATION" "share/control_input_msgs/msg")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_adapter/control_input_msgs/msg/Inputs.idl" "DESTINATION" "share/control_input_msgs/msg")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_adapter/control_input_msgs/msg/Inputs.idl" "DESTINATION" "share/control_input_msgs/msg")
 
-# install(FILES "/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs/msg/Inputs.msg" "DESTINATION" "share/control_input_msgs/msg")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs/msg/Inputs.msg" "DESTINATION" "share/control_input_msgs/msg")
+# install(FILES "/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs/msg/Inputs.msg" "DESTINATION" "share/control_input_msgs/msg")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs/msg/Inputs.msg" "DESTINATION" "share/control_input_msgs/msg")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/control_input_msgs/environment")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/control_input_msgs/environment")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/control_input_msgs/environment")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/control_input_msgs/environment")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/control_input_msgs/environment")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/control_input_msgs/environment")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/control_input_msgs/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/control_input_msgs/environment")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/control_input_msgs/environment")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/control_input_msgs/environment")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/control_input_msgs/environment")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/control_input_msgs/environment")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/control_input_msgs/environment")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/control_input_msgs/environment")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/control_input_msgs")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/control_input_msgs")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/control_input_msgs")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/control_input_msgs")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/control_input_msgs")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/control_input_msgs")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/control_input_msgs")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/control_input_msgs")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/control_input_msgs")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/control_input_msgs")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/control_input_msgs")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/control_input_msgs")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/control_input_msgs")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/control_input_msgs")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/control_input_msgs")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/control_input_msgs")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/control_input_msgs")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/control_input_msgs")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/control_input_msgs")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/control_input_msgs")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/packages/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/packages/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/packages/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_index/share/ament_index/resource_index/packages/control_input_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/control_input_msgs/cmake")
 
-# install(FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_core/control_input_msgsConfig.cmake" "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_core/control_input_msgsConfig-version.cmake" "DESTINATION" "share/control_input_msgs/cmake")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_core/control_input_msgsConfig.cmake" "/home/yzz/ROS2_WS/build/control_input_msgs/ament_cmake_core/control_input_msgsConfig-version.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+# install(FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_core/control_input_msgsConfig.cmake" "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_core/control_input_msgsConfig-version.cmake" "DESTINATION" "share/control_input_msgs/cmake")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_core/control_input_msgsConfig.cmake" "/home/yzz/quadruped_ws/build/control_input_msgs/ament_cmake_core/control_input_msgsConfig-version.cmake" "DESTINATION" "share/control_input_msgs/cmake")
 
-# install(FILES "/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs/package.xml" "DESTINATION" "share/control_input_msgs")
-ament_cmake_symlink_install_files("/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/control_input_msgs/package.xml" "DESTINATION" "share/control_input_msgs")
+# install(FILES "/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs/package.xml" "DESTINATION" "share/control_input_msgs")
+ament_cmake_symlink_install_files("/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs" FILES "/home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/control_input_msgs/package.xml" "DESTINATION" "share/control_input_msgs")

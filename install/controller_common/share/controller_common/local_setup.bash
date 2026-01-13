@@ -1,1 +1,1 @@
-/home/yzz/ROS2_WS/build/controller_common/ament_cmake_environment_hooks/local_setup.bash
+/home/yzz/quadruped_ws/build/controller_common/ament_cmake_environment_hooks/local_setup.bash

@@ -1,8 +1,8 @@
-# Install script for directory: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/libraries/controller_common
+# Install script for directory: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/libraries/controller_common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yzz/ROS2_WS/install/controller_common")
+  set(CMAKE_INSTALL_PREFIX "/home/yzz/quadruped_ws/install/controller_common")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/yzz/ROS2_WS/build/controller_common/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/yzz/quadruped_ws/build/controller_common/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,12 +53,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcontroller_common.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/yzz/ROS2_WS/build/controller_common/libcontroller_common.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/yzz/quadruped_ws/build/controller_common/libcontroller_common.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcontroller_common.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcontroller_common.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcontroller_common.so"
-         OLD_RPATH "/opt/ros/humble/lib:/home/yzz/ROS2_WS/install/control_input_msgs/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/yzz/quadruped_ws/install/control_input_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcontroller_common.so")
@@ -73,7 +73,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/controller_common/cmake/export_controller_commonExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/controller_common/cmake/export_controller_commonExport.cmake"
-         "/home/yzz/ROS2_WS/build/controller_common/CMakeFiles/Export/share/controller_common/cmake/export_controller_commonExport.cmake")
+         "/home/yzz/quadruped_ws/build/controller_common/CMakeFiles/Export/share/controller_common/cmake/export_controller_commonExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/controller_common/cmake/export_controller_commonExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -82,9 +82,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/controller_common/cmake" TYPE FILE FILES "/home/yzz/ROS2_WS/build/controller_common/CMakeFiles/Export/share/controller_common/cmake/export_controller_commonExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/controller_common/cmake" TYPE FILE FILES "/home/yzz/quadruped_ws/build/controller_common/CMakeFiles/Export/share/controller_common/cmake/export_controller_commonExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/controller_common/cmake" TYPE FILE FILES "/home/yzz/ROS2_WS/build/controller_common/CMakeFiles/Export/share/controller_common/cmake/export_controller_commonExport-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/controller_common/cmake" TYPE FILE FILES "/home/yzz/quadruped_ws/build/controller_common/CMakeFiles/Export/share/controller_common/cmake/export_controller_commonExport-release.cmake")
   endif()
 endif()
 
@@ -96,5 +96,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yzz/ROS2_WS/build/controller_common/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yzz/quadruped_ws/build/controller_common/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

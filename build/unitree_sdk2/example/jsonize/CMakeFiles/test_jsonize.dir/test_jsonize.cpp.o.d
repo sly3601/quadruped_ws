@@ -1,12 +1,12 @@
 example/jsonize/CMakeFiles/test_jsonize.dir/test_jsonize.cpp.o: \
- /home/yzz/ROS2_WS/src/unitree_sdk2/example/jsonize/test_jsonize.cpp \
+ /home/yzz/quadruped_ws/src/unitree_sdk2/example/jsonize/test_jsonize.cpp \
  /usr/include/stdc-predef.h \
- /home/yzz/ROS2_WS/src/unitree_sdk2/include/unitree/common/json/jsonize.hpp \
- /home/yzz/ROS2_WS/src/unitree_sdk2/include/unitree/common/json/json.hpp \
- /home/yzz/ROS2_WS/src/unitree_sdk2/include/unitree/common/any.hpp \
- /home/yzz/ROS2_WS/src/unitree_sdk2/include/unitree/common/exception.hpp \
- /home/yzz/ROS2_WS/src/unitree_sdk2/include/unitree/common/error.hpp \
- /home/yzz/ROS2_WS/src/unitree_sdk2/include/unitree/common/decl.hpp \
+ /home/yzz/quadruped_ws/src/unitree_sdk2/include/unitree/common/json/jsonize.hpp \
+ /home/yzz/quadruped_ws/src/unitree_sdk2/include/unitree/common/json/json.hpp \
+ /home/yzz/quadruped_ws/src/unitree_sdk2/include/unitree/common/any.hpp \
+ /home/yzz/quadruped_ws/src/unitree_sdk2/include/unitree/common/exception.hpp \
+ /home/yzz/quadruped_ws/src/unitree_sdk2/include/unitree/common/error.hpp \
+ /home/yzz/quadruped_ws/src/unitree_sdk2/include/unitree/common/decl.hpp \
  /usr/include/unistd.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

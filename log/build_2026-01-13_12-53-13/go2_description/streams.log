@@ -1,0 +1,69 @@
+[0.070s] Invoking command in '/home/yzz/quadruped_ws/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/descriptions/unitree/go2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzz/quadruped_ws/install/go2_description
+[0.395s] -- The C compiler identification is GNU 11.4.0
+[0.706s] -- The CXX compiler identification is GNU 11.4.0
+[0.744s] -- Detecting C compiler ABI info
+[1.025s] -- Detecting C compiler ABI info - done
+[1.067s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.069s] -- Detecting C compile features
+[1.069s] -- Detecting C compile features - done
+[1.088s] -- Detecting CXX compiler ABI info
+[1.558s] -- Detecting CXX compiler ABI info - done
+[1.593s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.593s] -- Detecting CXX compile features
+[1.594s] -- Detecting CXX compile features - done
+[1.608s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.162s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.335s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.633s] -- Configuring done
+[2.643s] -- Generating done
+[2.653s] -- Build files have been written to: /home/yzz/quadruped_ws/build/go2_description
+[2.685s] Invoked command in '/home/yzz/quadruped_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/descriptions/unitree/go2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzz/quadruped_ws/install/go2_description
+[2.691s] Invoking command in '/home/yzz/quadruped_ws/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzz/quadruped_ws/build/go2_description -- -j2 -l2
+[2.837s] Invoked command in '/home/yzz/quadruped_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzz/quadruped_ws/build/go2_description -- -j2 -l2
+[2.846s] Invoking command in '/home/yzz/quadruped_ws/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzz/quadruped_ws/build/go2_description
+[2.875s] -- Install configuration: ""
+[2.878s] -- Execute custom install script
+[2.878s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//meshes/calf.dae
+[2.907s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//meshes/calf_mirror.dae
+[2.946s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//meshes/foot.dae
+[2.973s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//meshes/hip.dae
+[3.003s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//meshes/thigh.dae
+[3.029s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//meshes/thigh_mirror.dae
+[3.077s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//meshes/trunk.dae
+[3.122s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//xacro/const.xacro
+[3.151s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//xacro/gazebo.xacro
+[3.183s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//xacro/gazebo_classic.xacro
+[3.209s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//xacro/leg.xacro
+[3.261s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//xacro/materials.xacro
+[3.302s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//xacro/robot.xacro
+[3.332s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//xacro/ros2_control.xacro
+[3.364s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//xacro/transmission.xacro
+[3.396s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//launch/gazebo_rl_control.launch.py
+[3.424s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//launch/visualize.launch.py
+[3.460s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//config/gazebo.yaml
+[3.499s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//config/himloco/config.yaml
+[3.516s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//config/himloco/himloco.pt
+[3.542s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//config/legged_gym/config.yaml
+[3.589s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//config/legged_gym/policy.pt
+[3.609s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//config/ocs2/gait.info
+[3.630s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//config/ocs2/reference.info
+[3.655s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//config/ocs2/task.info
+[3.681s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//config/robot_control.yaml
+[3.701s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//config/visualize_urdf.rviz
+[3.718s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description//urdf/robot.urdf
+[3.738s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/ament_index/resource_index/package_run_dependencies/go2_description
+[3.818s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/ament_index/resource_index/parent_prefix_path/go2_description
+[3.840s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description/environment/ament_prefix_path.sh
+[3.858s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description/environment/ament_prefix_path.dsv
+[3.877s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description/environment/path.sh
+[3.890s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description/environment/path.dsv
+[3.906s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description/local_setup.bash
+[3.921s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description/local_setup.sh
+[3.935s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description/local_setup.zsh
+[3.951s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description/local_setup.dsv
+[3.969s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description/package.dsv
+[3.992s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/ament_index/resource_index/packages/go2_description
+[4.011s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description/cmake/go2_descriptionConfig.cmake
+[4.032s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description/cmake/go2_descriptionConfig-version.cmake
+[4.051s] -- Symlinking: /home/yzz/quadruped_ws/install/go2_description/share/go2_description/package.xml
+[4.083s] Invoked command in '/home/yzz/quadruped_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzz/quadruped_ws/build/go2_description

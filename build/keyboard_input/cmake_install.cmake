@@ -1,8 +1,8 @@
-# Install script for directory: /home/yzz/ROS2_WS/src/quadruped_ros2_control-humble/commands/keyboard_input
+# Install script for directory: /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/commands/keyboard_input
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yzz/ROS2_WS/install/keyboard_input")
+  set(CMAKE_INSTALL_PREFIX "/home/yzz/quadruped_ws/install/keyboard_input")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/yzz/ROS2_WS/build/keyboard_input/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/yzz/quadruped_ws/build/keyboard_input/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yzz/ROS2_WS/build/keyboard_input/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yzz/quadruped_ws/build/keyboard_input/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

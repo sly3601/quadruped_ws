@@ -1,1 +1,1 @@
-/home/yzz/ROS2_WS/install/controller_common:/home/yzz/ROS2_WS/install/control_input_msgs:/opt/ros/humble
+/home/yzz/quadruped_ws/install/unitree_guide_controller:/home/yzz/quadruped_ws/install/keyboard_input:/home/yzz/quadruped_ws/install/go1_description:/home/yzz/quadruped_ws/install/controller_common:/home/yzz/quadruped_ws/install/control_input_msgs:/home/yzz/quadruped_ws/install/leg_pd_controller:/opt/ros/humble

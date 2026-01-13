@@ -1,0 +1,35 @@
+[0.015s] Invoking command in '/home/yzz/quadruped_ws/build/hardware_unitree_mujoco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/hardwares/hardware_unitree_mujoco -DCMAKE_INSTALL_PREFIX=/home/yzz/quadruped_ws/install/hardware_unitree_mujoco
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.177s] -- The CXX compiler identification is GNU 11.4.0
+[0.189s] -- Detecting C compiler ABI info
+[0.304s] -- Detecting C compiler ABI info - done
+[0.313s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.313s] -- Detecting C compile features
+[0.315s] -- Detecting C compile features - done
+[0.318s] -- Detecting CXX compiler ABI info
+[0.448s] -- Detecting CXX compiler ABI info - done
+[0.459s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.460s] -- Detecting CXX compile features
+[0.461s] -- Detecting CXX compile features - done
+[0.466s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.652s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.770s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[0.770s]   By not providing "Findunitree_sdk2.cmake" in CMAKE_MODULE_PATH this project
+[0.770s]   has asked CMake to find a package configuration file provided by
+[0.770s]   "unitree_sdk2", but CMake did not find one.
+[0.770s] 
+[0.770s]   Could not find a package configuration file provided by "unitree_sdk2" with
+[0.770s]   any of the following names:
+[0.770s] 
+[0.770s]     unitree_sdk2Config.cmake
+[0.770s]     unitree_sdk2-config.cmake
+[0.770s] 
+[0.771s]   Add the installation prefix of "unitree_sdk2" to CMAKE_PREFIX_PATH or set
+[0.771s]   "unitree_sdk2_DIR" to a directory containing one of the above files.  If
+[0.771s]   "unitree_sdk2" provides a separate development package or SDK, be sure it
+[0.771s]   has been installed.
+[0.771s] 
+[0.771s] [0m
+[0.771s] -- Configuring incomplete, errors occurred!
+[0.773s] See also "/home/yzz/quadruped_ws/build/hardware_unitree_mujoco/CMakeFiles/CMakeOutput.log".
+[0.776s] Invoked command in '/home/yzz/quadruped_ws/build/hardware_unitree_mujoco' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yzz/quadruped_ws/src/quadruped_ros2_control-humble/hardwares/hardware_unitree_mujoco -DCMAKE_INSTALL_PREFIX=/home/yzz/quadruped_ws/install/hardware_unitree_mujoco

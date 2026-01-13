@@ -1,1 +1,1 @@
-/home/yzz/ROS2_WS/build/unitree_guide_controller/ament_cmake_environment_hooks/local_setup.sh
+/home/yzz/quadruped_ws/build/unitree_guide_controller/ament_cmake_environment_hooks/local_setup.sh

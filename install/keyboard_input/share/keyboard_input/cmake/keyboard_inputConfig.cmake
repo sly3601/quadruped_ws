@@ -1,1 +1,1 @@
-/home/yzz/ROS2_WS/build/keyboard_input/ament_cmake_core/keyboard_inputConfig.cmake
+/home/yzz/quadruped_ws/build/keyboard_input/ament_cmake_core/keyboard_inputConfig.cmake
